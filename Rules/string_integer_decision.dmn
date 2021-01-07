@@ -12,7 +12,7 @@
       </input>
       <output id="output1" label="Result" name="" typeRef="string" />
       <rule id="DecisionRule_0klrivp">
-        <description>WTF</description>
+        <description>⁉️WTF</description>
         <inputEntry id="UnaryTests_1wyr6ok">
           <text></text>
         </inputEntry>
@@ -24,7 +24,7 @@
         </outputEntry>
       </rule>
       <rule id="DecisionRule_03xf8h9">
-        <description>child</description>
+        <description>🧒child</description>
         <inputEntry id="UnaryTests_1hgq66x">
           <text></text>
         </inputEntry>
@@ -36,7 +36,7 @@
         </outputEntry>
       </rule>
       <rule id="row-484867957-5">
-        <description>m30</description>
+        <description>👨m30</description>
         <inputEntry id="UnaryTests_148tr41">
           <description>mGender Description</description>
           <text>"m"</text>
@@ -49,7 +49,7 @@
         </outputEntry>
       </rule>
       <rule id="DecisionRule_1k17ozc">
-        <description>m25</description>
+        <description>👩f25</description>
         <inputEntry id="UnaryTests_1ovy6n5">
           <text>"f"</text>
         </inputEntry>
@@ -61,7 +61,7 @@
         </outputEntry>
       </rule>
       <rule id="row-484867957-1">
-        <description>mL</description>
+        <description>👨mL</description>
         <inputEntry id="UnaryTests_06l79c1">
           <text>"m"</text>
         </inputEntry>
@@ -73,7 +73,7 @@
         </outputEntry>
       </rule>
       <rule id="row-484867957-3">
-        <description>mH</description>
+        <description>👨mH</description>
         <inputEntry id="UnaryTests_0epikzx">
           <text>"m"</text>
         </inputEntry>
@@ -85,7 +85,7 @@
         </outputEntry>
       </rule>
       <rule id="row-484867957-2">
-        <description>fL</description>
+        <description>👩fL</description>
         <inputEntry id="UnaryTests_197hyvw">
           <text>"f"</text>
         </inputEntry>
@@ -97,7 +97,7 @@
         </outputEntry>
       </rule>
       <rule id="row-484867957-4">
-        <description>fH</description>
+        <description>👩fH</description>
         <inputEntry id="UnaryTests_0iv5y6t">
           <text>"f"</text>
         </inputEntry>
@@ -109,7 +109,7 @@
         </outputEntry>
       </rule>
       <rule id="row-484867957-7">
-        <description>ELSE</description>
+        <description>⚠️ELSE</description>
         <inputEntry id="UnaryTests_1swc6fh">
           <text></text>
         </inputEntry>
