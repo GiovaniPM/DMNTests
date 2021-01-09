@@ -1,9 +1,9 @@
 # DMNTests
 
-# string_integer_decision.dmn
-![string_integer_decision.png](images/tux.png)
-
-# string_integer_decision.py
+## string_integer_decision
+### string_integer_decision.dmn
+![string_integer_decision.png](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/string_integer_decision.PNG)
+### string_integer_decision.py
 ``` Python
 from bpmn_dmn.dmn import DMNDecisionRunner
 
@@ -28,8 +28,7 @@ print('x,',8,' = ',res.description)
 res = runner.decide('x', 45)
 print('x,',45,' = ',res.description)
 ```
-
-# Result
+### Result
 ``` Python
 m, 30  =  👨
 m, 24  =  🙋‍♂️
