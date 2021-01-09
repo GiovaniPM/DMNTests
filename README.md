@@ -1,6 +1,10 @@
 # DMNTests
 
 ## string_integer_decision
+### Dependecies
+- [![Python 3.8.1](https://img.shields.io/badge/python-3.9.1-brightgreen.svg)](https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe)
+- [![Pip 20.3.3](https://img.shields.io/badge/pip-20.3.3-lightgreen.svg)](https://pypi.org/project/pip/)
+- [![bpmn-dmn 0.1.7](https://img.shields.io/badge/bpmn_dmn-0.1.7-lightgreen.svg)](https://pypi.org/project/bpmn-dmn/)
 ### string_integer_decision.dmn
 ![string_integer_decision.png](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/string_integer_decision.PNG)
 ### string_integer_decision.py
