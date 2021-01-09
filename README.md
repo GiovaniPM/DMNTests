@@ -1,5 +1,5 @@
 # DMNTests
-## How works
+## How it works
 ![process.png](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/process.PNG)
 ## Example: string_integer_decision
 ### Dependecies
