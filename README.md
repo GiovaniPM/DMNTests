@@ -1,4 +1,6 @@
 # DMNTests
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/50-percent-optimized.svg)](https://forthebadge.com)
 
 ## How it works
 ![process.png](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/process.PNG)
