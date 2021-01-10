@@ -12,10 +12,10 @@
 [![bpmn-dmn 0.1.7](https://img.shields.io/badge/bpmn--dmn-0.1.7-green.svg)](https://pypi.org/project/bpmn-dmn/)
 - [![camunda](https://img.shields.io/badge/camunda-4.4.0-brightgreen.svg)](https://camunda.com/download/modeler/)
 
-### string_integer_decision.dmn
+### [string_integer_decision.dmn](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Rules/string_integer_decision.dmn)
 ![string_integer_decision.png](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/string_integer_decision.PNG)
 
-### string_integer_decision.py
+### [string_integer_decision.py](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/string_integer_decision.py)
 ``` Python
 from bpmn_dmn.dmn import DMNDecisionRunner
 
