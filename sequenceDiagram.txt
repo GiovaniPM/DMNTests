@@ -1,0 +1,10 @@
+sequenceDiagram
+    Client->>+Application Server: 1. HTTP GET
+    Application Server->>+Datasource: 2. HTTP GET
+    Datasource->>+Application Server: 3. JSON Response
+    Application Server->>+Client: 4.JSON Response
+    Client->>+Client: 5. Changes
+    Client->>+Application Server: 6. HTTP PUT
+    Application Server->>+Datasource: 7. HTTP PUT
+    Datasource->>+Application Server: 8. Success Response
+    Application Server->>+Client: 9. Success Response
