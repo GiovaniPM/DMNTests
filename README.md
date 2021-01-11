@@ -2,7 +2,7 @@
 
 
 ## How it works
-![process.png](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/process.PNG)
+![process.png](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/process.png)
 
 ## Examples
 
