@@ -1,8 +1,33 @@
 @startgantt
+<style>
+ganttDiagram {
+	task {
+		FontName Helvetica
+		FontColor black
+		FontSize 12
+		FontStyle bold
+		BackGroundColor LightBlue
+		LineColor blue
+	}
+	milestone {
+		FontColor blue
+		FontSize 12
+		FontStyle italic
+		BackGroundColor gold
+		LineColor red
+	}
+	note {
+		FontColor DarkGreen
+		FontSize 10
+		LineColor OrangeRed
+	}
+}
+</style>
+
 project starts the 2021/01/01
 
 ' Day watching
-2021/01/12 is colored in Yellow
+2021/01/20 is colored in Yellow
 
 ' Close Days
 saturday are closed
@@ -14,6 +39,12 @@ sunday are closed
 -- Phase One --
 [Prototype design] on {Alice} lasts 13 days
 [Prototype design] links to [[http://plantuml.com]]
+note bottom
+  memo1 ...
+  memo2 ...
+  explanations1 ...
+  explanations2 ...
+end note
 [Config prototype] on {Giovani} lasts 7 days
 -- Phase Two --
 [QA prototype] on {Davi} lasts 9 days
@@ -34,13 +65,13 @@ sunday are closed
 [PD audict] starts at [Deploy]'s end with red bold link
 
 ' Tasks progress
-[Prototype design] is 60% completed
+[Prototype design] is 98% completed
 [Config prototype] is 0% completed
 [QA prototype] is 0% completed
 [Test prototype] is 0% completed
 [Deploy] is 0% completed
 [PD audict] is 0% completed
-[Trainning] is 0% completed
+[Trainning] is 10% completed
 
 ' Milestones
 [DevEnd] happens at [Prototype design]'s end
@@ -59,4 +90,5 @@ sunday are closed
 [PD audict] is colored in Red/Red
 [DevEnd] is colored in White/Black
 [ReadyDeploy] is colored in Gray/Black
+[Trainning] is colored in LightBlue
 @endgantt
