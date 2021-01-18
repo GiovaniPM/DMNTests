@@ -1,7 +1,58 @@
 @startgantt
-[Prototype design] lasts 13 days
-[Test prototype] lasts 4 days
-[Test prototype] starts at [Prototype design]'s end
-[Prototype design] is colored in Fuchsia/FireBrick
-[Test prototype] is colored in GreenYellow/Green
+project starts the 2018/04/09
+
+' Close Days
+saturday are closed
+sunday are closed
+2018/05/01 is closed
+2018/05/01 is colored in salmon
+
+' Tasks and there layers
+-- Phase One --
+[Prototype design] on {Alice} lasts 13 days
+[Config prototype] on {Giovani} lasts 6 days
+-- Phase Two --
+[QA prototype] on {Davi} lasts 8 days
+[Test prototype] on {Camila:50}{Giovani:50} lasts 7 days
+-- Phase Three --
+[Deploy] lasts 1 day
+[PD audict] lasts 9 days
+[Trainning] on {Camila:50} {Maria:50} starts 2018/04/26
+[Trainning] ends 2018/05/18
+
+' Tasks flow
+[Config prototype] starts at [Prototype design]'s end with red bold link
+[QA prototype] starts at [Prototype design]'s end with red bold link
+[Test prototype] starts at [Config prototype]'s end with red bold link
+[Test prototype] starts at [QA prototype]'s end with red bold link
+[Deploy] starts at [Test prototype]'s end with red bold link
+[PD audict] starts at [Deploy]'s end with red bold link
+
+' Tasks progress
+[Prototype design] is 60% completed
+[Config prototype] is 0% completed
+[QA prototype] is 0% completed
+[Test prototype] is 0% completed
+[Deploy] is 0% completed
+[PD audict] is 0% completed
+[Trainning] is 0% completed
+
+' Milestones
+[DevEnd] happens at [Prototype design]'s end
+[DevEnd] happens at [QA prototype]'s end
+[ReadyDeploy] happens at [Test prototype]'s end
+[PDEnd] happens at [PD audict]'s end
+
+' Colors
+[Prototype design] is colored in Red/Red
+[Config prototype] is colored in Red/Red
+[QA prototype] is colored in Red/Red
+[Test prototype] is colored in Red/Red
+[Deploy] is colored in Red/Red
+[PD audict] is colored in Red/Red
+[DevEnd] is colored in White/Black
+[ReadyDeploy] is colored in Gray/Black
+
+' Day watching
+2018/04/19 is colored in Yellow
 @endgantt
