@@ -19,14 +19,16 @@ ganttDiagram {
 	note {
 		FontColor DarkGreen
 		FontSize 10
-		LineColor OrangeRed
+		LineColor lightgreen
+        BackGroundColor lightyellow
 	}
 }
 </style>
 
 ' Initialization
 title Entrega SDS 001
-footer Giovani Perotto Mesquita 18/01/2011
+footer Giovani Perotto Mesquita 18/01/2011 13:01
+scale 160*120
 project starts the 2021/01/01
 
 ' Day watching
@@ -38,7 +40,7 @@ sunday are closed
 2021/01/01 is closed
 2021/01/01 is colored in lightblue
 
-' Tasks and there layers
+' Tasks and separators
 -- Phase One --
 [Prototype design] on {Alice} lasts 13 days
 [Prototype design] links to [[http://plantuml.com]]
@@ -47,13 +49,30 @@ note bottom
   memo2 ...
   explanations1 ...
   explanations2 ...
+  <img:http://plantuml.com/logo3.png>
 end note
 [Config prototype] on {Giovani} lasts 7 days
+note bottom
+  WiFi <&wifi>
+  |= |= table |= header |
+  | a | table | row |
+  |<#FF8080> red |<#80FF80> green |<#8080FF> blue |
+  <#yellow>| b | table | row |
+end note
 -- Phase Two --
 [QA prototype] on {Davi} lasts 9 days
 [Test prototype] on {Camila:50}{Giovani:50} lasts 7 days
 -- Phase Three --
 [Deploy] lasts 1 day
+note bottom
+  Example of Tree
+  |_ First line
+  |_ **Bom(Model)**
+    |_ prop1
+    |_ prop2
+    |_ prop3
+  |_ Last line
+end note
 [PD audict] lasts 10 days
 [Trainning] on {Camila:50}{Maria:50} starts 2021/01/18
 [Trainning] ends 2021/02/12
