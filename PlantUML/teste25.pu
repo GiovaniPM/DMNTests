@@ -1,11 +1,14 @@
 @startgantt
-project starts the 2021/04/09
+project starts the 2021/01/01
+
+' Day watching
+2021/01/18 is colored in Yellow
 
 ' Close Days
 saturday are closed
 sunday are closed
-2021/05/01 is closed
-2021/05/01 is colored in lightblue
+2021/01/01 is closed
+2021/01/01 is colored in lightblue
 
 ' Tasks and there layers
 -- Phase One --
@@ -18,8 +21,8 @@ sunday are closed
 -- Phase Three --
 [Deploy] lasts 1 day
 [PD audict] lasts 9 days
-[Trainning] on {Camila:50}{Maria:50} starts 2021/04/26
-[Trainning] ends 2021/05/18
+[Trainning] on {Camila:50}{Maria:50} starts 2021/01/20
+[Trainning] ends 2021/02/09
 -- Milestones --
 
 ' Tasks flow
@@ -57,6 +60,4 @@ sunday are closed
 [DevEnd] is colored in White/Black
 [ReadyDeploy] is colored in Gray/Black
 
-' Day watching
-2021/04/19 is colored in Yellow
 @endgantt
