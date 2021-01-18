@@ -6,7 +6,7 @@ ganttDiagram {
 		FontColor black
 		FontSize 12
 		FontStyle bold
-		BackGroundColor LightBlue
+		BackGroundColor Blue
 		LineColor blue
 	}
 	milestone {
@@ -90,5 +90,4 @@ end note
 [PD audict] is colored in Red/Red
 [DevEnd] is colored in White/Black
 [ReadyDeploy] is colored in Gray/Black
-[Trainning] is colored in LightBlue
 @endgantt
