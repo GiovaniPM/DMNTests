@@ -25,9 +25,16 @@ ganttDiagram {
 }
 </style>
 
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor blue
+skinparam titleFontStyle italic
+skinparam titleBackgroundColor Aqua-CadetBlue
+skinparam footerFontStyle italic
+
 ' Initialization
-title Entrega SDS 001
-footer Giovani Perotto Mesquita 18/01/2011 13:01
+title Projeto\nEntrega SDS 001
+footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 scale 160*120
 project starts the 2021/01/01
 
