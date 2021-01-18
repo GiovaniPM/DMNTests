@@ -2,7 +2,7 @@
 <style>
 ganttDiagram {
 	task {
-		FontName Helvetica
+		FontName Courrier
 		FontColor black
 		FontSize 12
 		FontStyle bold
@@ -24,6 +24,9 @@ ganttDiagram {
 }
 </style>
 
+' Initialization
+title Entrega SDS 001
+footer Giovani Perotto Mesquita 18/01/2011
 project starts the 2021/01/01
 
 ' Day watching
