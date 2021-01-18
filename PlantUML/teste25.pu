@@ -20,7 +20,7 @@ ganttDiagram {
 		FontColor DarkGreen
 		FontSize 10
 		LineColor lightgreen
-        BackGroundColor lightyellow
+        BackGroundColor yellow\lightyellow
 	}
 }
 </style>
