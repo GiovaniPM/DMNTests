@@ -1,15 +1,16 @@
 @startgantt
-project starts the 2018/04/09
+project starts the 2021/04/09
 
 ' Close Days
 saturday are closed
 sunday are closed
-2018/05/01 is closed
-2018/05/01 is colored in salmon
+2021/05/01 is closed
+2021/05/01 is colored in lightblue
 
 ' Tasks and there layers
 -- Phase One --
 [Prototype design] on {Alice} lasts 13 days
+[Prototype design] links to [[http://plantuml.com]]
 [Config prototype] on {Giovani} lasts 6 days
 -- Phase Two --
 [QA prototype] on {Davi} lasts 8 days
@@ -17,8 +18,9 @@ sunday are closed
 -- Phase Three --
 [Deploy] lasts 1 day
 [PD audict] lasts 9 days
-[Trainning] on {Camila:50} {Maria:50} starts 2018/04/26
-[Trainning] ends 2018/05/18
+[Trainning] on {Camila:50} {Maria:50} starts 2021/04/26
+[Trainning] ends 2021/05/18
+-- Milestones --
 
 ' Tasks flow
 [Config prototype] starts at [Prototype design]'s end with red bold link
@@ -41,7 +43,9 @@ sunday are closed
 [DevEnd] happens at [Prototype design]'s end
 [DevEnd] happens at [QA prototype]'s end
 [ReadyDeploy] happens at [Test prototype]'s end
+[ReadyDeploy] displays on same row as [DevEnd]
 [PDEnd] happens at [PD audict]'s end
+[PDEnd] displays on same row as [ReadyDeploy]
 
 ' Colors
 [Prototype design] is colored in Red/Red
@@ -54,5 +58,5 @@ sunday are closed
 [ReadyDeploy] is colored in Gray/Black
 
 ' Day watching
-2018/04/19 is colored in Yellow
+2021/04/19 is colored in Yellow
 @endgantt
