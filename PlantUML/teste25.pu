@@ -24,7 +24,7 @@
   		FontColor DarkGreen
   		FontSize 10
   		LineColor lightgreen
-      BackGroundColor orange\lightyellow
+      BackGroundColor orange\yellow
   	}
 
   }
@@ -42,14 +42,13 @@
 
 </style>
 
-skinparam footerFontColor red
+skinparam footerFontColor blue
 skinparam footerFontSize 10
 skinparam footerFontStyle italic
-skinparam footerHorizontalAlignment right
 'skinparam titleBackgroundColor Aqua-CadetBlue
 'skinparam titleBorderColor blue
-skinparam titleBorderRoundCorner 15
-skinparam titleBorderThickness 2
+'skinparam titleBorderRoundCorner 15
+'skinparam titleBorderThickness 2
 
 ' Initialization
 title Projeto\nEntrega SDS 001
