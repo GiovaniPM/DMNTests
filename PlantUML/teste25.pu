@@ -1,36 +1,55 @@
 @startgantt
 <style>
-ganttDiagram {
-	task {
-		FontName Courrier
-		FontColor black
-		FontSize 12
-		FontStyle bold
-		BackGroundColor Blue
-		LineColor blue
-	}
-	milestone {
-		FontColor blue
-		FontSize 12
-		FontStyle italic
-		BackGroundColor gold
-		LineColor red
-	}
-	note {
-		FontColor DarkGreen
-		FontSize 10
-		LineColor lightgreen
-        BackGroundColor yellow\lightyellow
-	}
-}
+
+  ganttDiagram {
+
+  	task {
+  		FontName Courrier
+  		FontColor black
+  		FontSize 12
+  		FontStyle bold
+  		BackGroundColor Blue
+  		LineColor blue
+  	}
+
+  	milestone {
+  		FontColor blue
+  		FontSize 12
+  		FontStyle italic
+  		BackGroundColor gold
+  		LineColor red
+  	}
+
+  	note {
+  		FontColor DarkGreen
+  		FontSize 10
+  		LineColor lightgreen
+      BackGroundColor orange\lightyellow
+  	}
+
+  }
+
+  footer {
+    HorizontalAlignment right
+  }
+
+  title {
+    FontColor black
+    FontSize 40
+    FontStyle italic
+    HorizontalAlignment center
+  }
+
 </style>
 
+skinparam footerFontColor red
+skinparam footerFontSize 10
+skinparam footerFontStyle italic
+skinparam footerHorizontalAlignment right
+'skinparam titleBackgroundColor Aqua-CadetBlue
+'skinparam titleBorderColor blue
 skinparam titleBorderRoundCorner 15
 skinparam titleBorderThickness 2
-skinparam titleBorderColor blue
-skinparam titleFontStyle italic
-skinparam titleBackgroundColor Aqua-CadetBlue
-skinparam footerFontStyle italic
 
 ' Initialization
 title Projeto\nEntrega SDS 001
