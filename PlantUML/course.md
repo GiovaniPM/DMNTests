@@ -116,6 +116,12 @@ ex.:
 ## Project day vision
 
 - **today**
+```plantuml
+ex.:
+    today is 2021/01/20 and is colored in Yellow
+or
+    today is 14 days after start and is colored in Yellow
+```
 
 ## Close days
 
