@@ -146,7 +146,7 @@ ex.:
 
 - **task**
     -- **Dinamic period**
-    - ```plantuml
+    ```plantuml
     ex.:
         [Prototype design] lasts 13 days
         [Prototype design] links to [[http://plantuml.com]]
