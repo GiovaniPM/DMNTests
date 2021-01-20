@@ -148,16 +148,31 @@ ex.:
     - **Dinamic period**
     ```plantuml
     ex.:
-        [PlantUML] lasts 13 days
+        [PlantUML1] lasts 13 days
     ```
     - **Fixed Date**
     ```plantuml
     ex.:
-        [PlantUML] starts 2021/01/18
-        [PlantUML] ends 2021/02/12
+        [PlantUML1] starts 2021/01/18
+        [PlantUML1] ends 2021/02/12
     ```
     - **Link**
     ```plantuml
     ex.:
-        [PlantUML] links to [[http://plantuml.com]]
+        [PlantUML1] links to [[http://plantuml.com]]
     ```
+    - **Resources**
+    ```plantuml
+    ex.:
+        [PlantUML1] on {User1:50}{User2:50} lasts 6 days
+    ```
+    - **Pauses**
+    ```plantuml
+    ex.:
+        [PlantUML1] pauses on monday
+    ```
+- **Flow**
+```plantuml
+ex.:
+    [PlantUML2] starts at [PlantUML1]'s end with red bold link
+```
