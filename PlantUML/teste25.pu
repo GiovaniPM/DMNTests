@@ -53,7 +53,7 @@ skinparam footerFontStyle italic
 ' Initialization
 title Projeto\nEntrega SDS 001 <&check>
 footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
-scale 160*120
+scale 1.5
 project starts the 2021/01/01
 
 ' Day watching
@@ -68,7 +68,7 @@ sunday are closed
 ' Tasks and separators
 -- Phase One --
 [Prototype design] on {Alice} lasts 13 days
-[Prototype design] links to [[http://plantuml.com]]
+  [Prototype design] links to [[http://plantuml.com]]
 'note bottom
 '  memo1 ...
 '  memo2 ...
@@ -100,14 +100,14 @@ sunday are closed
 'end note
 [PD audict] lasts 10 days
 [Trainning] on {Camila:50}{Maria:50} starts 2021/01/18
-[Trainning] ends 2021/02/12
+  [Trainning] ends 2021/02/12
 -- Milestones --
 
 ' Tasks flow
 [Config prototype] starts at [Prototype design]'s end with red bold link
 [QA prototype] starts at [Prototype design]'s end with red bold link
 [Test prototype] starts at [Config prototype]'s end with red bold link
-[Test prototype] starts at [QA prototype]'s end with red bold link
+  [Test prototype] starts at [QA prototype]'s end with red bold link
 [Deploy] starts at [Test prototype]'s end with red bold link
 [PD audict] starts at [Deploy]'s end with red bold link
 
@@ -122,9 +122,9 @@ sunday are closed
 
 ' Milestones
 [DevEnd] happens at [Prototype design]'s end
-[DevEnd] happens at [QA prototype]'s end
+  [DevEnd] happens at [QA prototype]'s end
 [ReadyDeploy] happens at [Test prototype]'s end
-[ReadyDeploy] displays on same row as [DevEnd]
+  [ReadyDeploy] displays on same row as [DevEnd]
 [PDEnd] happens at [PD audict]'s end
 [PDEnd] displays on same row as [ReadyDeploy]
 
