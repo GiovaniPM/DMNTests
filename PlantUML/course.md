@@ -124,6 +124,8 @@ or
 ```
 
 ## Close days
+
+- **closed**
 ```plantuml
 ex.:
     saturday are closed
@@ -132,4 +134,22 @@ ex.:
     2021/01/01 is colored in lightblue
 ```
 
-- **closed**
+## Separators
+
+- **-- ... --**
+```plantuml
+ex.:
+    -- Phase One --
+```
+
+## Tasks
+
+- **task**
+    -- **Dinamic period**
+    - ```plantuml
+    ex.:
+        [Prototype design] lasts 13 days
+        [Prototype design] links to [[http://plantuml.com]]
+        [Trainning] starts 2021/01/18
+        [Trainning] ends 2021/02/12
+    ```
