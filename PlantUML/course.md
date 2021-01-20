@@ -186,7 +186,6 @@ ex.:
       memo2 ...
       explanations1 ...
       explanations2 ...
-      <img:http://plantuml.com/logo3.png>
     end note
 ```
 
@@ -201,7 +200,7 @@ ex.:
 ## Progress
 
 - **completed**
-- ```plantuml
+```plantuml
 ex.:
     [PlanUML1] is 70% completed
 ```
@@ -209,7 +208,7 @@ ex.:
 ## Milestone
 
 - **milestone**
-- ```plantuml
+```plantuml
 ex.:
     [Milestone1] happens at [PlantUML1]'s end
 ```
