@@ -362,7 +362,7 @@ sunday are closed
 ```
 
 ## Code
-```
+```text
 @startgantt
 <style>
 
