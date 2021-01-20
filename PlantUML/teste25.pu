@@ -24,7 +24,7 @@
   		FontColor DarkGreen
   		FontSize 10
   		LineColor lightgreen
-      BackGroundColor orange\yellow
+        BackGroundColor orange\yellow
   	}
 
   }
@@ -59,7 +59,8 @@ hide footbox
 project starts the 2021/01/01
 
 ' Day watching
-2021/01/20 is colored in Yellow
+'today is 2021/01/20 and is colored in Yellow
+today is 14 days after start and is colored in Yellow
 
 ' Close Days
 saturday are closed
@@ -88,7 +89,7 @@ sunday are closed
 'end note
 -- Phase Two --
 [QA prototype] on {Davi} lasts 9 days
-[Test prototype] on {Camila:50}{Giovani:50} lasts 7 days
+[Test prototype] on {Camila:50}{Giovani:50} lasts 6 days
 -- Phase Three --
 [Deploy] lasts 1 day
 'note bottom
