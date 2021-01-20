@@ -54,6 +54,8 @@ skinparam footerFontStyle italic
 title Projeto\nEntrega SDS 001 <&check>
 footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 scale 1.5
+hide footbox
+'printscale weekly
 project starts the 2021/01/01
 
 ' Day watching
@@ -108,17 +110,18 @@ sunday are closed
 [QA prototype] starts at [Prototype design]'s end with red bold link
 [Test prototype] starts at [Config prototype]'s end with red bold link
   [Test prototype] starts at [QA prototype]'s end with red bold link
+  [Test prototype] pauses on monday
 [Deploy] starts at [Test prototype]'s end with red bold link
 [PD audict] starts at [Deploy]'s end with red bold link
 
 ' Tasks progress
-[Prototype design] is 98% completed
+[Prototype design] is 70% completed
 [Config prototype] is 0% completed
-[QA prototype] is 0% completed
+[QA prototype] is 23% completed
 [Test prototype] is 0% completed
 [Deploy] is 0% completed
 [PD audict] is 0% completed
-[Trainning] is 10% completed
+[Trainning] is 20% completed
 
 ' Milestones
 [DevEnd] happens at [Prototype design]'s end
