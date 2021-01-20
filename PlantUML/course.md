@@ -173,6 +173,22 @@ ex.:
 or
     [PlantUML1] pauses on 2021/01/12
 ```
+- **colors**
+```plantuml
+ex.:
+    [PlantUML1] is colored in Red/Red
+```
+- **note**
+```plantuml
+ex.:
+    note bottom
+      memo1 ...
+      memo2 ...
+      explanations1 ...
+      explanations2 ...
+      <img:http://plantuml.com/logo3.png>
+    end note
+```
 
 ## Flow
 
@@ -183,4 +199,17 @@ ex.:
 ```
 
 ## Progress
+
 - **completed**
+- ```plantuml
+ex.:
+    [PlanUML1] is 70% completed
+```
+
+## Milestone
+
+- **milestone**
+- ```plantuml
+ex.:
+    [Milestone1] happens at [PlantUML1]'s end
+```
