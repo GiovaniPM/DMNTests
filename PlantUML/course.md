@@ -149,13 +149,15 @@ ex.:
     ```plantuml
     ex.:
         [PlantUML] lasts 13 days
-        [PlantUML] links to [[http://plantuml.com]]
-        [Trainning] starts 2021/01/18
-        [Trainning] ends 2021/02/12
     ```
     - **Fixed Date**
     ```plantuml
     ex.:
         [PlantUML] starts 2021/01/18
         [PlantUML] ends 2021/02/12
+    ```
+    - **Link**
+    ```plantuml
+    ex.:
+        [PlantUML] links to [[http://plantuml.com]]
     ```
