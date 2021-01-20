@@ -362,7 +362,7 @@ sunday are closed
 ```
 
 ## Code
-```text
+``` dos
 @startgantt
 <style>
 
