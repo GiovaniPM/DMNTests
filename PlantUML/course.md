@@ -124,5 +124,12 @@ or
 ```
 
 ## Close days
+```plantuml
+ex.:
+    saturday are closed
+    sunday are closed
+    2021/01/01 is closed
+    2021/01/01 is colored in lightblue
+```
 
 - **closed**
