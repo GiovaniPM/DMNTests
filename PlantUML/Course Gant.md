@@ -68,8 +68,8 @@ skinparam ...
   		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
   	- **note**
       - **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
-  		- **FontSize** *size*
-  		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+      - **FontSize** *size*
+      - **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
       - **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
   - **footer**
     - **HorizontalAlignment** <ins>(left|center|right)</ins>
