@@ -106,9 +106,9 @@ ex.:
 ```
 
 ## Legend
->**legend** (left|right|top|bottom|center)
->  ...
->**endlegend**
+>**legend** (left|right|top|bottom|center)<br>
+>  ...<br>
+>**endlegend**<br>
 ```plantuml
 ex.:
     legend right
