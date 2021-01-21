@@ -335,7 +335,9 @@ ex.:
     [Milestone1] happens at [PlantUML1]'s end
 ```
 
-## Example
+# Example
+
+## Image
 
 ```plantuml
 @startgantt
