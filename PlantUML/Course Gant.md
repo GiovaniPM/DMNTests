@@ -86,6 +86,16 @@ skinparam ...
     - **titleBorderRoundCorner** *number*
     - **titleBorderThickness** *number*
 
+
+## Comments
+
+- **comment**<br>
+>**'**
+```plantuml
+ex.:
+    ' Comentary
+```
+
 ## Project initialization
 
 - **title**<br>
