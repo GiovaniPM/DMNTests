@@ -169,7 +169,6 @@ or
 ><ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins> **are closed**<br>
 >or<br>
 >*date* **is closed**<br>
->*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     saturday are closed
@@ -227,7 +226,11 @@ or
     [PlantUML1] pauses on 2021/01/12
 ```
 - **colors**<br>
->[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+>[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+>or<br>
+>*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+>or<br>
+>*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 ```plantuml
 ex.:
     [PlantUML1] is colored in Red/Red
