@@ -173,8 +173,8 @@ ex.:
 ## Tasks
 
 - **task**
-    >- **dinamic**<br>
-    [*taskname*] **lasts** *day(s)* **days**
+    - **dinamic**<br>
+    >[*taskname*] **lasts** *day(s)* **days**
     ```plantuml
     ex.:
         [PlantUML1] lasts 13 days
