@@ -83,6 +83,7 @@ skinparam ...
 ## Project initialization
 
 - **title**
+
 sintaxe: **title** *string*
 ```plantuml
 ex.:
