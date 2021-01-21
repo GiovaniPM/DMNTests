@@ -130,6 +130,7 @@ ex.:
 - **today**
 
 **today is** *date* **and is colored in** *color*<br>
+or<br>
 **today is** *day(s)* **days after start and is colored in** *color*
 ```plantuml
 ex.:
@@ -141,6 +142,11 @@ or
 ## Close days
 
 - **closed**
+
+(sunday|monday|tuesday|wednesday|thursday|friday|saturday) **are closed**<br>
+or<br>
+*day* **is closed**<br>
+*day* **is colored in** *color*
 ```plantuml
 ex.:
     saturday are closed
