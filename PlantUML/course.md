@@ -118,6 +118,8 @@ ex.:
     printscale weekly
 ```
 - **project**
+
+**project starts the** *date*
 ```plantuml
 ex.:
     project starts the 2021/01/01
@@ -126,6 +128,9 @@ ex.:
 ## Project day vision
 
 - **today**
+
+**today is** *date* **and is colored in** *color*
+**today is** *day(s)* **days after start and is colored in** *color*
 ```plantuml
 ex.:
     today is 2021/01/20 and is colored in Yellow
