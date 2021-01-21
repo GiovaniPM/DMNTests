@@ -47,6 +47,14 @@ ms.technology:
     ...
   }
 
+  legend {
+   ...
+  }
+
+  caption {
+    ...
+  }
+
 </style>
 
 skinparam ...
