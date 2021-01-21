@@ -151,8 +151,8 @@ or
 - **closed**<br>
 ><ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins> **are closed**<br>
 >or<br>
->*day* **is closed**<br>
->*day* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+>*date* **is closed**<br>
+>*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     saturday are closed
