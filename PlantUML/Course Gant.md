@@ -87,6 +87,15 @@ skinparam ...
     - **titleBorderThickness** *number*
 
 
+## Caption
+
+- **caption**<br>
+>**caption** *description*
+```plantuml
+ex.:
+    caption figure 1
+```
+
 ## Comments
 
 - **comment**<br>
