@@ -12,6 +12,12 @@ ms.technology:
 
 # Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap)
 
+## Language specification
+
+- Light [Creole](https://plantuml.com/creole) engine syntax;
+- [Common PlantUML commands](https://plantuml.com/commons);
+- [Gant](https://plantuml.com/gantt-diagram)
+
 ## Gant theme customization
 
 ```CSS
