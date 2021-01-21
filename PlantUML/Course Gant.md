@@ -532,8 +532,12 @@ sunday are closed
 | 'skinparam titleBorderRoundCorner 15
 | 'skinparam titleBorderThickness 2
 | 
+| ' sprites
+| sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
+| 
 | ' Initialization
-| title Projeto\nEntrega SDS 001 <&check>
+| caption figure 1
+| title Projeto<$printer>\nEntrega SDS 001 <&check>
 | footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 | scale 1.5
 | hide footbox
@@ -549,6 +553,7 @@ sunday are closed
 | sunday are closed
 | 2021/01/01 is closed
 | 2021/01/01 is colored in lightblue
+| 2021/01/04 to 2021/01/08 are colored in coral
 | 
 | ' Tasks and separators
 | -- Phase One --
@@ -586,6 +591,9 @@ sunday are closed
 | [PD audict] lasts 10 days
 | [Trainning] on {Camila:50}{Maria:50} starts 2021/01/18
 |   [Trainning] ends 2021/02/12
+|   legend right
+|     This is a legend
+|   endlegend
 | -- Milestones --
 | 
 | ' Tasks flow
