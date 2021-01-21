@@ -83,6 +83,7 @@ skinparam ...
 ## Project initialization
 
 - **title**
+sintaxe: **title** __<<string>__
 ```plantuml
 ex.:
     title Project\nDelivery SDS 001
