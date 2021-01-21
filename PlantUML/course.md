@@ -217,7 +217,8 @@ ex.:
 
 ## Flow
 
-- **link**
+- **link**<br>
+[*taskname*] **starts at** [*taskname*]**'s end with red bold link**
 ```plantuml
 ex.:
     [PlantUML2] starts at [PlantUML1]'s end with red bold link
