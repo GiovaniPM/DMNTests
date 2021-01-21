@@ -226,7 +226,8 @@ ex.:
 
 ## Progress
 
-- **completed**
+- **completed**<br>
+[*taskname*] **is** *%* **completed**
 ```plantuml
 ex.:
     [PlanUML1] is 70% completed
@@ -234,7 +235,8 @@ ex.:
 
 ## Milestone
 
-- **milestone**
+- **milestone**<br>
+[*milestonename*] **happens at** [*taskname*]**'s end**
 ```plantuml
 ex.:
     [Milestone1] happens at [PlantUML1]'s end
