@@ -105,6 +105,18 @@ ex.:
     ' Comentary
 ```
 
+## Legend
+>**legend** (left|right|top|bottom|center)
+>  ...
+>**endlegend**
+```plantuml
+ex.:
+    legend right
+      Short
+      legend
+    endlegend
+```
+
 ## Project initialization
 
 - **title**<br>
