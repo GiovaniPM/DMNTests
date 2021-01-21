@@ -218,7 +218,7 @@ ex.:
 ## Flow
 
 - **link**<br>
-[*taskname*] **starts at** [*taskname*]**'s end with** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* <u>(bold|dashed|dotted)</u> **link**
+[*taskname*] **starts at** [*taskname*]**'s end with** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* <ins>(bold|dashed|dotted)</ins> **link**
 ```plantuml
 ex.:
     [PlantUML2] starts at [PlantUML1]'s end with red bold link
