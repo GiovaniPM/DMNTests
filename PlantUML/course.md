@@ -166,14 +166,15 @@ ex.:
         [PlantUML1] lasts 13 days
     ```
     - **fixed**<br>
-    [*taskname*] **starts** *date*
+    [*taskname*] **starts** *date*<br>
     [*taskname*] **ends** *date*
     ```plantuml
     ex.:
         [PlantUML1] starts 2021/01/18
         [PlantUML1] ends 2021/02/12
     ```
-- **link**
+- **link**<br>
+[*taskname*] **links to** [[*taskname*]]
 ```plantuml
 ex.:
     [PlantUML1] links to [[http://plantuml.com]]
