@@ -180,7 +180,7 @@ ex.:
     [PlantUML1] links to [[http://plantuml.com]]
 ```
 - **resources**<br>
-[*taskname*] **on {***user***:***%***} lasts** *day(s)* **days**
+[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
 ```plantuml
 ex.:
     [PlantUML1] on {User1:50}{User2:50} lasts 6 days
@@ -196,7 +196,7 @@ or
     [PlantUML1] pauses on 2021/01/12
 ```
 - **colors**<br>
-[*taskname*] **is colored in** *color***/***color*
+[*taskname*] **is colored in** *color* **/** *color*
 ```plantuml
 ex.:
     [PlantUML1] is colored in Red/Red
