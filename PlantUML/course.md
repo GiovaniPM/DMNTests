@@ -201,7 +201,10 @@ or
 ex.:
     [PlantUML1] is colored in Red/Red
 ```
-- **note**
+- **note**<br>
+**note bottom**<br>
+*...*<br>
+**end note**
 ```plantuml
 ex.:
     note bottom
