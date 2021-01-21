@@ -115,6 +115,13 @@ ex.:
 ```plantuml
 ex.:
     scale 1.5
+    scale 2/3
+    scale 200 width
+    scale 200 height
+    scale 200*100
+    scale max 300*200
+    scale max 1024 width
+    scale max 800 height
 ```
 - **hide**<br>
 >**hide footbox**
