@@ -59,7 +59,7 @@ skinparam ...
       - **FontSize** *size*
       - **FontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
       - **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
-  		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+      - **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
   	- **milestone**
   		- **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
   		- **FontSize** *size*
