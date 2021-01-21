@@ -188,7 +188,7 @@ ex.:
 - **pauses**<br>
 [*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
 or<br>
-[*taskname*] **pause on** *day(s)*
+[*taskname*] **pause on** *date*
 ```plantuml
 ex.:
     [PlantUML1] pauses on monday
