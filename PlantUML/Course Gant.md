@@ -17,6 +17,7 @@ ms.technology:
 - Light [Creole](https://plantuml.com/creole) engine syntax;
 - [Common PlantUML commands](https://plantuml.com/commons);
 - [Gant PlantUML standards](https://plantuml.com/gantt-diagram)
+- [Graphviz](https://graphviz.org/)
 
 ## Gant theme customization
 
