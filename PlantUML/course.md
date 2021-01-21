@@ -47,38 +47,38 @@ skinparam ...
 ```
 - **style** - Looks like CSS format
     - **task**
-        - **FontName**
-  		- **FontColor**
-  		- **FontSize**
-  		- **FontStyle**
-  		- **BackGroundColor**
-  		- **LineColor**
+      - **FontName** *fontname*
+  		- **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+  		- **FontSize** *size*
+  		- **FontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
+  		- **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+  		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
   	- **milestone**
-  		- **FontColor**
-  		- **FontSize**
-  		- **FontStyle**
-  		- **BackGroundColor**
-  		- **LineColor**
+  		- **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+  		- **FontSize** *size*
+  		- **FontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
+  		- **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+  		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
   	- **note**
-      	- **FontColor**
-  		- **FontSize**
-  		- **LineColor**
-        - **BackGroundColor**
+      - **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+  		- **FontSize** *size*
+  		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+      - **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
     - **footer**
         - **HorizontalAlignment**
     - **title**
-        - **FontColor**
-        - **FontSize**
-        - **FontStyle**
+        - **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+        - **FontSize** *size*
+        - **FontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
         - **HorizontalAlignment**
 - **skinparam** - Parameters
-    - **footerFontColor**
-    - **footerFontSize**
-    - **footerFontStyle**
-    - **titleBackgroundColor**
-    - **titleBorderColor**
-    - **titleBorderRoundCorner**
-    - **titleBorderThickness**
+    - **footerFontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+    - **footerFontSize** *size*
+    - **footerFontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
+    - **titleBackgroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+    - **titleBorderColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+    - **titleBorderRoundCorner** *number*
+    - **titleBorderThickness** *number*
 
 ## Project initialization
 
