@@ -365,10 +365,8 @@ sunday are closed
 ## Code
 
 ``` dos
- @startgantt
-
- <style>
-
+| @startgantt
+| <style>
 | 
 |   ganttDiagram {
 | 
