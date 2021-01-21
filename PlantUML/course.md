@@ -129,7 +129,7 @@ ex.:
 
 - **today**
 
-**today is** *date* **and is colored in** *color*
+**today is** *date* **and is colored in** *color*<br>
 **today is** *day(s)* **days after start and is colored in** *color*
 ```plantuml
 ex.:
