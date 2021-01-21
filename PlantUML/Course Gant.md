@@ -52,6 +52,7 @@ ms.technology:
 skinparam ...
 ```
 - **style** - Looks like CSS format
+  - **ganttDiagram**
     - **task**
       - **FontName** *fontname*
   		- **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
@@ -70,13 +71,21 @@ skinparam ...
   		- **FontSize** *size*
   		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
       - **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
-    - **footer**
-        - **HorizontalAlignment** <ins>(left|center|right)</ins>
-    - **title**
-        - **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
-        - **FontSize** *size*
-        - **FontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
-        - **HorizontalAlignment** <ins>(left|center|right)</ins>
+  - **footer**
+    - **HorizontalAlignment** <ins>(left|center|right)</ins>
+  - **title**
+    - **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+    - **FontSize** *size*
+    - **FontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
+    - **HorizontalAlignment** <ins>(left|center|right)</ins>
+  - **legend**
+    - **FontSize** *size*
+    - **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+    - **Margin** *number*
+    - **Padding** *number*
+  - **caption**
+    - **FontSize** *size*
+
 - **skinparam** - Parameters
     - **footerFontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
     - **footerFontSize** *size*
