@@ -82,43 +82,37 @@ skinparam ...
 
 ## Project initialization
 
-- **title**
-
+- **title**<br>
 **title** *string*
 ```plantuml
 ex.:
     title Project\nDelivery SDS 001
 ```
-- **footer**
-
+- **footer**<br>
 **footer** *string*
 ```plantuml
 ex.:
     footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 ```
-- **scale**
-
+- **scale**<br>
 **scale** *factor*
 ```plantuml
 ex.:
     scale 1.5
 ```
-- **hide**
-
+- **hide**<br>
 **hide footbox**
 ```plantuml
 ex.:
     hide footbox
 ```
-- **printscale**
-
+- **printscale**<br>
 **printscale** (diary|weekly|montly)
 ```plantuml
 ex.:
     printscale weekly
 ```
-- **project**
-
+- **project**<br>
 **project starts the** *date*
 ```plantuml
 ex.:
@@ -127,8 +121,7 @@ ex.:
 
 ## Project day vision
 
-- **today**
-
+- **today**<br>
 **today is** *date* **and is colored in** *color*<br>
 or<br>
 **today is** *day(s)* **days after start and is colored in** *color*
@@ -141,8 +134,7 @@ or
 
 ## Close days
 
-- **closed**
-
+- **closed**<br>
 (sunday|monday|tuesday|wednesday|thursday|friday|saturday) **are closed**<br>
 or<br>
 *day* **is closed**<br>
@@ -157,8 +149,7 @@ ex.:
 
 ## Separators
 
-- **-- ... --**
-
+- **-- ... --**<br>
 *-- ... --*
 ```plantuml
 ex.:
@@ -169,12 +160,14 @@ ex.:
 
 - **task**
     - **dinamic**<br>
-    [*taskname*] **last** *day(s)* **days**
+    [*taskname*] **lasts** *day(s)* **days**
     ```plantuml
     ex.:
         [PlantUML1] lasts 13 days
     ```
-    - **fixed**
+    - **fixed**<br>
+    [*taskname*] **starts** *date*
+    [*taskname*] **ends** *date*
     ```plantuml
     ex.:
         [PlantUML1] starts 2021/01/18
