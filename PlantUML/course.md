@@ -122,9 +122,9 @@ ex.:
 ## Project day vision
 
 - **today**<br>
-**today is** *date* **and is colored in** *color*<br>
+**today is** *date* **and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 or<br>
-**today is** *day(s)* **days after start and is colored in** *color*
+**today is** *day(s)* **days after start and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     today is 2021/01/20 and is colored in Yellow
@@ -138,7 +138,7 @@ or
 (sunday|monday|tuesday|wednesday|thursday|friday|saturday) **are closed**<br>
 or<br>
 *day* **is closed**<br>
-*day* **is colored in** *color*
+*day* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     saturday are closed
@@ -196,7 +196,7 @@ or
     [PlantUML1] pauses on 2021/01/12
 ```
 - **colors**<br>
-[*taskname*] **is colored in** *color* **/** *color*
+[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     [PlantUML1] is colored in Red/Red
