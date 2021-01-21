@@ -102,6 +102,16 @@ ex.:
 ```
 - **scale**<br>
 >**scale** *factor*
+>or 
+>**scale** *fraction*
+>or 
+>**scale** *number* **width**
+>or 
+>**scale** *number* **height**
+>or 
+>**scale** _number_**\***_number_
+>or 
+>**scale max** *number* **width**
 ```plantuml
 ex.:
     scale 1.5
