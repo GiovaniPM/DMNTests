@@ -158,6 +158,8 @@ ex.:
 ## Separators
 
 - **-- ... --**
+
+*-- ... --*
 ```plantuml
 ex.:
     -- Phase One --
@@ -166,7 +168,8 @@ ex.:
 ## Tasks
 
 - **task**
-    - **dinamic**
+    - **dinamic**<br>
+    [*taskname*] **last** *day(s)* **days**
     ```plantuml
     ex.:
         [PlantUML1] lasts 13 days
