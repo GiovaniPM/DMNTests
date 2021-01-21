@@ -101,17 +101,17 @@ ex.:
     footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 ```
 - **scale**<br>
->**scale** *factor*
->or 
->**scale** *fraction*
->or 
->**scale** *number* **width**
->or 
->**scale** *number* **height**
->or 
->**scale** _number_**\***_number_
->or 
->**scale max** *number* **width**
+>**scale** *factor*<br>
+>or <br>
+>**scale** *fraction*<br>
+>or <br>
+>**scale** *number* **width**<br>
+>or <br>
+>**scale** *number* **height**<br>
+>or <br>
+>**scale** _number_**\***_number_<br>
+>or <br>
+>**scale max** *number* **width**<br>
 ```plantuml
 ex.:
     scale 1.5
