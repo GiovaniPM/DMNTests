@@ -169,11 +169,14 @@ or
 ><ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins> **are closed**<br>
 >or<br>
 >*date* **is closed**<br>
+>or<br>
+>*date* to *date* **are closed**<br>
 ```plantuml
 ex.:
     saturday are closed
     sunday are closed
     2021/01/01 is closed
+    2021/01/04 to 2021/01/08 are closed
 ```
 
 ## Separators
