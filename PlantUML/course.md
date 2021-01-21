@@ -107,7 +107,7 @@ ex.:
     hide footbox
 ```
 - **printscale**<br>
-**printscale** (diary|weekly|montly)
+**printscale** <ins>(diary|weekly|montly)</ins>
 ```plantuml
 ex.:
     printscale weekly
@@ -135,7 +135,7 @@ or
 ## Close days
 
 - **closed**<br>
-(sunday|monday|tuesday|wednesday|thursday|friday|saturday) **are closed**<br>
+<ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins> **are closed**<br>
 or<br>
 *day* **is closed**<br>
 *day* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
@@ -186,7 +186,7 @@ ex.:
     [PlantUML1] on {User1:50}{User2:50} lasts 6 days
 ```
 - **pauses**<br>
-[*taskname*] **pause on** (sunday|monday|tuesday|wednesday|thursday|friday|saturday)<br>
+[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
 or<br>
 [*taskname*] **pause on** *day(s)*
 ```plantuml
