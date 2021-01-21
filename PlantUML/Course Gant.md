@@ -90,7 +90,7 @@ skinparam ...
 ## Comments
 
 - **comment**<br>
->**'**
+>**'** *comment*
 ```plantuml
 ex.:
     ' Comentary
