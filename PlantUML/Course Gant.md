@@ -95,31 +95,31 @@ ex.:
     title Project\nDelivery SDS 001
 ```
 - **footer**<br>
-**footer** *string*
+>**footer** *string*
 ```plantuml
 ex.:
     footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 ```
 - **scale**<br>
-**scale** *factor*
+>**scale** *factor*
 ```plantuml
 ex.:
     scale 1.5
 ```
 - **hide**<br>
-**hide footbox**
+>**hide footbox**
 ```plantuml
 ex.:
     hide footbox
 ```
 - **printscale**<br>
-**printscale** <ins>(diary|weekly|montly)</ins>
+>**printscale** <ins>(diary|weekly|montly)</ins>
 ```plantuml
 ex.:
     printscale weekly
 ```
 - **project**<br>
-**project starts the** *date*
+>**project starts the** *date*
 ```plantuml
 ex.:
     project starts the 2021/01/01
@@ -127,7 +127,7 @@ ex.:
 
 ## Sprite
 - **user sprite**<br>
-**sprite $**_name_ **[**_size_**]** _sprite-code_
+>**sprite $**_name_ **[**_size_**]** _sprite-code_
 ```plantuml
 ex.:
     sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
@@ -136,9 +136,9 @@ ex.:
 ## Project day vision
 
 - **today**<br>
-**today is** *date* **and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
-or<br>
-**today is** *day(s)* **days after start and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+>**today is** *date* **and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+>or<br>
+>**today is** *day(s)* **days after start and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     today is 2021/01/20 and is colored in Yellow
@@ -149,10 +149,10 @@ or
 ## Close days
 
 - **closed**<br>
-<ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins> **are closed**<br>
-or<br>
-*day* **is closed**<br>
-*day* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+><ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins> **are closed**<br>
+>or<br>
+>*day* **is closed**<br>
+>*day* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     saturday are closed
@@ -164,7 +164,7 @@ ex.:
 ## Separators
 
 - **-- ... --**<br>
-**--** *name* **--**
+>**--** *name* **--**
 ```plantuml
 ex.:
     -- Phase One --
@@ -173,36 +173,36 @@ ex.:
 ## Tasks
 
 - **task**
-    - **dinamic**<br>
+    >- **dinamic**<br>
     [*taskname*] **lasts** *day(s)* **days**
     ```plantuml
     ex.:
         [PlantUML1] lasts 13 days
     ```
     - **fixed**<br>
-    [*taskname*] **starts** *date*<br>
-    [*taskname*] **ends** *date*
+    >[*taskname*] **starts** *date*<br>
+    >[*taskname*] **ends** *date*
     ```plantuml
     ex.:
         [PlantUML1] starts 2021/01/18
         [PlantUML1] ends 2021/02/12
     ```
 - **link**<br>
-[*taskname*] **links to** [[*link*]]
+>[*taskname*] **links to** [[*link*]]
 ```plantuml
 ex.:
     [PlantUML1] links to [[http://plantuml.com]]
 ```
 - **resources**<br>
-[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
+>[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
 ```plantuml
 ex.:
     [PlantUML1] on {User1:50}{User2:50} lasts 6 days
 ```
 - **pauses**<br>
-[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
-or<br>
-[*taskname*] **pause on** *date*
+>[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
+>or<br>
+>[*taskname*] **pause on** *date*
 ```plantuml
 ex.:
     [PlantUML1] pauses on monday
@@ -210,15 +210,15 @@ or
     [PlantUML1] pauses on 2021/01/12
 ```
 - **colors**<br>
-[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
+>[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 ```plantuml
 ex.:
     [PlantUML1] is colored in Red/Red
 ```
 - **note**<br>
-**note bottom**<br>
-*...*<br>
-**end note**
+>**note bottom**<br>
+>*...*<br>
+>**end note**
 ```plantuml
 ex.:
     note bottom
@@ -232,7 +232,7 @@ ex.:
 ## Flow
 
 - **link**<br>
-[*taskname*] **starts at** [*taskname*]**'s end with** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* <ins>(bold|dashed|dotted)</ins> **link**
+>[*taskname*] **starts at** [*taskname*]**'s end with** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* <ins>(bold|dashed|dotted)</ins> **link**
 ```plantuml
 ex.:
     [PlantUML2] starts at [PlantUML1]'s end with red bold link
@@ -241,7 +241,7 @@ ex.:
 ## Progress
 
 - **completed**<br>
-[*taskname*] **is** *%* **completed**
+>[*taskname*] **is** *%* **completed**
 ```plantuml
 ex.:
     [PlanUML1] is 70% completed
@@ -250,7 +250,7 @@ ex.:
 ## Milestone
 
 - **milestone**<br>
-[*milestonename*] **happens at** [*taskname*]**'s end**
+>[*milestonename*] **happens at** [*taskname*]**'s end**
 ```plantuml
 ex.:
     [Milestone1] happens at [PlantUML1]'s end
