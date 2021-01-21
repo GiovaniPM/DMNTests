@@ -84,27 +84,35 @@ skinparam ...
 
 - **title**
 
-sintaxe: **title** *string*
+**title** *string*
 ```plantuml
 ex.:
     title Project\nDelivery SDS 001
 ```
 - **footer**
+
+**footer** *string*
 ```plantuml
 ex.:
     footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 ```
 - **scale**
+
+**scale** *factor*
 ```plantuml
 ex.:
     scale 1.5
 ```
 - **hide**
+
+**hide footbox**
 ```plantuml
 ex.:
     hide footbox
 ```
 - **printscale**
+
+**printscale** (diary|weekly|montly)
 ```plantuml
 ex.:
     printscale weekly
