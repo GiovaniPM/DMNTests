@@ -65,12 +65,12 @@ skinparam ...
   		- **LineColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
       - **BackGroundColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
     - **footer**
-        - **HorizontalAlignment**
+        - **HorizontalAlignment** <ins>(left|center|right)</ins>
     - **title**
         - **FontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
         - **FontSize** *size*
         - **FontStyle** <ins>(bold|italics|monospaced|stroked|underlined)</ins>
-        - **HorizontalAlignment**
+        - **HorizontalAlignment** <ins>(left|center|right)</ins>
 - **skinparam** - Parameters
     - **footerFontColor** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
     - **footerFontSize** *size*
