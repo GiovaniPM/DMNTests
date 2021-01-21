@@ -12,6 +12,11 @@ ms.technology:
 
 # Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap)
 
+- [![PlantUML 1.2020.23](https://img.shields.io/badge/PlantUML-1.2020.23-brightgreen.svg)](https://plantuml.com/)
+[![Pip 20.3.3](https://img.shields.io/badge/pip-20.3.3-green.svg)](https://pypi.org/project/pip/)
+[![bpmn-dmn 0.1.7](https://img.shields.io/badge/bpmn--dmn-0.1.7-green.svg)](https://pypi.org/project/bpmn-dmn/)
+- [![camunda](https://img.shields.io/badge/camunda-4.4.0-brightgreen.svg)](https://camunda.com/download/modeler/)
+
 ## Language specification
 
 - Light [Creole](https://plantuml.com/creole) engine syntax;
