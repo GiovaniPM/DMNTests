@@ -174,7 +174,6 @@ ex.:
     saturday are closed
     sunday are closed
     2021/01/01 is closed
-    2021/01/01 is colored in lightblue
 ```
 
 ## Separators
@@ -234,6 +233,8 @@ or
 ```plantuml
 ex.:
     [PlantUML1] is colored in Red/Red
+    2021/01/01 is colored in lightblue
+    2021/01/01 to 2021/01/10 are colored in lightblue
 ```
 - **note**<br>
 >**note bottom**<br>
