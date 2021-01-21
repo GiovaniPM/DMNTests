@@ -109,6 +109,9 @@ sunday are closed
 [PD audict] lasts 10 days
 [Trainning] on {Camila:50}{Maria:50} starts 2021/01/18
   [Trainning] ends 2021/02/12
+  legend right
+    This is a legend
+  endlegend
 -- Milestones --
 
 ' Tasks flow
