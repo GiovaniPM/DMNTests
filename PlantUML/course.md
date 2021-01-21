@@ -10,7 +10,7 @@ ms.prod:
 ms.service: 
 ms.technology: 
 
-# Building Gant diagrams with PlantUML
+# Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap)
 
 ## Gant theme customization
 
