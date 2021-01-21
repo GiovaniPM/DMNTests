@@ -150,7 +150,7 @@ ex.:
 ## Separators
 
 - **-- ... --**<br>
-*-- ... --*
+**--** *name* **--**
 ```plantuml
 ex.:
     -- Phase One --
