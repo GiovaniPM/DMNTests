@@ -142,7 +142,7 @@ ex.:
     endlegend
 ```
 
-## Coloring date
+## Coloring column date
 
 - **colors**<br>
 >*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
