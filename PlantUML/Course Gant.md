@@ -111,41 +111,6 @@ skinparam ...
     - **titleBorderThickness** *number*
 
 
-## Comments
-
-- **comment**<br>
->**'** *comment*
-```plantuml
-ex.:
-    ' Comentary
-```
-
-## Legends
-
-- **legend**<br>
->**legend** (left|right|top|bottom|center)<br>
->  ...<br>
->**endlegend**<br>
-```plantuml
-ex.:
-    legend right
-      Short
-      legend
-    endlegend
-```
-
-## Coloring columns date
-
-- **colored**<br>
->*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
->or<br>
->*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
-```plantuml
-ex.:
-    2021/01/01 is colored in lightblue
-    2021/01/01 to 2021/01/10 are colored in lightblue
-```
-
 ## Project initialization
 
 - **title**<br>
@@ -218,6 +183,41 @@ ex.:
     today is 2021/01/20 and is colored in Yellow
 or
     today is 14 days after start and is colored in Yellow
+```
+
+## Comments
+
+- **comment**<br>
+>**'** *comment*
+```plantuml
+ex.:
+    ' Comentary
+```
+
+## Legends
+
+- **legend**<br>
+>**legend** (left|right|top|bottom|center)<br>
+>  ...<br>
+>**endlegend**<br>
+```plantuml
+ex.:
+    legend right
+      Short
+      legend
+    endlegend
+```
+
+## Coloring columns date
+
+- **colored**<br>
+>*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+>or<br>
+>*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+```plantuml
+ex.:
+    2021/01/01 is colored in lightblue
+    2021/01/01 to 2021/01/10 are colored in lightblue
 ```
 
 ## Sprites
