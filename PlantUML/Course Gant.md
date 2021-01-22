@@ -142,17 +142,14 @@ ex.:
     endlegend
 ```
 
-## Colors
+## Coloring date
 
 - **colors**<br>
->[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
->or<br>
 >*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 >or<br>
 >*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 ```plantuml
 ex.:
-    [PlantUML1] is colored in Red/Red
     2021/01/01 is colored in lightblue
     2021/01/01 to 2021/01/10 are colored in lightblue
 ```
@@ -278,6 +275,12 @@ ex.:
     ex.:
         [PlantUML1] starts 2021/01/18
         [PlantUML1] ends 2021/02/12
+    ```
+    - **coloring**<br>
+    >[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4#named-colors)*<br>
+    ```plantuml
+    ex.:
+        [PlantUML1] is colored in Red/Red
     ```
 - **link**<br>
 >[*taskname*] **links to** [[*link*]]
