@@ -283,6 +283,12 @@ ex.:
     ex.:
         [PlantUML1] is colored in Red/Red
     ```
+    - **completed**<br>
+    >[*taskname*] **is** *%* **completed**
+    ```plantuml
+    ex.:
+        [PlanUML1] is 70% completed
+    ```
 - **link**<br>
 >[*taskname*] **links to** [[*link*]]
 ```plantuml
@@ -330,15 +336,6 @@ ex.:
     [PlantUML2] starts at [PlantUML1]'s end
 or
     [PlantUML2] starts at [PlantUML1]'s end with red bold link
-```
-
-## Progress
-
-- **completed**<br>
->[*taskname*] **is** *%* **completed**
-```plantuml
-ex.:
-    [PlanUML1] is 70% completed
 ```
 
 ## Milestones
