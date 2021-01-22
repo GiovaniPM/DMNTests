@@ -277,18 +277,18 @@ ex.:
         [PlantUML1] starts 2021/01/18
         [PlantUML1] ends 2021/02/12
     ```
-    - **coloring**<br>
-    >[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4#named-colors)*<br>
-    ```plantuml
-    ex.:
-        [PlantUML1] is colored in Red/Red
-    ```
-    - **completed**<br>
-    >[*taskname*] **is** *%* **completed**
-    ```plantuml
-    ex.:
-        [PlanUML1] is 70% completed
-    ```
+- **coloring**<br>
+>[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/ss-color-4#named-colors)*<br>
+```plantuml
+ex.:
+    [PlantUML1] is colored in Red/Red
+```
+- **completed**<br>
+>[*taskname*] **is** *%* **completed**
+```plantuml
+ex.:
+    [PlanUML1] is 70% completed
+```
 - **link**<br>
 >[*taskname*] **links to** [[*link*]]
 ```plantuml
