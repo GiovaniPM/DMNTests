@@ -183,6 +183,8 @@ ex.:
 >**scale** _number_**\***_number_<br>
 >or <br>
 >**scale max** *number* **width**<br>
+>or <br>
+>**scale max** *number* **height**<br>
 ```plantuml
 ex.:
     scale 1.5
