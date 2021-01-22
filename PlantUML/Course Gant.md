@@ -316,8 +316,8 @@ ex.:
 ## Flow
 
 - **link**<br>
->[*taskname*] **starts at** [*taskname*]**'s end**
-><br>
+>[*taskname*] **starts at** [*taskname*]**'s end**<br>
+>or<br>
 >[*taskname*] **starts at** [*taskname*]**'s end with** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* <ins>(bold|dashed|dotted)</ins> **link**
 ```plantuml
 ex.:
