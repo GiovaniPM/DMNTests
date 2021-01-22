@@ -111,15 +111,6 @@ skinparam ...
     - **titleBorderThickness** *number*
 
 
-## Captions
-
-- **caption**<br>
->**caption** *description*
-```plantuml
-ex.:
-    caption figure 1
-```
-
 ## Comments
 
 - **comment**<br>
@@ -212,18 +203,12 @@ ex.:
 ex.:
     project starts the 2021/01/01
 ```
-
-## Sprites
-
-- **user sprite**<br>
->**sprite $**_name_ **[**_size_**]** _sprite-code_
+- **caption**<br>
+>**caption** *description*
 ```plantuml
 ex.:
-    sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
+    caption figure 1
 ```
-
-## Project day vision
-
 - **today**<br>
 >**today is** *date* **and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 >or<br>
@@ -233,6 +218,15 @@ ex.:
     today is 2021/01/20 and is colored in Yellow
 or
     today is 14 days after start and is colored in Yellow
+```
+
+## Sprites
+
+- **user sprite**<br>
+>**sprite $**_name_ **[**_size_**]** _sprite-code_
+```plantuml
+ex.:
+    sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
 ```
 
 ## Close days
