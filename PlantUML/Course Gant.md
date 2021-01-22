@@ -130,6 +130,7 @@ ex.:
 ```
 
 ## Legend
+
 >**legend** (left|right|top|bottom|center)<br>
 >  ...<br>
 >**endlegend**<br>
@@ -139,6 +140,21 @@ ex.:
       Short
       legend
     endlegend
+```
+
+## Colors
+
+- **colors**<br>
+>[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+>or<br>
+>*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+>or<br>
+>*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
+```plantuml
+ex.:
+    [PlantUML1] is colored in Red/Red
+    2021/01/01 is colored in lightblue
+    2021/01/01 to 2021/01/10 are colored in lightblue
 ```
 
 ## Project initialization
@@ -198,6 +214,7 @@ ex.:
 ```
 
 ## Sprite
+
 - **user sprite**<br>
 >**sprite $**_name_ **[**_size_**]** _sprite-code_
 ```plantuml
@@ -281,18 +298,6 @@ ex.:
     [PlantUML1] pauses on monday
 or
     [PlantUML1] pauses on 2021/01/12
-```
-- **colors**<br>
->[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
->or<br>
->*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
->or<br>
->*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
-```plantuml
-ex.:
-    [PlantUML1] is colored in Red/Red
-    2021/01/01 is colored in lightblue
-    2021/01/01 to 2021/01/10 are colored in lightblue
 ```
 - **note**<br>
 >**note bottom**<br>
