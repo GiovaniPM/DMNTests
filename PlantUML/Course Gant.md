@@ -277,7 +277,7 @@ ex.:
         [PlantUML1] starts 2021/01/18
         [PlantUML1] ends 2021/02/12
     ```
-- **coloring**<br>
+- **colored**<br>
 >[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/ss-color-4#named-colors)*<br>
 ```plantuml
 ex.:
@@ -289,19 +289,19 @@ ex.:
 ex.:
     [PlanUML1] is 70% completed
 ```
-- **link**<br>
+- **links**<br>
 >[*taskname*] **links to** [[*link*]]
 ```plantuml
 ex.:
     [PlantUML1] links to [[http://plantuml.com]]
 ```
-- **resources**<br>
+- **resource**<br>
 >[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
 ```plantuml
 ex.:
     [PlantUML1] on {User1:50}{User2:50} lasts 6 days
 ```
-- **pauses**<br>
+- **pause**<br>
 >[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
 >or<br>
 >[*taskname*] **pause on** *date*
