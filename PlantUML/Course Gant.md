@@ -111,7 +111,7 @@ skinparam ...
     - **titleBorderThickness** *number*
 
 
-## Caption
+## Captions
 
 - **caption**<br>
 >**caption** *description*
@@ -129,8 +129,9 @@ ex.:
     ' Comentary
 ```
 
-## Legend
+## Legends
 
+- **legend**<br>
 >**legend** (left|right|top|bottom|center)<br>
 >  ...<br>
 >**endlegend**<br>
@@ -142,9 +143,9 @@ ex.:
     endlegend
 ```
 
-## Coloring column date
+## Coloring columns date
 
-- **colors**<br>
+- **colored**<br>
 >*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 >or<br>
 >*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
@@ -212,7 +213,7 @@ ex.:
     project starts the 2021/01/01
 ```
 
-## Sprite
+## Sprites
 
 - **user sprite**<br>
 >**sprite $**_name_ **[**_size_**]** _sprite-code_
@@ -318,7 +319,7 @@ ex.:
     end note
 ```
 
-## Flow
+## Flows
 
 - **link**<br>
 >[*taskname*] **starts at** [*taskname*]**'s end**<br>
@@ -340,7 +341,7 @@ ex.:
     [PlanUML1] is 70% completed
 ```
 
-## Milestone
+## Milestones
 
 - **milestone**<br>
 >[*milestonename*] **happens at** [*taskname*]**'s end**
