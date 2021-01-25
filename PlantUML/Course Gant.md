@@ -387,6 +387,7 @@ ex.:
     [Milestone1] happens at [PlantUML1]'s end
 ```
 
+***
 # Example
 
 ## Image
