@@ -113,19 +113,21 @@ skinparam ...
 ## Project initialization
 
 - **title**<br>
-Define the title of Gant graph, to be showed above the graph.
+Defines the title of Gant graph, to be showed above the graph.
 >**title** *string*
 ```plantuml
 ex.:
     title Project\nDelivery SDS 001
 ```
 - **footer**<br>
+Defines the footer message, to be showed under the graph.
 >**footer** *string*
 ```plantuml
 ex.:
     footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 ```
 - **scale**<br>
+Defines the start scale, to be showed. Useful when you need print, or show the graph.
 >**scale** *factor*<br>
 >or <br>
 >**scale** *fraction*<br>
@@ -151,12 +153,14 @@ ex.:
     scale max 800 height
 ```
 - **hide**<br>
+Hides the bottom time information under the graph, does not affect the time information on the top.
 >**hide footbox**
 ```plantuml
 ex.:
     hide footbox
 ```
 - **printscale**<br>
+Useful for condesing the Gant graph timeline, useful for large projects.
 >**printscale** <ins>(diary|weekly|montly)</ins>
 ```plantuml
 ex.:
