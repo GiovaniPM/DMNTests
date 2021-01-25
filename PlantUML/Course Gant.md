@@ -293,6 +293,7 @@ Defines the graph tasks.
         [PlantUML1] starts 2021/01/18
         [PlantUML1] ends 2021/02/12
     ```
+- - -
 - **colored**<br>
 Defines the task line and it background colors.
 >[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/ss-color-4#named-colors)*<br>
@@ -300,6 +301,7 @@ Defines the task line and it background colors.
 ex.:
     [PlantUML1] is colored in Red/Red
 ```
+- - -
 - **completed**<br>
 Defines how much progress occur in the task, the percent will be showed in backgroud color.
 >[*taskname*] **is** *%* **completed**
@@ -307,6 +309,7 @@ Defines how much progress occur in the task, the percent will be showed in backg
 ex.:
     [PlanUML1] is 70% completed
 ```
+- - -
 - **links**<br>
 Useful to redirect from the task to out of the graph.
 >[*taskname*] **links to** [[*link*]]
@@ -314,6 +317,7 @@ Useful to redirect from the task to out of the graph.
 ex.:
     [PlantUML1] links to [[http://plantuml.com]]
 ```
+- - -
 - **resource**<br>
 Defines who will do the task and how much effort will be necessary. Under the graph wil be showed the resources and how nuch allocation used.
 >[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
@@ -321,6 +325,7 @@ Defines who will do the task and how much effort will be necessary. Under the gr
 ex.:
     [PlantUML1] on {User1:50}{User2:50} lasts 6 days
 ```
+- - -
 - **pause**<br>
 Defines a pause in the task, there is a semantic difference between "pause" and "closed days". "Pause" denotes a task suspension, in the other way "closed days" inform the date is not available to work in the whole project.
 >[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
@@ -332,6 +337,7 @@ ex.:
 or
     [PlantUML1] pauses on 2021/01/12
 ```
+- - -
 - **note**<br>
 Defines a note to be showed under the task, useful to bring more information.
 >**note bottom**<br>
