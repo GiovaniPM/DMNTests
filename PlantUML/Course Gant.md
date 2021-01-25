@@ -118,7 +118,7 @@ Defines the title of Gant graph, to be showed above the graph.
 ex.:
     title Project\nDelivery SDS 001
 ```
-= = =
+- - -
 - **footer**<br>
 Defines the footer message, to be showed under the graph.
 >**footer** *string*
@@ -126,6 +126,7 @@ Defines the footer message, to be showed under the graph.
 ex.:
     footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 ```
+- - -
 - **scale**<br>
 Defines the start scale, to be showed. Useful when you need print, or show the graph.
 >**scale** *factor*<br>
@@ -152,6 +153,7 @@ ex.:
     scale max 1024 width
     scale max 800 height
 ```
+- - -
 - **hide**<br>
 Hides the bottom time information under the graph, does not affect the time information on the top.
 >**hide footbox**
@@ -159,6 +161,7 @@ Hides the bottom time information under the graph, does not affect the time info
 ex.:
     hide footbox
 ```
+- - -
 - **printscale**<br>
 Useful for condesing the Gant graph timeline, useful for large projects.
 >**printscale** <ins>(diary|weekly|montly)</ins>
@@ -166,6 +169,7 @@ Useful for condesing the Gant graph timeline, useful for large projects.
 ex.:
     printscale weekly
 ```
+- - -
 - **project**<br>
 Defines when the project starts.
 >**project starts the** *date*
@@ -173,6 +177,7 @@ Defines when the project starts.
 ex.:
     project starts the 2021/01/01
 ```
+- - -
 - **caption**<br>
 Defines the graph caption, useful when need export to a document.
 >**caption** *description*
@@ -180,6 +185,7 @@ Defines the graph caption, useful when need export to a document.
 ex.:
     caption figure 1
 ```
+- - -
 - **today**<br>
 Defines the current day to be showed in the graph.
 >**today is** *date* **and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
