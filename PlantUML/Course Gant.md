@@ -269,7 +269,7 @@ ex.:
 
 ## Tasks
 
-- **task**
+- **task**<br>
 Defines the graph tasks.
     - **dinamic**<br>
     These tasks will be sequenced autocmatly using the project starts and the task flow.
