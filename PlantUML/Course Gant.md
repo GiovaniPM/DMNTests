@@ -316,7 +316,7 @@ ex.:
     [PlantUML1] on {User1:50}{User2:50} lasts 6 days
 ```
 - **pause**<br>
-Defines a pause in the project, there is a semantic difference between "pause" and "closed days". "Pause" denotes a project suspension, in the other way "closed days" inform the date is not available to work.
+Defines a pause in the task, there is a semantic difference between "pause" and "closed days". "Pause" denotes a task suspension, in the other way "closed days" inform the date is not available to work in the whole project.
 >[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
 >or<br>
 >[*taskname*] **pause on** *date*
