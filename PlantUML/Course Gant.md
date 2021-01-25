@@ -118,6 +118,7 @@ Defines the title of Gant graph, to be showed above the graph.
 ex.:
     title Project\nDelivery SDS 001
 ```
+- - -
 - **footer**<br>
 Defines the footer message, to be showed under the graph.
 >**footer** *string*
