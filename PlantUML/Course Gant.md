@@ -109,6 +109,7 @@ skinparam ...
     - **titleBorderRoundCorner** *number*
     - **titleBorderThickness** *number*
 
+- - -
 ## Project initialization
 
 - **title**<br>
@@ -198,6 +199,7 @@ or
     today is 14 days after start and is colored in Yellow
 ```
 
+- - -
 ## Comments
 
 - **comment**<br>
@@ -208,6 +210,7 @@ ex.:
     ' Comentary
 ```
 
+- - -
 ## Legends
 
 - **legend**<br>
@@ -223,6 +226,7 @@ ex.:
     endlegend
 ```
 
+- - -
 ## Coloring columns date
 
 - **colored**<br>
@@ -236,6 +240,7 @@ ex.:
     2021/01/01 to 2021/01/10 are colored in lightblue
 ```
 
+- - -
 ## Sprites
 
 - **user sprite**<br>
@@ -246,6 +251,7 @@ ex.:
     sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
 ```
 
+- - -
 ## Close days
 
 - **closed**<br>
@@ -263,6 +269,7 @@ ex.:
     2021/01/04 to 2021/01/08 are closed
 ```
 
+- - -
 ## Separators
 
 - **-- ... --**<br>
@@ -273,6 +280,7 @@ ex.:
     -- Phase One --
 ```
 
+- - -
 ## Tasks
 
 - **task**<br>
@@ -353,6 +361,7 @@ ex.:
     end note
 ```
 
+- - -
 ## Flows
 
 - **link**<br>
@@ -367,6 +376,7 @@ or
     [PlantUML2] starts at [PlantUML1]'s end with red bold link
 ```
 
+- - -
 ## Milestones
 
 - **milestone**<br>
