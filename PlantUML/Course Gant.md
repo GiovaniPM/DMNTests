@@ -110,10 +110,10 @@ skinparam ...
     - **titleBorderRoundCorner** *number*
     - **titleBorderThickness** *number*
 
-
 ## Project initialization
 
 - **title**<br>
+Define the title of Gant graph, to be showed above the graph.
 >**title** *string*
 ```plantuml
 ex.:
