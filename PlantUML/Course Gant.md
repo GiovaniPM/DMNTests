@@ -167,18 +167,21 @@ ex.:
     printscale weekly
 ```
 - **project**<br>
+Defines when the project starts.
 >**project starts the** *date*
 ```plantuml
 ex.:
     project starts the 2021/01/01
 ```
 - **caption**<br>
+Defines the graph caption, useful when need export to a document.
 >**caption** *description*
 ```plantuml
 ex.:
     caption figure 1
 ```
 - **today**<br>
+Defines the current day to be showed in the graph.
 >**today is** *date* **and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 >or<br>
 >**today is** *day(s)* **days after start and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
@@ -192,6 +195,7 @@ or
 ## Comments
 
 - **comment**<br>
+Defines a line comment in the graph script, do not affect the graph showed.
 >**'** *comment*
 ```plantuml
 ex.:
@@ -201,6 +205,7 @@ ex.:
 ## Legends
 
 - **legend**<br>
+Defines a legend.
 >**legend** (left|right|top|bottom|center)<br>
 >  ...<br>
 >**endlegend**<br>
@@ -215,6 +220,7 @@ ex.:
 ## Coloring columns date
 
 - **colored**<br>
+Useful to make in evidence some columns in the graph.
 >*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 >or<br>
 >*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
@@ -227,6 +233,7 @@ ex.:
 ## Sprites
 
 - **user sprite**<br>
+Useful to put some image in the graph.
 >**sprite $**_name_ **[**_size_**]** _sprite-code_
 ```plantuml
 ex.:
@@ -236,6 +243,7 @@ ex.:
 ## Close days
 
 - **closed**<br>
+Defines the days which not be used on the graph.
 ><ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins> **are closed**<br>
 >or<br>
 >*date* **is closed**<br>
@@ -252,6 +260,7 @@ ex.:
 ## Separators
 
 - **-- ... --**<br>
+Defines separators in the graph, useful to segregade phases, sectors, groups or others.
 >**--** *name* **--**
 ```plantuml
 ex.:
@@ -261,13 +270,16 @@ ex.:
 ## Tasks
 
 - **task**
+Defines the graph tasks.
     - **dinamic**<br>
+    These tasks will be sequenced autocmatly using the project starts and the task flow.
     >[*taskname*] **lasts** *day(s)* **days**
     ```plantuml
     ex.:
         [PlantUML1] lasts 13 days
     ```
     - **fixed**<br>
+    These tasks have a fixed beginning and end.
     >[*taskname*] **starts** *date*<br>
     >[*taskname*] **ends** *date*
     ```plantuml
@@ -276,30 +288,35 @@ ex.:
         [PlantUML1] ends 2021/02/12
     ```
 - **colored**<br>
+Defines the task line and it background colors.
 >[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/ss-color-4#named-colors)*<br>
 ```plantuml
 ex.:
     [PlantUML1] is colored in Red/Red
 ```
 - **completed**<br>
+Defines how much process occur in the task, the percent will be showed in backgroud color.
 >[*taskname*] **is** *%* **completed**
 ```plantuml
 ex.:
     [PlanUML1] is 70% completed
 ```
 - **links**<br>
+Useful to redirect from the task to out of the graph.
 >[*taskname*] **links to** [[*link*]]
 ```plantuml
 ex.:
     [PlantUML1] links to [[http://plantuml.com]]
 ```
 - **resource**<br>
+Defines who will do the task and how much effort will be necessary. Under the graph wil be showed the resources and how nuch allocation used.
 >[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
 ```plantuml
 ex.:
     [PlantUML1] on {User1:50}{User2:50} lasts 6 days
 ```
 - **pause**<br>
+Defines a pause in the project, there is a semantic difference between "pause" and "closed days". "Pause" denotes a project suspension, in the other way "closed days" inform the date is not available to work.
 >[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
 >or<br>
 >[*taskname*] **pause on** *date*
@@ -310,6 +327,7 @@ or
     [PlantUML1] pauses on 2021/01/12
 ```
 - **note**<br>
+Defines a note to be showed under the task, useful to bring more information.
 >**note bottom**<br>
 >*...*<br>
 >**end note**
