@@ -295,7 +295,7 @@ ex.:
     [PlantUML1] is colored in Red/Red
 ```
 - **completed**<br>
-Defines how much process occur in the task, the percent will be showed in backgroud color.
+Defines how much progress occur in the task, the percent will be showed in backgroud color.
 >[*taskname*] **is** *%* **completed**
 ```plantuml
 ex.:
@@ -344,6 +344,7 @@ ex.:
 ## Flows
 
 - **link**<br>
+Defines which task will succeded after other.
 >[*taskname*] **starts at** [*taskname*]**'s end**<br>
 >or<br>
 >[*taskname*] **starts at** [*taskname*]**'s end with** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* <ins>(bold|dashed|dotted)</ins> **link**
@@ -357,6 +358,7 @@ or
 ## Milestones
 
 - **milestone**<br>
+Defines gant milestones.
 >[*milestonename*] **happens at** [*taskname*]**'s end**
 ```plantuml
 ex.:
