@@ -345,20 +345,20 @@ Defines the graph tasks.
     >- - -
     >ex.:<br>
     >    [PlantUML1] lasts 13 days<br>
-
-|||
-| :----: | :----: |
-|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
-|after| ![after](http://www.plantuml.com/plantuml/png/LOwn3W8X343tVaL_W73WudWVeF4MfyiDvAY2GJ2qYV7lHS9YqdHupNlfpEAgt5qMWLSj3ze5EsAKG6WdQ_Jq6m2bS0cE2I-PK2bObzIqw_baDaoEcs4EwDs70TPRV6wZCnfMs-FWaN4lgLJo63E-GnJIVOyxPVzdpGtq3xy0) |
     - **fixed**<br>
     These tasks have a fixed beginning and end.
     >[*taskname*] **starts** *date*<br>
     >[*taskname*] **ends** *date*
-    ```plantuml
-    ex.:
-        [PlantUML1] starts 2021/01/18
-        [PlantUML1] ends 2021/02/12
-    ```
+    >- - -
+    >ex.:
+    >    [PlantUML2] starts 2021/01/18
+    >    [PlantUML2] ends 2021/02/12
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|after| ![after](http://www.plantuml.com/plantuml/png/LOz12i8m44NtSugvG6WpRhhi0HIxSLMw2Ere8pMLp81uUsDe8qB8uZ_UWsb5NTIR2whmZEkTHyKy2UhCI3NPglu-06EmcvqmdWEZCT1tIz8kfwCTS76I37l0oRtbHsZOOYLacp_AOTePLPO0-gj_x581r6ox5npNPOqyeG_uchrobV_CIwvORHhoRHy0) |
+
 - - -
 - **colored**<br>
 Defines the task line and it background colors.
