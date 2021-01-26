@@ -117,10 +117,8 @@ skinparam ...
 Defines the title of Gant graph, to be showed above the graph.
 >**title** *string*
 >- - -
-```plantuml
-ex.:
-    title Project\nDelivery SDS 001
-```
+> ex.:
+>    title Project\nDelivery SDS 001
 - - -
 - **footer**<br>
 Defines the footer message, to be showed under the graph.
