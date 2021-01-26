@@ -389,10 +389,15 @@ Defines how much progress occur in the task, the percent will be showed in backg
 - **links**<br>
 Useful to redirect from the task to out of the graph.
 >[*taskname*] **links to** [[*link*]]
-```plantuml
-ex.:
-    [PlantUML1] links to [[http://plantuml.com]]
-```
+>- - -
+>ex.:<br>
+>    [PlantUML1] links to [[http://plantuml.com]]
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|after| ![after](http://www.plantuml.com/plantuml/png/NKzDIiOm4Dtd5BDn6V8ZehZg0HIBq5Nf8ZIZZQH9oGo8Y7St3TdqWsHul9_XpK3i2d-wn2oEahzmPMWK0My8LbkZzFc4a1B6pH72MqAGKinZhB7fzSKia1FyJeJ5F3_eluRiYI0wOW9p3zxzq2KH2DOSSq4F8S4xUbN_hUDHtrNNVaJaAehv8-nBhzUhMMMVEd_T-Bq5HjLcrp7vIsgeH3ly7m00) |
+
 - - -
 - **resource**<br>
 Defines who will do the task and how much effort will be necessary. Under the graph wil be showed the resources and how nuch allocation used.
