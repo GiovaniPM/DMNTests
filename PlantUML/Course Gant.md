@@ -363,10 +363,15 @@ Defines the graph tasks.
 - **colored**<br>
 Defines the task line and it background colors.
 >[*taskname*] **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* **/** *[color](https://www.w3.org/TR/ss-color-4#named-colors)*<br>
-```plantuml
-ex.:
-    [PlantUML1] is colored in Red/Red
-```
+>- - -
+>ex.:
+>    [PlantUML1] is colored in Red/Red
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|after| ![after](http://www.plantuml.com/plantuml/png/LO_12i8m38RlUOgyGEbMBnxt08f3y3HsA6jqbTfA4n3VtbfwAIGvV3yVFvbOR9Q7ZIBmpkb9cs15ZB8Jci6CUlWFW58uxvO9Bv5GALZcKBJR-JIk62mNOpoWir_k4i-ufP0oEVGHh-HqMO3bxbzhQsejHfjZuxtqsRsGhhVb55rdJGNK7tu0) |
+
 - - -
 - **completed**<br>
 Defines how much progress occur in the task, the percent will be showed in backgroud color.
