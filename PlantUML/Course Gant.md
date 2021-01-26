@@ -202,10 +202,12 @@ Defines when the project starts.
 - **caption**<br>
 Defines the graph caption, useful when need export to a document.
 >**caption** *description*
-```plantuml
-ex.:
-    caption figure 1
-```
+>ex.:
+>    caption figure 1
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXIauiACdCprD8oqmlBKfKCEGgAChFIaqkKG2hALOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c1d0000) |
 - - -
 - **today**<br>
 Defines the current day to be showed in the graph.
