@@ -376,10 +376,15 @@ Defines the task line and it background colors.
 - **completed**<br>
 Defines how much progress occur in the task, the percent will be showed in backgroud color.
 >[*taskname*] **is** *%* **completed**
-```plantuml
-ex.:
-    [PlanUML1] is 70% completed
-```
+>- - -
+>ex.:
+>    [PlanUML1] is 70% completed
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|after| ![after](http://www.plantuml.com/plantuml/png/NOyn2y8m48Nt_8fR74FQEEZO7w1O1AVI8JIdZQHfwHs8_zupP6aXkU6zzntl6cAtyiibPhMiyni7XYmHy8XWArkRwl-KqXhQqH72BI5ehRes2lQuNkeUeYCXwYDuzwMD4mY6ESuhUWW9xkYD_7tYL1qaDIqHMKpLFSFKbngbWZNsdFNzniyO64sUnSVaDrGZGZxm1m00) |
+
 - - -
 - **links**<br>
 Useful to redirect from the task to out of the graph.
