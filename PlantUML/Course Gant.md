@@ -202,6 +202,7 @@ Defines when the project starts.
 - **caption**<br>
 Defines the graph caption, useful when need export to a document.
 >**caption** *description*
+>- - -
 >ex.:
 >    caption figure 1
 
@@ -214,12 +215,16 @@ Defines the current day to be showed in the graph.
 >**today is** *date* **and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 >or<br>
 >**today is** *day(s)* **days after start and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
-```plantuml
-ex.:
-    today is 2021/01/20 and is colored in Yellow
-or
-    today is 14 days after start and is colored in Yellow
-```
+>- - -
+>ex.:
+>    today is 2021/01/20 and is colored in Yellow
+>or
+>    today is 14 days after start and is colored in Yellow
+
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/LOv12WCX34NtdY8tKBFgSgvHIXSofXsBDKK_3Brzfo83Ra9uZnUoD8IAPoY0WSRmfTI87Nlhl6L7eSG_MJLhbMCjT9MSTJUVgYzPGRrlX4tEp7bpUwJtVRZ1sV9byFdWlYM8xNDuAN6gbWFq5ty0) |
 
 <div align="center">:star2:</div>
 
