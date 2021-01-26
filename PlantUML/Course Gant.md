@@ -206,9 +206,10 @@ Defines the graph caption, useful when need export to a document.
 >ex.:<br>
 >    caption figure 1<br>
 
-|Before|After|
+|||
 | :----: | :----: |
-| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXIauiACdCprD8oqmlBKfKCEGgAChFIaqkKG2hALOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c1d0000) |
+|Before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|After| ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXIauiACdCprD8oqmlBKfKCEGgAChFIaqkKG2hALOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c1d0000) |
 - - -
 - **today**<br>
 Defines the current day to be showed in the graph.
