@@ -118,7 +118,8 @@ Defines the title of Gant graph, to be showed above the graph.
 >**title** *string*
 >- - -
 > ex.:
->    title My first\nProject<br>
+>    title My first\nProject
+
 |Before|After|
 | :----: | :----: |
 | ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAYZApqfDBb402nKhb6IaAXWP61dg6u0GbqDgNWfO7G00) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAiaioKbLyArKICiiAYw9oIieoizAJIxXWj8AOAN52YKPgGf61aQ6-WOWnEMGcfS2rWy0) |
@@ -126,10 +127,12 @@ Defines the title of Gant graph, to be showed above the graph.
 - **footer**<br>
 Defines the footer message, to be showed under the graph.
 >**footer** *string*
-```plantuml
-ex.:
-    footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
-```
+>ex.:
+>    footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAYZApqfDBb402nKhb6IaAXWP61dg6u0GbqDgNWfO7G00) | ![after](http://www.plantuml.com/plantuml/png/7Son3G8n30NGFbFy1L3iq22gwwYG680c0WEXiC7vC3_Yf5U_PR8dxzt9SekW9GuZljq7JfP11eustv_1VdRTLT7QH1KRw7OlMbuPJxiGQpF1Xw59qof_PJ6_hlSF) |
 - - -
 - **scale**<br>
 Defines the start scale, to be showed. Useful when you need print, or show the graph.
