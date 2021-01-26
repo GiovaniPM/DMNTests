@@ -117,8 +117,8 @@ skinparam ...
 Defines the title of Gant graph, to be showed above the graph.
 >**title** *string*
 >- - -
-> ex.:
->    title My first\nProject
+> ex.:<br>
+>    title My first\nProject<br>
 
 |Before|After|
 | :----: | :----: |
@@ -128,8 +128,8 @@ Defines the title of Gant graph, to be showed above the graph.
 Defines the footer message, to be showed under the graph.
 >**footer** *string*
 >- - -
->ex.:
->    footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
+>ex.:<br>
+>    footer Giovani Perotto Mesquita\n18/01/2011 - 13:01<br>
 
 |Before|After|
 | :----: | :----: |
@@ -160,7 +160,7 @@ Defines the start scale, to be showed. Useful when you need print, or show the g
 >    scale 200*100<br>
 >    scale max 300*200<br>
 >    scale max 1024 width<br>
->    scale max 800 height
+>    scale max 800 height<br>
 
 |Before|After|
 | :----: | :----: |
@@ -170,8 +170,8 @@ Defines the start scale, to be showed. Useful when you need print, or show the g
 Hides the bottom time information under the graph, does not affect the time information on the top.
 >**hide footbox**
 >- - -
->ex.:
->    hide footbox
+>ex.:<br>
+>    hide footbox<br>
 
 |Before|After|
 | :----: | :----: |
@@ -192,8 +192,8 @@ Useful for condesing the Gant graph timeline, useful for large projects.
 Defines when the project starts.
 >**project starts the** *date*<br>
 >- - -
->ex.:
->    project starts the 2021/01/01
+>ex.:<br>
+>    project starts the 2021/01/01<br>
 
 |Before|After|
 | :----: | :----: |
@@ -203,8 +203,8 @@ Defines when the project starts.
 Defines the graph caption, useful when need export to a document.
 >**caption** *description*
 >- - -
->ex.:
->    caption figure 1
+>ex.:<br>
+>    caption figure 1<br>
 
 |Before|After|
 | :----: | :----: |
@@ -216,10 +216,10 @@ Defines the current day to be showed in the graph.
 >or<br>
 >**today is** *day(s)* **days after start and is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*
 >- - -
->ex.:
->    today is 2021/01/20 and is colored in Yellow
->or
->    today is 14 days after start and is colored in Yellow
+>ex.:<br>
+>    today is 2021/01/20 and is colored in Yellow<br>
+>or<br>
+>    today is 14 days after start and is colored in Yellow<br>
 
 |Before|After|
 | :----: | :----: |
@@ -233,8 +233,8 @@ Defines the current day to be showed in the graph.
 Defines a line comment in the graph script, do not affect the graph showed.
 >**'** *comment*
 >- - -
->ex.:
->    ' Comentary
+>ex.:<br>
+>    ' Comentary<br>
 
 <div align="center">:star2:</div>
 
@@ -246,11 +246,11 @@ Defines a legend.
 >  ...<br>
 >**endlegend**<br>
 >- - -
->ex.:
->    legend right
->      Short
->      legend
->    endlegend
+>ex.:<br>
+>    legend right<br>
+>      Short<br>
+>      legend<br>
+>    endlegend<br>
 
 |Before|After|
 | :----: | :----: |
@@ -265,11 +265,14 @@ Useful to make in evidence some columns in the graph.
 >*date* **is colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
 >or<br>
 >*date* **to** *date* **are colored in** *[color](https://www.w3.org/TR/css-color-4/#named-colors)*<br>
-```plantuml
-ex.:
-    2021/01/01 is colored in lightblue
-    2021/01/01 to 2021/01/10 are colored in lightblue
-```
+>- - -
+>ex.:<br>
+>    2021/01/01 is colored in lightblue<br>
+>    2021/01/01 to 2021/01/10 are colored in lightblue<br>
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/LOv13i8W44NtdEBV0ChAPUzXN60xbZ481hxn-YgsqIQJIURzpCiV6qFb4Z9flFE3TPy12xPhS0XLC9LKgipGZAHBv3aznDnhkSf4T4a3e-0dCSUBtavRzkNU-iFAjVqxdr4fjkyrbpplliOtw3rV) |
 
 <div align="center">:star2:</div>
 
