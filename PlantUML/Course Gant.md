@@ -342,10 +342,13 @@ Defines the graph tasks.
     - **dinamic**<br>
     These tasks will be sequenced autocmatly using the project starts and the task flow.
     >[*taskname*] **lasts** *day(s)* **days**
-    ```plantuml
-    ex.:
-        [PlantUML1] lasts 13 days
-    ```
+    >- - -
+    >ex.:<br>
+    >    [PlantUML1] lasts 13 days<br>
+    |||
+    | :----: | :----: |
+    |before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+    |after| ![after](http://www.plantuml.com/plantuml/png/LOwn3W8X343tVaL_W73WudWVeF4MfyiDvAY2GJ2qYV7lHS9YqdHupNlfpEAgt5qMWLSj3ze5EsAKG6WdQ_Jq6m2bS0cE2I-PK2bObzIqw_baDaoEcs4EwDs70TPRV6wZCnfMs-FWaN4lgLJo63E-GnJIVOyxPVzdpGtq3xy0) |
     - **fixed**<br>
     These tasks have a fixed beginning and end.
     >[*taskname*] **starts** *date*<br>
