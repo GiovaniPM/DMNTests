@@ -451,12 +451,16 @@ Defines which task will succeded after other.
 >[*taskname*] **starts at** [*taskname*]**'s end**<br>
 >or<br>
 >[*taskname*] **starts at** [*taskname*]**'s end with** *[color](https://www.w3.org/TR/css-color-4/#named-colors)* <ins>(bold|dashed|dotted)</ins> **link**
-```plantuml
-ex.:
-    [PlantUML2] starts at [PlantUML1]'s end
-or
-    [PlantUML2] starts at [PlantUML1]'s end with red bold link
-```
+>- - -
+>ex.:<br>
+>    [PlantUML2] starts at [PlantUML1]'s end<br>
+>or<br>
+>    [PlantUML2] starts at [PlantUML1]'s end with red bold link<br>
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/NL0zhi8m3Dvp2YzlZDBc3J3s020g9AQgGzGO6fGcLMs4k3qcwj96iOVln_xaXjWj_729MSrBVkB0K2027X5iPMjJ_RvIMaCxEaAu90IjLTT6iTtEfxg7w4WSzJzuzw4D4mY67FE27aA2AteZjLSSgZzHJND4tf6pUn4Iv0HJJZ8Sv2dLtSFKhpdNZDROOy7tAzzZO3Ibhpmclt4r0fGBV040) |
+|after| ![after](http://www.plantuml.com/plantuml/png/NL3DJiOW4Bpp57CndWWj7lJuFO36BoQUldWWPRKO2artZV7jNKcD5W8SvcTWziGIDdaBHSIiMtsdIT0WXim4F_ZH3J_R66jndWCJ7Wl1MdCvPxKzFzoFByY1rJ7U88OlFZ29CTLSDuf81KyKdPvUSJjSgMfPCqb7hk63YL4Bbbeq7Bh-1Bvx-S3iDOBWN-0rWqeqvlAQbb_9tj8xVzVm_jEVSn9oxTvvZJYuJWgq6Nu3) |
 
 <div align="center">:star2:</div>
 
