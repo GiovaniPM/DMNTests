@@ -559,6 +559,8 @@ sunday are closed
 @endgantt
 ```
 
+<div align="center">👇</div>
+
 ## Code
 
 ``` dos
