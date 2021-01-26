@@ -151,6 +151,7 @@ Defines the start scale, to be showed. Useful when you need print, or show the g
 >or <br>
 >**scale max** *number* **height**<br>
 >plantuml<br>
+>- - -
 >ex.:<br>
 >    scale 1.5<br>
 >    scale 2/3<br>
@@ -178,11 +179,10 @@ Hides the bottom time information under the graph, does not affect the time info
 - - -
 - **printscale**<br>
 Useful for condesing the Gant graph timeline, useful for large projects.
->**printscale** <ins>(diary|weekly|montly)</ins>
-```plantuml
-ex.:
-    printscale weekly
-```
+>**printscale** <ins>(diary|weekly|montly)</ins><br>
+>- - -
+>ex.:<br>
+>    printscale weekly<br>
 
 |Before|After|
 | :----: | :----: |
@@ -191,6 +191,7 @@ ex.:
 - **project**<br>
 Defines when the project starts.
 >**project starts the** *date*<br>
+>- - -
 >ex.:
 >    project starts the 2021/01/01
 
