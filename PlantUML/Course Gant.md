@@ -122,7 +122,7 @@ Defines the title of Gant graph, to be showed above the graph.
 
 |Before|After|
 | :----: | :----: |
-| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAiaioKbLyArKSCiiAYw9oGieoizAJIxXSaZDIm6h0000) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAiaioKbLyArKSCiiAYw9oGieoizAJIxXSaZDIm6h0000) |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAYZApqfDBb402nKhb6IaAXWP61dg6u0GbqDgNWfO7G00) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAiaioKbLyArKICiiAYw9oIieoizAJIxXWj8AOAN52YKPgGf61aQ6-WOWnEMGcfS2rWy0) |
 - - -
 - **footer**<br>
 Defines the footer message, to be showed under the graph.
