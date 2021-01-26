@@ -469,10 +469,14 @@ Defines which task will succeded after other.
 - **milestone**<br>
 Defines gant milestones.
 >[*milestonename*] **happens at** [*taskname*]**'s end**
-```plantuml
-ex.:
-    [Milestone1] happens at [PlantUML1]'s end
-```
+>- - -
+>ex.:
+>    [Milestone1] happens at [PlantUML1]'s end
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/NL0zhi8m3Dvp2YzlZDBc3J3s020g9AQgGzGO6fGcLMs4k3qcwj96iOVln_xaXjWj_729MSrBVkB0K2027X5iPMjJ_RvIMaCxEaAu90IjLTT6iTtEfxg7w4WSzJzuzw4D4mY67FE27aA2AteZjLSSgZzHJND4tf6pUn4Iv0HJJZ8Sv2dLtSFKhpdNZDROOy7tAzzZO3Ibhpmclt4r0fGBV040) |
+|after| ![after](http://www.plantuml.com/plantuml/png/NL2zJiGm3Dxp5D-2cAh-CC1u3y294n9JTODrCIGeTQBQ2F7sX2e3RHHx-7uiVpwfqMeV96QkhFcJRuODKbXWJCCqziFVTwxhS0caZ1TXT9sRBud4tixFunM9j3h61tZwqHqJ5RUSyieUKV3AlgzrL3mETrMrbCHs80jzAIkoOCbIXwC-DvzZOhKiN1M1Ic5HaE6VyLx1ufsRt-DoRObQcgcVdXg-N-uxHED-wurdyJlNgGBRhNu1http://www.plantuml.com/plantuml/png/NL2zJiGm3Dxp5D-2cAh-CC1u3y294n9JTODrCIGeTQBQ2F7sX2e3RHHx-7uiVpwfqMeV96QkhFcJRuODKbXWJCCqziFVTwxhS0caZ1TXT9sRBud4tixFunM9j3h61tZwqHqJ5RUSyieUKV3AlgzrL3mETrMrbCHs80jzAIkoOCbIXwC-DvzZOhKiN1M1Ic5HaE6VyLx1ufsRt-DoRObQcgcVdXg-N-uxHED-wurdyJlNgGBRhNu1) |
 
 <div align="center">:star:</div>
 <div align="center">:star::star:</div>
