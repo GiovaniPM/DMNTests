@@ -118,8 +118,7 @@ Defines the title of Gant graph, to be showed above the graph.
 >**title** *string*
 >- - -
 > ex.:
->    title Project\nDelivery SDS 001
-
+>    title My first\nProject
 |Before|After|
 | :----: | :----: |
 | ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAYZApqfDBb402nKhb6IaAXWP61dg6u0GbqDgNWfO7G00) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAiaioKbLyArKICiiAYw9oIieoizAJIxXWj8AOAN52YKPgGf61aQ6-WOWnEMGcfS2rWy0) |
