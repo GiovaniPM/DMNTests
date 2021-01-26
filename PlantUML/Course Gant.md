@@ -200,7 +200,8 @@ or
     today is 14 days after start and is colored in Yellow
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Comments
 
 - **comment**<br>
@@ -211,7 +212,8 @@ ex.:
     ' Comentary
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Legends
 
 - **legend**<br>
@@ -227,7 +229,8 @@ ex.:
     endlegend
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Coloring columns date
 
 - **colored**<br>
@@ -241,7 +244,8 @@ ex.:
     2021/01/01 to 2021/01/10 are colored in lightblue
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Sprites
 
 - **user sprite**<br>
@@ -252,7 +256,8 @@ ex.:
     sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Close days
 
 - **closed**<br>
@@ -270,7 +275,8 @@ ex.:
     2021/01/04 to 2021/01/08 are closed
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Separators
 
 - **-- ... --**<br>
@@ -281,7 +287,8 @@ ex.:
     -- Phase One --
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Tasks
 
 - **task**<br>
@@ -362,7 +369,8 @@ ex.:
     end note
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Flows
 
 - **link**<br>
@@ -377,7 +385,8 @@ or
     [PlantUML2] starts at [PlantUML1]'s end with red bold link
 ```
 
-- - -
+<div align="center">👇</div>
+
 ## Milestones
 
 - **milestone**<br>
