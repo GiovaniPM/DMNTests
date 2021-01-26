@@ -1,16 +1,4 @@
-# required metadata
-
-title: [Building Gant diagrams with PlantUML]
-description: [How build Gant diagram with scripting PlantUML tool.]
-author: [https://github.com/GiovaniPM]
-manager: Giovani Perotto Mesquita
-ms.date: 1/20/2021
-ms.topic: article
-ms.prod: 
-ms.service: 
-ms.technology: 
-
-# Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap)
+# Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap) ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAiaioKbLyArKICiiAYw9oIieoizAJIxXWj8AOAN52YKPgGf61aQ6-WOWnEMGcfS2rWy0)
 
 [![PlantUML 1.2020.23](https://img.shields.io/badge/PlantUML-1.2020.23-brightgreen.svg)](https://plantuml.com/)
 [![Creole 1.00](https://img.shields.io/badge/Creole-1.00-brightgreen.svg)](https://web.archive.org/web/20190417093012/http://www.wikicreole.org/wiki/Home)
