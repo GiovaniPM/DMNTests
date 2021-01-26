@@ -388,6 +388,7 @@ ex.:
 ```
 
 <center>&#2042;</center>
+:left_speech_bubble:
 
 # Example
 
