@@ -387,10 +387,7 @@ ex.:
     [Milestone1] happens at [PlantUML1]'s end
 ```
 
-<div align="center">
-  :left_speech_bubble:
-</div>
-:star:
+<div align="center">:star:</div>
 
 # Example
 
