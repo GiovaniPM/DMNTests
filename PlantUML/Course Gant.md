@@ -109,7 +109,7 @@ skinparam ...
     - **titleBorderRoundCorner** *number*
     - **titleBorderThickness** *number*
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Project initialization
 
@@ -200,7 +200,7 @@ or
     today is 14 days after start and is colored in Yellow
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Comments
 
@@ -212,7 +212,7 @@ ex.:
     ' Comentary
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Legends
 
@@ -229,7 +229,7 @@ ex.:
     endlegend
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Coloring columns date
 
@@ -244,7 +244,7 @@ ex.:
     2021/01/01 to 2021/01/10 are colored in lightblue
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Sprites
 
@@ -256,7 +256,7 @@ ex.:
     sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Close days
 
@@ -275,7 +275,7 @@ ex.:
     2021/01/04 to 2021/01/08 are closed
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Separators
 
@@ -287,7 +287,7 @@ ex.:
     -- Phase One --
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Tasks
 
@@ -369,7 +369,7 @@ ex.:
     end note
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Flows
 
@@ -385,7 +385,7 @@ or
     [PlantUML2] starts at [PlantUML1]'s end with red bold link
 ```
 
-<div align="center">👇</div>
+<div align="center">:star2:</div>
 
 ## Milestones
 
@@ -559,8 +559,7 @@ sunday are closed
 @endgantt
 ```
 
-<div align="center">👇</div>
-:star2:
+<div align="center">:star2:</div>
 
 ## Code
 
