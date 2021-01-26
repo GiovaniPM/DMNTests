@@ -411,12 +411,17 @@ Defines a pause in the task, there is a semantic difference between "pause" and 
 >[*taskname*] **pause on** <ins>(sunday|monday|tuesday|wednesday|thursday|friday|saturday)</ins><br>
 >or<br>
 >[*taskname*] **pause on** *date*
-```plantuml
-ex.:
-    [PlantUML1] pauses on monday
-or
-    [PlantUML1] pauses on 2021/01/12
-```
+>- - -
+>ex.:<br>
+>    [PlantUML1] pauses on monday<br>
+>or<br>
+>    [PlantUML1] pauses on 2021/01/12<br>
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|after| ![after](http://www.plantuml.com/plantuml/png/NL1DIiOm4Dtd5BDn6V8ZehZg0HIBq5Nf8ZIZZQH9oOo8Y7V_qj1D2qaOta_UOpfYL_ZJ9MQnbVo5CqE327X1iDeQfVSZX9JGBuuGtXA2b6BiOxKDhozcWfpWRo0ivlb1_xV9xXD4HqnWxi6xNpev0i6SOoxe8IHuHw_glIeUzLrLhLj4lf2R-oQaFNVDgNuknFWHrkdeVlIsoZur_1htimH6rTw3n-HFhgu2RIit) |
+
 - - -
 - **note**<br>
 Defines a note to be showed under the task, useful to bring more information.
