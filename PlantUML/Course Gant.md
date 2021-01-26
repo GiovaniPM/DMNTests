@@ -388,6 +388,9 @@ ex.:
 ```
 
 <center>:left_speech_bubble:</center>
+<div align="center">
+  my text here.
+</div>
 
 # Example
 
