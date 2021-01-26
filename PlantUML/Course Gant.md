@@ -300,13 +300,16 @@ Defines the days which not be used on the graph.
 >*date* **is closed**<br>
 >or<br>
 >*date* to *date* **are closed**<br>
-```plantuml
-ex.:
-    saturday are closed
-    sunday are closed
-    2021/01/01 is closed
-    2021/01/04 to 2021/01/08 are closed
-```
+>- - -
+>ex.:<br>
+>    saturday are closed<br>
+>    sunday are closed<br>
+>    2021/01/01 is closed<br>
+>    2021/01/04 to 2021/01/08 are closed<br>
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/ROzH2i8m38RVTuh_1fl5Xptk7k93MAEhp4QI3F7sQgiuOL0A-Jxo9ndCIVrCsRq102DVDD83f8nn5kDO-P8tQEZ2hktU3yasnHuklwfV1znKBZmwoWO6dtYLrnnEwNhykif36_hAopIPHJaYPTodvDoM_-Cvnx-kuGNAaKy0) |
 
 <div align="center">:star2:</div>
 
