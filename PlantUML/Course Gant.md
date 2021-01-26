@@ -323,6 +323,11 @@ Defines separators in the graph, useful to segregade phases, sectors, groups or 
 >ex.:<br>
 >    -- Phase One --<br>
 
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|after| ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXqjLL2CX8B4vLyCzBLT3LvIeeoizAJIvH02ifLYZ9I5KmCZ0or3S08QxejCpSMAWSLDn8tyW2AfvPh92SdvDVb9gYa9cdK9wHMPAg3oQXygbvAIYw7802O5S00000) |
+
 <div align="center">:star2:</div>
 
 ## Tasks
