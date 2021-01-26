@@ -391,21 +391,20 @@ Useful to redirect from the task to out of the graph.
 >[*taskname*] **links to** [[*link*]]
 >- - -
 >ex.:<br>
->    [PlantUML1] links to [[http://plantuml.com]]
+>    [PlantUML1] links to [[http://plantuml.com]]<br>
+- - -
+- **resource**<br>
+Defines who will do the task and how much effort will be necessary. Under the graph wil be showed the resources and how nuch allocation used.
+>[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
+>- - -
+>ex.:<br>
+>    [PlantUML1] on {User1:50}{User2:50} lasts 6 days<br>
 
 |||
 | :----: | :----: |
 |before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
 |after| ![after](http://www.plantuml.com/plantuml/png/NKzDIiOm4Dtd5BDn6V8ZehZg0HIBq5Nf8ZIZZQH9oGo8Y7St3TdqWsHul9_XpK3i2d-wn2oEahzmPMWK0My8LbkZzFc4a1B6pH72MqAGKinZhB7fzSKia1FyJeJ5F3_eluRiYI0wOW9p3zxzq2KH2DOSSq4F8S4xUbN_hUDHtrNNVaJaAehv8-nBhzUhMMMVEd_T-Bq5HjLcrp7vIsgeH3ly7m00) |
 
-- - -
-- **resource**<br>
-Defines who will do the task and how much effort will be necessary. Under the graph wil be showed the resources and how nuch allocation used.
->[*taskname*] **on {** *user* **:** *%* **} lasts** *day(s)* **days**
-```plantuml
-ex.:
-    [PlantUML1] on {User1:50}{User2:50} lasts 6 days
-```
 - - -
 - **pause**<br>
 Defines a pause in the task, there is a semantic difference between "pause" and "closed days". "Pause" denotes a task suspension, in the other way "closed days" inform the date is not available to work in the whole project.
