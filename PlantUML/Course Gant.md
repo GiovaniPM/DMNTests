@@ -350,8 +350,8 @@ Defines the graph tasks.
     >[*taskname*] **starts** *date*<br>
     >[*taskname*] **ends** *date*
     >- - -
-    >ex.:
-    >    [PlantUML2] starts 2021/01/18
+    >ex.:<br>
+    >    [PlantUML2] starts 2021/01/18<br>
     >    [PlantUML2] ends 2021/02/12
 
 |||
