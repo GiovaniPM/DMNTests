@@ -1,44 +1,24 @@
-# <span style="color:blue">![Gant](http://www.plantuml.com/plantuml/png/POyn3i8m34NtdkAFPOX4IxkN6p2mLGoMObMe8QrgIz3Ran0QG8pVxpzRxaHfqO6yQj6VbaadNMU6PRaE_W97eeAgXQLLYlxCefYtLiRxX8t1qJdmWswpOnWJ198H5SegDdPPY2d06cNQd4a-T8ZEdNdyac8CgDaGo5iqlml-I11QbFLh_AczSz6nj-dv9m00) Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap)</spam>
+![Gant](http://www.plantuml.com/plantuml/png/POyn3i8m34NtdkAFPOX4IxkN6p2mLGoMObMe8QrgIz3Ran0QG8pVxpzRxaHfqO6yQj6VbaadNMU6PRaE_W97eeAgXQLLYlxCefYtLiRxX8t1qJdmWswpOnWJ198H5SegDdPPY2d06cNQd4a-T8ZEdNdyac8CgDaGo5iqlml-I11QbFLh_AczSz6nj-dv9m00)<br>
 
+<div align="center">
 
-
-    Applying blue class to text:
-
-    This is a paragraph that for some reason we want blue.
-    {: .blue}
-
-    Applying blue class to headings:
-
-    #### A blue heading
-    {: .blue}
-
-    Applying two classes:
-
-    A blue and bold paragraph.
-    {: .blue .bold}
-
-    Applying ids:
-
-    #### A blue heading
-    {: .blue #blue-h}
-
-    This produces:
-
-    <h4 class="blue" id="blue-h">A blue heading</h4>
-
-
+<span style="color:blue;font-size:xxx-large">Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap)</spam>
 
 [![PlantUML 1.2020.23](https://img.shields.io/badge/PlantUML-1.2020.23-brightgreen.svg)](https://plantuml.com/)
 [![Creole 1.00](https://img.shields.io/badge/Creole-1.00-brightgreen.svg)](https://web.archive.org/web/20190417093012/http://www.wikicreole.org/wiki/Home)
 [![Graphviz 2.44.1.20201124](https://img.shields.io/badge/Graphviz-2.44.1.20201124-brightgreen.svg)](https://graphviz.org/)
 <br>Try install using:<br>
 [![Chocolatey 0.10.15](https://img.shields.io/badge/Chocolatey-0.10.15-brightgreen.svg)](https://chocolatey.org/install)
-<br>See on browser (firefox):<br>
+<br>To see on browser Firefox:<br>
 [![Firefox](https://img.shields.io/badge/Firefox-84.0.2-brightgreen.svg)](https://www.mozilla.org/pt-BR/firefox/new/)
 [![PlantUML Visualizer](https://img.shields.io/badge/PlantUML--Visualizer-84.0.2-brightgreen.svg)](https://addons.mozilla.org/en-US/firefox/addon/plantuml-visualizer/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 [![PlantUML Extension](https://img.shields.io/badge/PlantUML--Extension-84.0.2-brightgreen.svg)](https://addons.mozilla.org/en-US/firefox/addon/plantuml-extension/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
-## Language specification
+</div>
+
+# Language specification
+
+## Requeriments
 
 - Light [Creole](https://plantuml.com/creole) engine syntax;
 - [Common PlantUML commands](https://plantuml.com/commons);
