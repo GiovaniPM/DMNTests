@@ -150,17 +150,20 @@ Defines the start scale, to be showed. Useful when you need print, or show the g
 >**scale max** *number* **width**<br>
 >or <br>
 >**scale max** *number* **height**<br>
-```plantuml
-ex.:
-    scale 1.5
-    scale 2/3
-    scale 200 width
-    scale 200 height
-    scale 200*100
-    scale max 300*200
-    scale max 1024 width
-    scale max 800 height
-```
+>plantuml<br>
+>ex.:<br>
+>    scale 1.5<br>
+>    scale 2/3<br>
+>    scale 200 width<br>
+>    scale 200 height<br>
+>    scale 200*100<br>
+>    scale max 300*200<br>
+>    scale max 1024 width<br>
+>    scale max 800 height
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAYZApqfDBb402nKhb6IaAXWP61dg6u0GbqDgNWfO7G00) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAavEp4bLCDGpvIeeoizAJIvH04iMAvHaf2eO6HWPwXk049T3QbuAM0S0) |
 - - -
 - **hide**<br>
 Hides the bottom time information under the graph, does not affect the time information on the top.
