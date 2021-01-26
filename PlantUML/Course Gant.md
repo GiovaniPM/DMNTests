@@ -109,8 +109,7 @@ skinparam ...
     - **titleBorderRoundCorner** *number*
     - **titleBorderThickness** *number*
 
-<div align="center">:star:</div>
-<div align="center">:star::star:</div>
+<div align="center">👇</div>
 
 ## Project initialization
 
