@@ -375,7 +375,6 @@ Defines the task line and it background colors.
 | :----: | :----: |
 |before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
 |after| ![after](http://www.plantuml.com/plantuml/png/LO_12i8m38RlUOgyGEbMBnxt08f3y3HsA6jqbTfA4n3VtbfwAIGvV3yVFvbOR9Q7ZIBmpkb9cs15ZB8Jci6CUlWFW58uxvO9Bv5GALZcKBJR-JIk62mNOpoWir_k4i-ufP0oEVGHh-HqMO3bxbzhQsejHfjZuxtqsRsGhhVb55rdJGNK7tu0) |
-
 - - -
 - **completed**<br>
 Defines how much progress occur in the task, the percent will be showed in backgroud color.
@@ -388,7 +387,6 @@ Defines how much progress occur in the task, the percent will be showed in backg
 | :----: | :----: |
 |before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
 |after| ![after](http://www.plantuml.com/plantuml/png/NOyn2y8m48Nt_8fR74FQEEZO7w1O1AVI8JIdZQHfwHs8_zupP6aXkU6zzntl6cAtyiibPhMiyni7XYmHy8XWArkRwl-KqXhQqH72BI5ehRes2lQuNkeUeYCXwYDuzwMD4mY6ESuhUWW9xkYD_7tYL1qaDIqHMKpLFSFKbngbWZNsdFNzniyO64sUnSVaDrGZGZxm1m00) |
-
 - - -
 - **links**<br>
 Useful to redirect from the task to out of the graph.
@@ -408,7 +406,6 @@ Defines who will do the task and how much effort will be necessary. Under the gr
 | :----: | :----: |
 |before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
 |after| ![after](http://www.plantuml.com/plantuml/png/NKzDIiOm4Dtd5BDn6V8ZehZg0HIBq5Nf8ZIZZQH9oGo8Y7St3TdqWsHul9_XpK3i2d-wn2oEahzmPMWK0My8LbkZzFc4a1B6pH72MqAGKinZhB7fzSKia1FyJeJ5F3_eluRiYI0wOW9p3zxzq2KH2DOSSq4F8S4xUbN_hUDHtrNNVaJaAehv8-nBhzUhMMMVEd_T-Bq5HjLcrp7vIsgeH3ly7m00) |
-
 - - -
 - **pause**<br>
 Defines a pause in the task, there is a semantic difference between "pause" and "closed days". "Pause" denotes a task suspension, in the other way "closed days" inform the date is not available to work in the whole project.
@@ -425,7 +422,6 @@ Defines a pause in the task, there is a semantic difference between "pause" and 
 | :----: | :----: |
 |before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
 |after| ![after](http://www.plantuml.com/plantuml/png/NKyzhi8m3Dvp2YzlZDBc3J3s020g9AQgGzGO6fGcLMs4k3scoj9AjeVln_xS4Bk57oungtd9JnmOLeY0HmHRsTfKlr9AQsX7HmYNXA2rwjeejjlvLFSG7OcZ_WVlFhHX0i6GOrxGGqXmHM-azuf3zIUgQOx8Et9sBqA2d63AIPOhrTt3r9UC9PyrzbZmxRdt61ZDEWkFoMzSZG3hzry0) |
-
 - - -
 - **note**<br>
 Defines a note to be showed under the task, useful to bring more information.
