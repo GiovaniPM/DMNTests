@@ -183,6 +183,10 @@ Useful for condesing the Gant graph timeline, useful for large projects.
 ex.:
     printscale weekly
 ```
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAYZAp2ifJaxCILN8pSyhoSYf10hbPwKcboY0LHKhb6IaAXWP61dg6u0GLtHQPcuiL0ugRgHlP04LponMICxFoIzAJL78p5CepyWiITK7ar3vrBmK55qEG06mGm00) |
 - - -
 - **project**<br>
 Defines when the project starts.
