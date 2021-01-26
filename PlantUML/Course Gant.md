@@ -285,9 +285,10 @@ Useful to put some image in the graph.
 >ex.:<br>
 >    sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0<br>
 
-|Before|After|
+|||
 | :----: | :----: |
-| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/LO_VIyCm4CVVyrVSW-zDChVrGMHJLYeuBI9sC8R4BbsoTMcRd5l9NsyiyK4uxhZFb_lnNJWK5W_281BNMOqIRa8nA2risNHWqoJrEtXvnNnIqfBJD1yo_tbQBzLntkHb9zZcSSvcpjEYlrr_5AkoViYVleTYyZmxVRrNsh-bk5HUzDbbSxraTR7gpvGqyY3Ddjpz7RideOL8EziUPOKm_kO0bGHEEKleRv1jhS-xg4NE4vv6hXrKRTDQkGTjuAg2esJCKG_x_qqj0XZj_m00) |
+|Before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|After| ![after](http://www.plantuml.com/plantuml/png/LO_VIyCm4CVVyrVSW-zDChVrGMHJLYeuBI9sC8R4BbsoTMcRd5l9NsyiyK4uxhZFb_lnNJWK5W_281BNMOqIRa8nA2risNHWqoJrEtXvnNnIqfBJD1yo_tbQBzLntkHb9zZcSSvcpjEYlrr_5AkoViYVleTYyZmxVRrNsh-bk5HUzDbbSxraTR7gpvGqyY3Ddjpz7RideOL8EziUPOKm_kO0bGHEEKleRv1jhS-xg4NE4vv6hXrKRTDQkGTjuAg2esJCKG_x_qqj0XZj_m00) |
 
 <div align="center">:star2:</div>
 
