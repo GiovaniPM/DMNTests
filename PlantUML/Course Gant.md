@@ -428,15 +428,19 @@ Defines a note to be showed under the task, useful to bring more information.
 >**note bottom**<br>
 >*...*<br>
 >**end note**
-```plantuml
-ex.:
-    note bottom
-      memo1 ...
-      memo2 ...
-      explanations1 ...
-      explanations2 ...
-    end note
-```
+>- - -
+>ex.:<br>
+>    note bottom<br>
+>      memo1 ...<br>
+>      memo2 ...<br>
+>      explanations1 ...<br>
+>      explanations2 ...<br>
+>    end note<br>
+
+|||
+| :----: | :----: |
+|before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|after| ![after](http://www.plantuml.com/plantuml/png/TL1DIyGm4BtdLxoBntua7lIuFq1n4JmjUuZRqKQQJEcCgF_UsL1mj-3G1kPzl92t4usBliUYwkQ5F-Yag910HqBeW-_wy-TSqs0_HY4y5KBJkCD-CjlBuuC_OefY3d-B8Vx85PC49vvueG6fu9c6plwjugw_CLMU9z8DESTF8G4NP2uM3XjNM0clhChPeKwcp1vjsrxiuMAdxzaoeoOkul_1__HK1fplSExmbl9nBMGj8tJXlkBRjtsDIQchvyfRpfLhPq2j-XS0) |
 
 <div align="center">:star2:</div>
 
