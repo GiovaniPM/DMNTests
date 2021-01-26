@@ -127,6 +127,7 @@ Defines the title of Gant graph, to be showed above the graph.
 - **footer**<br>
 Defines the footer message, to be showed under the graph.
 >**footer** *string*
+>- - -
 >ex.:
 >    footer Giovani Perotto Mesquita\n18/01/2011 - 13:01
 
@@ -164,10 +165,13 @@ ex.:
 - **hide**<br>
 Hides the bottom time information under the graph, does not affect the time information on the top.
 >**hide footbox**
-```plantuml
-ex.:
-    hide footbox
-```
+>- - -
+>ex.:
+>    hide footbox
+
+|Before|After|
+| :----: | :----: |
+| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXAYZApqfDBb402nKhb6IaAXWP61dg6u0GbqDgNWfO7G00) | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXoiXCILL8oyylISglu2eeoizAJIvH0CiNAvHaf2eO6HWPwXk049T3QbuAM1C0) |
 - - -
 - **printscale**<br>
 Useful for condesing the Gant graph timeline, useful for large projects.
