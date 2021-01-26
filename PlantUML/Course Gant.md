@@ -387,9 +387,8 @@ ex.:
     [Milestone1] happens at [PlantUML1]'s end
 ```
 
-<center>:left_speech_bubble:</center>
 <div align="center">
-  my text here.
+  :left_speech_bubble:
 </div>
 
 # Example
