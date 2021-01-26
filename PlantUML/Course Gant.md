@@ -560,6 +560,7 @@ sunday are closed
 ```
 
 <div align="center">👇</div>
+:star2:
 
 ## Code
 
