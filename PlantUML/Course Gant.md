@@ -190,11 +190,13 @@ ex.:
 - - -
 - **project**<br>
 Defines when the project starts.
->**project starts the** *date*
-```plantuml
-ex.:
-    project starts the 2021/01/01
-```
+>**project starts the** *date*<br>
+>ex.:
+>    project starts the 2021/01/01
+
+|Before|After|
+| :----: | :----: |
+| | ![after](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
 - - -
 - **caption**<br>
 Defines the graph caption, useful when need export to a document.
