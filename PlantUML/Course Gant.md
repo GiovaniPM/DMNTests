@@ -388,6 +388,7 @@ ex.:
 ```
 
 <div align="center">:star:</div>
+<div align="center">:star::star:</div>
 
 # Example
 
