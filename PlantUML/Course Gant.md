@@ -122,7 +122,7 @@ Defines the title of Gant graph, to be showed above the graph.
 
 |Before|After|
 | :----: | :----: |
-@startgantt [Prototype design] lasts 15 days [Test prototype] lasts 10 days -- All example -- [Task 1 (1 day)] lasts 1 day [T2 (5 days)] lasts 5 days [T3 (1 week)] lasts 1 week [T4 (1 week and 4 days)] lasts 1 week and 4 days [T5 (2 weeks)] lasts 2 weeks @endgantt
+```plantuml @startgantt [Prototype design] lasts 15 days [Test prototype] lasts 10 days -- All example -- [Task 1 (1 day)] lasts 1 day [T2 (5 days)] lasts 5 days [T3 (1 week)] lasts 1 week [T4 (1 week and 4 days)] lasts 1 week and 4 days [T5 (2 weeks)] lasts 2 weeks @endgantt ```
 - - -
 - **footer**<br>
 Defines the footer message, to be showed under the graph.
