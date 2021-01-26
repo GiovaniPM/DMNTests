@@ -221,9 +221,10 @@ Defines the current day to be showed in the graph.
 >or<br>
 >    today is 14 days after start and is colored in Yellow<br>
 
-|Before|After|
+|||
 | :----: | :----: |
-| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/LOv12WCX34NtdY8tKBFgSgvHIXSofXsBDKK_3Brzfo83Ra9uZnUoD8IAPoY0WSRmfTI87Nlhl6L7eSG_MJLhbMCjT9MSTJUVgYzPGRrlX4tEp7bpUwJtVRZ1sV9byFdWlYM8xNDuAN6gbWFq5ty0) |
+|Before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|After| ![after](http://www.plantuml.com/plantuml/png/LOv12WCX34NtdY8tKBFgSgvHIXSofXsBDKK_3Brzfo83Ra9uZnUoD8IAPoY0WSRmfTI87Nlhl6L7eSG_MJLhbMCjT9MSTJUVgYzPGRrlX4tEp7bpUwJtVRZ1sV9byFdWlYM8xNDuAN6gbWFq5ty0) |
 
 <div align="center">:star2:</div>
 
@@ -252,9 +253,10 @@ Defines a legend.
 >      legend<br>
 >    endlegend<br>
 
-|Before|After|
+|||
 | :----: | :----: |
-| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/LOwn3i8m34JtViNzGKecnlu38sAeMfCObGGvblXzZEMbfoZ9lPDFNeQkecLjgXDC1nLgEuHBDU2wrIxnZzYDlU4-qb-qARngG2iXp_cIvl-Pxaz-Fo8BdbE-1kU1hHzTQ0StV2ih9RyZj_xJr6B0j_q1) |
+|Before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|After| ![after](http://www.plantuml.com/plantuml/png/LOwn3i8m34JtViNzGKecnlu38sAeMfCObGGvblXzZEMbfoZ9lPDFNeQkecLjgXDC1nLgEuHBDU2wrIxnZzYDlU4-qb-qARngG2iXp_cIvl-Pxaz-Fo8BdbE-1kU1hHzTQ0StV2ih9RyZj_xJr6B0j_q1) |
 
 <div align="center">:star2:</div>
 
@@ -270,9 +272,10 @@ Useful to make in evidence some columns in the graph.
 >    2021/01/01 is colored in lightblue<br>
 >    2021/01/01 to 2021/01/10 are colored in lightblue<br>
 
-|Before|After|
+|||
 | :----: | :----: |
-| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) | ![after](http://www.plantuml.com/plantuml/png/LOv13i8W44NtdEBV0ChAPUzXN60xbZ481hxn-YgsqIQJIURzpCiV6qFb4Z9flFE3TPy12xPhS0XLC9LKgipGZAHBv3aznDnhkSf4T4a3e-0dCSUBtavRzkNU-iFAjVqxdr4fjkyrbpplliOtw3rV) |
+|Before| ![before](http://www.plantuml.com/plantuml/png/SoWkIImgIK_CAodXKYyeoimhAKvEp4bLoCtFAyd8gUGgAChFIaqkKG0hArOeoKXLC38mCjGt026kwBJCt5Ye75JSID_80YgUMQoGd9-JNvIQef2Pfr2UaLcIgWyceVAfUIaekXo00c2N0000) |
+|After| ![after](http://www.plantuml.com/plantuml/png/LOv13i8W44NtdEBV0ChAPUzXN60xbZ481hxn-YgsqIQJIURzpCiV6qFb4Z9flFE3TPy12xPhS0XLC9LKgipGZAHBv3aznDnhkSf4T4a3e-0dCSUBtavRzkNU-iFAjVqxdr4fjkyrbpplliOtw3rV) |
 
 <div align="center">:star2:</div>
 
