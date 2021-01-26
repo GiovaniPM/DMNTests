@@ -20,7 +20,7 @@ ms.technology:
 <br>See on browser (firefox):<br>
 [![Firefox](https://img.shields.io/badge/Firefox-84.0.2-brightgreen.svg)](https://www.mozilla.org/pt-BR/firefox/new/)
 [![PlantUML Visualizer](https://img.shields.io/badge/PlantUML--Visualizer-84.0.2-brightgreen.svg)](https://addons.mozilla.org/en-US/firefox/addon/plantuml-visualizer/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-[![Firefox](https://img.shields.io/badge/Firefox-84.0.2-brightgreen.svg)](https://www.mozilla.org/pt-BR/firefox/new/)
+[![PlantUML Extension](https://img.shields.io/badge/PlantUML--Extension-84.0.2-brightgreen.svg)](https://addons.mozilla.org/en-US/firefox/addon/plantuml-extension/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 ## Language specification
 
