@@ -116,6 +116,7 @@ skinparam ...
 - **title**<br>
 Defines the title of Gant graph, to be showed above the graph.
 >**title** *string*
+>- - -
 ```plantuml
 ex.:
     title Project\nDelivery SDS 001
