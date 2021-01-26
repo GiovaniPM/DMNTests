@@ -390,6 +390,7 @@ ex.:
 <div align="center">
   :left_speech_bubble:
 </div>
+:star:
 
 # Example
 
