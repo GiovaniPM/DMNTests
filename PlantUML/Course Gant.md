@@ -8,7 +8,7 @@
 --->
 
 ![Title](http://satyr.io/1000x80/1?text=Building+Gant+diagrams+with+PlantUML)<br>
-by [![Email](https://img.shields.io/badge/mail-giovanipm%40gmaill.com-green.svg)](mailto:giovanipm@gmail.com)
+by [![Email](https://img.shields.io/badge/mail-giovanipm%40gmaill.com-lightgray.svg)](mailto:giovanipm@gmail.com)
 
 </div>
 
