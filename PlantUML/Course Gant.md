@@ -4,8 +4,10 @@
 
 <!---
 <span style="color:blue;font-size:xxx-large">Building Gant diagrams with [PlantUML](https://plantuml.com/sitemap)</spam><br>
+![Title](https://dummyimage.com/1000x80/ffffff/000000.png&text=Building+Gant+diagrams+with+PlantUML)<br>
 --->
-![Title](https://dummyimage.com/600x80/ffffff/000000.png&text=Building+Gant+diagrams+with+PlantUML)<br>
+
+![Title](http://satyr.io/1000x80/1?text=Building+Gant+diagrams+with+PlantUML)<br>
 by [![Email](https://img.shields.io/badge/mail-giovanipm%40gmaill.com-green.svg)](mailto:giovanipm@gmail.com)
 
 [![PlantUML 1.2020.23](https://img.shields.io/badge/PlantUML-1.2020.23-brightgreen.svg)](https://plantuml.com/)
