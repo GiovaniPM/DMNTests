@@ -1,5 +1,6 @@
 @startuml
 ditaa
+
 Memory:
 
       +--------+
@@ -30,6 +31,8 @@ Strings:
      |            end to the start
      p moves from
        start to the end
+
+
 
     0  1  2  3  n
    +--+--+--+--+--+
