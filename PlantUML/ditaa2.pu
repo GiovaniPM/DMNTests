@@ -3,13 +3,13 @@ ditaa
 Memory:
 
       +--------+
-   0  |        |  <- start
+   0  | cGRE   |  <- start
       +--------+
-   1  |        |  <- q  scans from start to end
+   1  | cYEL   |  <- q  scans from start to end
       +--------+
       :  ..... |
       +--------+
-      |        |  <- end
+      | cRED   |  <- end
       +--------+  <-+
       |        |    |
       +--------+    | rest of the
@@ -18,9 +18,7 @@ Memory:
   n   |        |    |
       +--------+  <-+
 
-
 Strings:
-
 
     0               n
    +--+=----+--+--+--+
@@ -32,7 +30,6 @@ Strings:
      |            end to the start
      p moves from
        start to the end
-
 
 Sectioned:
 
