@@ -15,7 +15,7 @@ Memory:
       +--------+    | rest of the
       :  ..... |    | allocated memory
       +--------+    |
-  n   |        |    |
+   n  |        |    |
       +--------+  <-+
 
 Strings:
@@ -30,6 +30,11 @@ Strings:
      |            end to the start
      p moves from
        start to the end
+
+    0  1  2  3  n
+   +--+--+--+--+--+
+   |C |A |S |A |\0|
+   +--+--+--+--+--+
 
 Sectioned:
 
