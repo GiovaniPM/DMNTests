@@ -189,10 +189,10 @@ Hides the bottom time information under the graph, does not affect the time info
 - - -
 - **printscale**<br>
 Useful for condesing the Gant graph timeline, useful for large projects.
->**printscale** <ins>(diary|weekly|montly)</ins><br>
+>**printscale** <ins>(diary|weekly|monthly)</ins><br>
 >- - -
 >ex.:<br>
->    printscale weekly<br>
+>    printscale monthly<br>
 
 |Before|After|
 | :----: | :----: |
