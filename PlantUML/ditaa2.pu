@@ -1,3 +1,5 @@
+@startuml
+ditaa
 Memory:
 
       +--------+
@@ -46,3 +48,4 @@ Sectioned:
     |      |    +----------------------- zero flag value
     |      +---------------------------- y register
     +----------------------------------- x address
+@enduml
