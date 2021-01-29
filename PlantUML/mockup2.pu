@@ -2,10 +2,10 @@
 skinparam BackgroundColor lightblue
 scale 1.5
 {+
-    |area1|area2|area3|area4|area5|area6
-    |{* File | Edit | Source | ?
+    |area1|area2|area3|area4|area5|area6|area7
+    |.|{* File | Edit | Source | ?
     '  File | New | Open File | - | Close | Close All | - | Exit
-      ? | About}|*|*|*|*|*
+      ? | About}|*|*|*|*
     |.
     |.|{/ <b>General | Fullscreen | Behavior | Saving }|*|*|*|*
     |.
@@ -24,12 +24,12 @@ scale 1.5
                 Acre
                 Amapa
                 Amazonas
-              }|.
+              }|{Privacy: | (X) public | () default | () private} |*|*
     |.
     |.|{#
-        .            | Column 2  | Column 3 | Column 4 | Column 5
-        Row header 1 | value 1   | value 2  | value 3  | value 4
-        Row header 2 | long cell | *        | *        | *
+        .     | Column 2  | Column 3 | Column 4 | Column 5
+        Row 1 | value 1   | value 2  | value 3  | value 4
+        Row 2 | long cell | *        | *        | *
     }|*|*|{T
             + World
             ++ Europe
