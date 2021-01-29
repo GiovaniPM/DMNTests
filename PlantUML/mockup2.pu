@@ -1,28 +1,30 @@
 @startsalt
 skinparam BackgroundColor lightblue
-scale 2
+scale 1.5
 {+
-    '{* File | Edit | Source | ?}
-    ' File | New | Open File | - | Close | Close All}
-    '{/ <b>General | Fullscreen | Behavior | Saving }
     |area1|area2|area3|area4|area5|area6
+    |{* File | Edit | Source | ?
+    '  File | New | Open File | - | Close | Close All | - | Exit
+      ? | About}|*|*|*|*|*
     |.
+    |.|{/ <b>General | Fullscreen | Behavior | Saving }|*|*|*|*
     |.
     |.|Login    |"MyName          "|.
     |.|Password |"****            "|.
     |.
     |.|Open image in|{| ^Smart Mode^ }{
-        [X] Smooth images when zoomed
-        [X] Confirm image deletion
-        [ ] Show hidden images}
+                                        [X] Smooth images when zoomed
+                                        [X] Confirm image deletion
+                                        [ ] Show hidden images
+                                      }
     |.|Sexo|{(X) Masculino
-           () Feminino}
+             () Feminino}
     |.
     |.|Estado|{SI 
                 Acre
                 Amapa
                 Amazonas
-            }|.
+              }|.
     |.
     |.|{#
         .            | Column 2  | Column 3 | Column 4 | Column 5
@@ -37,6 +39,7 @@ scale 2
             ++ Africa
           }|*
     |.
-    |.|.|.|.|[  OK   ]|[Cancel]
+    |.|.|.|.|[  OK<&account-login>   ]|[Cancel<&circle-x>]
+    |.
 }
 @endsalt
