@@ -1,0 +1,42 @@
+@startsalt
+skinparam BackgroundColor lightblue
+scale 2
+{+
+    '{* File | Edit | Source | ?}
+    ' File | New | Open File | - | Close | Close All}
+    '{/ <b>General | Fullscreen | Behavior | Saving }
+    |area1|area2|area3|area4|area5|area6
+    |.
+    |.
+    |.|Login    |"MyName          "|.
+    |.|Password |"****            "|.
+    |.
+    |.|Open image in|{| ^Smart Mode^ }{
+        [X] Smooth images when zoomed
+        [X] Confirm image deletion
+        [ ] Show hidden images}
+    |.|Sexo|{(X) Masculino
+           () Feminino}
+    |.
+    |.|Estado|{SI 
+                Acre
+                Amapa
+                Amazonas
+            }|.
+    |.
+    |.|{#
+        .            | Column 2  | Column 3 | Column 4 | Column 5
+        Row header 1 | value 1   | value 2  | value 3  | value 4
+        Row header 2 | long cell | *        | *        | *
+    }|*|*|{T
+            + World
+            ++ Europe
+            +++ Italy
+            +++ Germany
+            ++++ Berlin
+            ++ Africa
+          }|*
+    |.
+    |.|.|.|.|[  OK   ]|[Cancel]
+}
+@endsalt
