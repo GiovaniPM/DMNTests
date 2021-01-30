@@ -1,5 +1,5 @@
 @startsalt
-skinparam BackgroundColor lightblue
+'skinparam BackgroundColor lightblue
 scale 1.5
 {+
     |area1|area2|area3|area4|area5|area6|area7
@@ -12,11 +12,11 @@ scale 1.5
     |.|Login    |"MyName          "|.
     |.|Password |"****            "|.
     |.
-    |.|Open image in|{| ^Smart Mode^ }{
+    |.|Open image in|{| ^Smart Mode^ }|{^Options
                                         [X] Smooth images when zoomed
                                         [X] Confirm image deletion
                                         [ ] Show hidden images
-                                      }
+                                       }
     |.|Sexo|{(X) Masculino
              () Feminino}
     |.
@@ -24,7 +24,7 @@ scale 1.5
                 Acre
                 Amapa
                 Amazonas
-              }|{Privacy: | (X) public | () default | () private} |*|*
+              }|{^Privacy | (X) public | () default | () private} |*|*
     |.
     |.|{#
         .     | Column 2  | Column 3 | Column 4 | Column 5
