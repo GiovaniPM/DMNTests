@@ -34,7 +34,7 @@ by [![Email](https://img.shields.io/badge/mail-giovanipm%40gmaill.com-lightgray.
 
 - **Text**
   create a text representation.
-  >**[**_string_**]**
+  >_string_
   >- - -
   >ex.:<br>
   >```dos
