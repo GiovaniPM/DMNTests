@@ -27,9 +27,10 @@ scale 1.5
               }|{^Privacy | (X) public | () default | () private} |*|*
     |.
     |.|{#
-        .     | Column 2  | Column 3 | Column 4 | Column 5
-        Row 1 | value 1   | value 2  | value 3  | value 4
-        Row 2 | long cell | *        | *        | *
+        .     | Column 2  | Column 3 | Column 4 | Column 5 | Column 6 | Column 7 
+        Row 1 | value 1   | value 2  | value 3  | value 4  | value 5  | value 6
+        Row 2 | long cell | *        | *        | *        | other    | *
+        .     | *         | *        | *        | *        | *        | *
        }|*|*|{T
               + World
               ++ Europe

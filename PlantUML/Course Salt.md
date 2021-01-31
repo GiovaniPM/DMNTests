@@ -437,6 +437,108 @@ Manage colunms to show and organize like a table, in a screen could be used in t
 
   ![example](http://www.plantuml.com/plantuml/png/SoWkIImgAKxCAU6gvb9GyCbFpyopKIj8BIhEpxDJg55GygtqIynDLL1GK09A1oGM5vVd5wNOg6MdLeAbjO10GG4g7UsSc9UScgDWevQSMPISawfROHSBL1JjxmqKIanEpY_DAz7D0LbX5yjLo-MGcfS2jXa0)
 
+### Pseudo sprite
+
+- **Pseudo sprite**
+  Using << and >> you can define a pseudo-sprite or sprite-like drawing and reusing it latter. <br>
+  >**<<**_sprite name_<br>
+  >  ............<br>
+  >  .XXXXX......<br>
+  >  .X...X......<br>
+  >  .XXXXXXXXXX.<br>
+  >  .X........X.<br>
+  >  .X........X.<br>
+  >  .X........X.<br>
+  >  .X........X.<br>
+  >  .XXXXXXXXXX.<br>
+  >  ............<br>
+  >  **>>**<br>
+  >- - -
+  >ex.<br>
+  >```dos
+  >{
+  >  <<folder
+  >    ............
+  >    .XXXXX......
+  >    .X...X......
+  >    .XXXXXXXXXX.
+  >    .X........X.
+  >    .X........X.
+  >    .X........X.
+  >    .X........X.
+  >    .XXXXXXXXXX.
+  >    ............
+  >  >>
+  >  reusing
+  >  <<folder>>
+  >}
+  >```  
+
+  ![example](http://www.plantuml.com/plantuml/png/SoWkIImgAKxCAU5IgEPIiB59oyz9IItYKj130a1U10WWU40AYGS743ae89M7C0NTTZixBeMYrDBYpBnqX1E1WhLS3gbvAI370m00)
+
+## Using Salt with other graphs in PlantUML
+
+- **salt**
+  Could be used in other graphs, using the command salt.
+  > **{{ salt {**<br>
+  > ..<br>
+  > **}**<br>
+  > **}}**<br>
+  >- - -
+  >ex.<br>
+  >```dos
+  >{
+  >  @startuml
+  >  rectangle r as "
+  >    Text as top
+  >    ..
+  >    {{
+  >      salt
+  >      {
+  >        {T+
+  >          <&folder>Folder1
+  >        }
+  >      }
+  >    }}
+  >  "
+  >  @enduml
+  >}
+  >```  
+
+  ![example](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuIfAJIv9p4lFILKeKaWiLb3YKb08IQqe0R5ByWk0F3qz855TpQK01CM9EILW1eWBfaEqWIm8i55Boyz9IIsoSmDJXb29MYuOMLlBfSJba9gN0hGN0000)
+  <br>or<br>
+  ```plantuml
+  @startuml
+  foo->Bar
+  legend left
+  {{
+  salt
+  {
+    Login    | "MyName   "
+    Password | "****     "
+    [Cancel] | [  OK   ]
+  }
+  }}
+  end legend
+  @enduml
+  ```
+  <br>or<br>
+  ```plantuml
+  @startuml
+  class foo
+  note left
+  {{
+  salt
+  {
+    Login    | "MyName   "
+    Password | "****     "
+    [Cancel] | [  OK   ]
+  }
+  }}
+  end note
+  @enduml
+  ```
+
 ## Example
 
 ```plantuml
