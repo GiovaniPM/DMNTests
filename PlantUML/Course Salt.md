@@ -415,6 +415,28 @@ Manage colunms to show and organize like a table, in a screen could be used in t
 
   ![example](http://www.plantuml.com/plantuml/png/FOzFYyCW4CNlVeevxx9VO4zPmlRM5ffB8IGWSL85TOfE2TJsktUID3teyy_llQTLPfquQy-gVAlo1Jld4HxmRnoBD7HBmxm_uQW7fgGsu82JpCShnktaHqRjAUD7_xo7foggh9mB-eBWugy0VHEa5_Pai1UcFNVG12AsAvLXikAu4mKqosrDSNGfl4CCUcH7KRKWHaiJM6VCrf6L92vFw6HLOJJp1ry0)
 
+### OpenIconic
+
+- **OpenIconic**
+  OpenIconic is a very nice open source icon set. Those icons have been integrated into the creole parser, so you can use them out-of-the-box. You can use the following syntax: <&ICON_NAME>.<br>
+  ```plantuml
+    @startuml
+    listopeniconic
+    @enduml
+  ```
+  >**<**_icon name_**>**
+  >- - -
+  >ex.<br>
+  >```dos
+  >{
+  >  Login<&person> | "MyName   "
+  >  Password<&key> | "****     "
+  >  [Cancel <&circle-x>] | [OK <&account-login>]
+  >}
+  >```  
+
+  ![example](http://www.plantuml.com/plantuml/png/SoWkIImgAKxCAU6gvb9GyCbFpyopKIj8BIhEpxDJg55GygtqIynDLL1GK09A1oGM5vVd5wNOg6MdLeAbjO10GG4g7UsSc9UScgDWevQSMPISawfROHSBL1JjxmqKIanEpY_DAz7D0LbX5yjLo-MGcfS2jXa0)
+
 ## Example
 
 ```plantuml
