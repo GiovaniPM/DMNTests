@@ -213,18 +213,18 @@ Manage colunms to show and organize like a table, in a screen could be used in t
   >ex.<br>
   >```dos
   >{T
-  > + World
-  > ++ America
-  > +++ Canada
-  > +++ USA
-  > ++++ New York
-  > ++++ Boston
-  > +++ Mexico
-  > ++ Europe
-  > +++ Italy
-  > +++ Germany
-  > ++++ Berlin
-  > ++ Africa
+  >   + World
+  >   ++ America
+  >   +++ Canada
+  >   +++ USA
+  >   ++++ New York
+  >   ++++ Boston
+  >   +++ Mexico
+  >   ++ Europe
+  >   +++ Italy
+  >   +++ Germany
+  >   ++++ Berlin
+  >   ++ Africa
   >}
   >``` 
 
@@ -237,19 +237,19 @@ Manage colunms to show and organize like a table, in a screen could be used in t
   >ex.<br>
   >```dos
   >{T
-  >+Region        | Population    | Age
-  >+ World        | 7.13 billion  | 30
-  >++ America     | 964 million   | 30
-  >+++ Canada     | 35 million    | 30
-  >+++ USA        | 319 million   | 30
-  >++++ NYC       | 8 million     | 30
-  >++++ Boston    | 617 thousand  | 30
-  >+++ Mexico     | 117 million   | 30
-  >++ Europe      | 601 million   | 30
-  >+++ Italy      | 61 million    | 30
-  >+++ Germany    | 82 million    | 30
-  >++++ Berlin    | 3 million     | 30
-  >++ Africa      | 1 billion     | 30
+  >  +Region        | Population    | Age
+  >  + World        | 7.13 billion  | 30
+  >  ++ America     | 964 million   | 30
+  >  +++ Canada     | 35 million    | 30
+  >  +++ USA        | 319 million   | 30
+  >  ++++ NYC       | 8 million     | 30
+  >  ++++ Boston    | 617 thousand  | 30
+  >  +++ Mexico     | 117 million   | 30
+  >  ++ Europe      | 601 million   | 30
+  >  +++ Italy      | 61 million    | 30
+  >  +++ Germany    | 82 million    | 30
+  >  ++++ Berlin    | 3 million     | 30
+  >  ++ Africa      | 1 billion     | 30
   >}
   >```
   >or
