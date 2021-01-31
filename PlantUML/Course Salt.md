@@ -345,6 +345,8 @@ Manage colunms to show and organize like a table, in a screen could be used in t
   >}
   >```  
 
+  ![example](http://www.plantuml.com/plantuml/png/DOwn2W8n44JxVCNs5lOYSdYWbLYa4OuxY6Qz199TIQ87Hl_TvTHkbZSpEqqk9fLiGb5reUeIrkVD7WcJ2V22tJs4V4c89CSMdNbuJYAr21hXhQggSBm9zj6C29vMGWSTfHCER74GJtVgGKVcuhwk39EJn9CvefrfotJrAVvAB0Oidabr84774pXlxVz7LjBO1ixOYsgGx3p-0m00)
+
 - **Vertical Tabs**
   You can add tabs using {/ notation. Note that you can use HTML code to have bold text.<br>
   >**{/<br>
