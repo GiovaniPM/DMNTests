@@ -476,6 +476,25 @@ Manage colunms to show and organize like a table, in a screen could be used in t
 
   ![example](http://www.plantuml.com/plantuml/png/SoWkIImgAKxCAU5IgEPIiB59oyz9IItYKj130a1U10WWU40AYGS743ae89M7C0NTTZixBeMYrDBYpBnqX1E1WhLS3gbvAI370m00)
 
+- **Convert image to sprite**
+  How convert a image to sprite.<br>
+  1. Get some image
+  2. Reduce to  the color to **B/W**
+  3. Change the resolution: horizontal to **50%** and stay with vertical in **100%**
+  4. Change the file resolution at maximun in **500 Kb** size
+  5. Go to website [Convert Images to Ascii Art](https://manytools.org/hacker-tools/convert-images-to-ascii-art "Convert Images to Ascii Art")
+  6. Click the button **Browse...** and select your image
+  7. In **Width of output (in characters, max 200)** put 200
+  8. Click in the button **Convert!**
+  9. Click in the button **Download ASCII (.TXT)**
+  10. Open the downloaded file
+  11. Replace all different character of space by **X** (x in uppercase)
+  12. Replace all space character to **.** (point)
+  13. Save the downloaded file
+  14. Get the content of downloaded file, and use as content in your sprite definition
+
+  ![example](http://www.plantuml.com/plantuml/png/xTrHYXj74CRnzpw5Jr0dCCR7gDU5c11m4l3kMyZTys86zaEb_topLMuXKWz1JAQhwkTMhuH6q_hw-lRou-trvVlR-lJF-lJvy-y_lltvnzyhXYD_HWp732JlnnXadZ3FMIE63PhLhzXZMKC8__JTaCijDLjMfs9-_0oafuacoXgkxvwKyn2dTDwFVWj3YE4QperiXm233H2SUWu2NMoZh2w6Bw4iFH1mw46V8gDyYWT1XXwo6982A0qGBiWKOXIPco30a0Yoy9a-XI7aAFe32wN8gvBLm2WiG8tpq3R8MKPHjJXeFFEQ8FuIeB0NKGS46201Hz-ah6678G6A0G570yEIf2LPOmw8PWb0V0Oxh6pd9MlGqV_qOiYyOrgoJZgotn7P8m58ieCXBP9a2KD67QsIjTFHALaTZdw8BrbR7OsIjTVH9rbTZca8ITPcHvk48F4ma70XUkAWmozGInOv8Xu24W6ITSTXB9I88KdT3qDkV2RhGjwDU_z8pZUoQpjt8JeG9LLVyiPJ7ZYGkXs1L0vfqe147928p7p_A28SYTHNIGrHXnuWo27usM--rqGO42ckhXfIzKtrmeFe2CvSoMg8Ea3YGb8kwm0aecwcXgYZfZ145xj2aY5QaoGBdrZIB3lqpo-laO3fi27guCm0YOXJaE1Y95au8PmT8FpdDy9X4AHmq2MpeYbP3ySX65CpIB9qGgnhC03HelLxrxe2GL8WKhJrSbB3HJ6UakLDY5RhWm13euIeyombkY26Gbgj87akOYAC-WL4b1ieo80fKKYa4-CA0m8JWh53eV_iFcJCShbg2SbhqQ_W48Wn8H23282aG21ljwQdr1I4EBrL1AA-_U5FYK3Qopm1969UygmGcQQ-6ZaeaQO5qbiZSr8YNKz1Zlnx8EsEVWb1fbVc_29PaSy7gKvyb8xl7gyXrdr3-3Qh_iHA3jCjLox4lq7bAYHAI97FWbovC_qy9002jUv0ZET73Obs24m-GwhE0H9N8747WXz40gI0utAaLoJjcI0rMrej815sgmOaRKWMZGX4PgWOJwtw43scaA8FFLf3Yl7P1icFGTA65D432OR0rKM6aACVaXOa9o5XGEIY8a3obqBu1L4X4UEGO4WH-KiXOKESrsu38aVsGyI147dG1uac27vreXy2Rr4kG-8Q9Az1qeCKRSW99kG014E28P4Ln7-BSWKI5o5n3v8F2CcFGaHYGCA4QFV-kr-2sAswa8mZ418N8BKaDa2WZvCGSHkG8Wf85X0vgtO815wTso4946X48UMdyJS7Ru0KsPpB2ZV6xe1anG18ASaQ8X8FaWJ9h1aCqHIv9RYHg23REzv_URe__eSymtTH9h-CeZ4r8HEGE1FJaEWdZ6cYW1p0ViICPk3BcV7H6814lsB84WeHIRzYo49VAOz-nGWb2eWWkndz5hxj8an6ZoXDIdH0f6WBHD8Q4o8GaXICHWXGO49yY9HgafJvVOXAaD4D0GeuJ8YMw8Te6LuX2b49Cmg8tWMgDM_AeHHF24CuDq1Ixtgz0O5oXQE0WAJ8gnAzILh_4pe0ixgtWOlHOBYGA25CqGRxjae0oD4zG1o9EYg8If2X4baP1-dGPDOEfjIxS8047G3HH-LE2I1HHmrHA3EEu3KYUHYYoM-uWY1PeL1YGhpaHMi2AIHGoOOSppG3KlLZxA_53fKe9ANpp128axvq2AIOjlmO93eWMNK84F_QoFoD-3BW-NS5B2Jza7w7GlP8EXm06PQOsS7n-9koIYicHEI-fD_1s-JsI-RdWo4icOUmWo7zadu7G-ObWuvONAXVCl534Qlv9o9oti6GUScS8zRqpwZq_vGAGA1WiwHvEgP-esTeEW2oGTBYy26HGF4KGpiFhkxD1s53J2y5Cm32anAaEDyc_l_X7wqBVaQWXHdi88XFGGMVN9JhXKHHpc001MhrGEhqr_SyqWJ0Q8401Hb08KO_XBV7yC8h090kIbu9Wz4AuPiQZA2y_H2a-1Z8sGi12jHb0QJp8JsMpObMLmUPyoa8qcV9_h5p45uC_MD68Rom_HEtG_g_L3yAuPWr0AGz-Wrx8E29eLYVldnP_wwlt_xwxVNb-zj_)
+
 ## Using Salt with other graphs in PlantUML
 
 - **salt**
