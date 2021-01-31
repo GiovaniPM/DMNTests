@@ -185,7 +185,7 @@ Manage colunms to show and organize like a table, in a screen could be used in t
   >|Symbol|Result|
   >|:----:|------|
   >|..| Dot line|
-  >|==|	Duple line|
+  >|==|	Double line|
   >|~~|	Strong line|
   >|--|	Normal line|
   >- - -
