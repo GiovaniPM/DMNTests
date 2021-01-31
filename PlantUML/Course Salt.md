@@ -574,14 +574,14 @@ scale 1.5
         .     | Column 2  | Column 3 | Column 4 | Column 5
         Row 1 | value 1   | value 2  | value 3  | value 4
         Row 2 | long cell | *        | *        | *
-       }|*|*|{T
+       }|*|*|{+{T
               + World
               ++ Europe
               +++ Italy
               +++ Germany
               ++++ Berlin
               ++ Africa
-             }|*
+             }}|*
     |.
     |.|.|.|.|[  OK<&account-login>   ]|[Cancel<&circle-x>]
     |.
