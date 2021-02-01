@@ -42,6 +42,7 @@ B --> A: JSON Response
 deactivate B
 
 group User Revision
+
     A --> U: Visualization
     activate A
 
@@ -49,6 +50,7 @@ group User Revision
 
     U --> A: Confirmation
     deactivate A
+    
 end
 
 A -> B: HTTP PUT
