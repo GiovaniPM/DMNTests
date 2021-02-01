@@ -1,0 +1,28 @@
+@startuml
+'!pragma useVerticalIf on
+start
+if (Age < 1) then (yes)
+  :NB;
+elseif (Age <= 10) then (yes)
+  :Child;
+elseif (Gender m) then (yes)
+  if (Age 30) then (yes)
+    :30;
+  elseif (Age < 25) then (yes)
+    :mLow;
+  else (other)
+    :mHigh;
+  endif
+elseif (Gender f) then (yes)
+  if (Age 25) then (yes)
+    :25;
+  elseif (Age < 20) then (yes)
+    :fLow;
+  else (other)
+    :fHigh;
+  endif
+else (other)
+  :else;
+endif
+stop
+@enduml
