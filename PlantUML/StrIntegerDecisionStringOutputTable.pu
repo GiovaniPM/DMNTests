@@ -16,7 +16,7 @@ elseif (Gender m) then (yes)
         -[#green]->
         #palegreen:mLow;
     else (other)
-        -[#green]->
+        -[#green,dotted]->
         #palegreen:mHigh;
     endif
 elseif (Gender f) then (yes)
@@ -28,11 +28,11 @@ elseif (Gender f) then (yes)
         -[#green]->
         #palegreen:fLow;
     else (other)
-        -[#green]->
+        -[#green,dotted]->
         #palegreen:fHigh;
     endif
 else (other)
-    -[#red]->
+    -[#red,dotted]->
     #pink:else;
 endif
 stop
