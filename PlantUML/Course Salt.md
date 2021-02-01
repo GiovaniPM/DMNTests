@@ -577,7 +577,7 @@ scale 1.5
     |.|Login    |"MyName          "|.
     |.|Password |"****            "|.
     |.
-    |.|Open image in|{| ^Smart Mode^ }|{^Options
+    |.|Open image in|{ ^Smart Mode^ }|{^Options
                                         [X] Smooth images when zoomed
                                         [X] Confirm image deletion
                                         [ ] Show hidden images
@@ -589,7 +589,7 @@ scale 1.5
                 Acre
                 Amapa
                 Amazonas
-              }|{^Privacy | (X) public | () default | () private} |*|*
+              }|{^"Privacy" | (X) public | () default | () private} |*|*
     |.
     |.|{#
         .     | Column 2  | Column 3 | Column 4 | Column 5
