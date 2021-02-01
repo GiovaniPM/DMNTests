@@ -2,27 +2,38 @@
 '!pragma useVerticalIf on
 start
 if (Age < 1) then (yes)
-  :NB;
+  -[#green]->
+  #palegreen:NB;
 elseif (Age <= 10) then (yes)
-  :Child;
+  -[#green]->
+  #palegreen:Child;
 elseif (Gender m) then (yes)
+  -[#green]->
   if (Age 30) then (yes)
-    :30;
+    -[#green]->
+    #palegreen:30;
   elseif (Age < 25) then (yes)
-    :mLow;
+    -[#green]->
+    #palegreen:mLow;
   else (other)
-    :mHigh;
+    -[#green]->
+    #palegreen:mHigh;
   endif
 elseif (Gender f) then (yes)
+  -[#green]->
   if (Age 25) then (yes)
-    :25;
+    -[#green]->
+    #palegreen:25;
   elseif (Age < 20) then (yes)
-    :fLow;
+    -[#green]->
+    #palegreen:fLow;
   else (other)
-    :fHigh;
+    -[#green]->
+    #palegreen:fHigh;
   endif
 else (other)
-  :else;
+  -[#red]->
+  #pink:else;
 endif
 stop
 @enduml
