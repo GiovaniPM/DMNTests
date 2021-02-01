@@ -1,5 +1,6 @@
 @startuml
 '!pragma useVerticalIf on
+scale 1.5
 start
 if (Age < 1) then (yes)
     -[#green]->
