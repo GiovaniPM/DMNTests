@@ -1,6 +1,7 @@
 @startuml
 'skinparam backgroundColor #EEEBDC
 'skinparam handwritten true
+autonumber "<b>[000]"
 
 skinparam sequence{
     ArrowColor DeepSkyBlue
@@ -28,36 +29,38 @@ participant "Datasource" as C
 U -> A: Acess Browse
 activate A
 
-A -> B: 1. HTTP GET
+A -> B: HTTP GET
 activate B
 
-B -> C: 2. HTTP GET
+B -> C: HTTP GET
 activate C
 
-C --> B: 3. JSON Response
+C --> B: JSON Response
 deactivate C
 
-B --> A: 4. JSON Response
+B --> A: JSON Response
 deactivate B
 
-A --> U: 5. Visualization
-activate A
+group User Revision
+    A --> U: Visualization
+    activate A
 
-A --> A: 6. Changes
+    U --> U: Changes
 
-U --> A: 7. Confirmation
-deactivate A
+    U --> A: Confirmation
+    deactivate A
+end
 
-A -> B: 8. HTTP PUT
+A -> B: HTTP PUT
 activate B
 
-B -> C: 9. HTTP PUT
+B -> C: HTTP PUT
 activate C
 
-C --> B: 10. Success Response
+C --> B: Success Response
 deactivate C
 
-B --> A: 11. Success Response
+B --> A: Success Response
 deactivate B
 
 A --> U: Done
