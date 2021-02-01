@@ -2,38 +2,38 @@
 '!pragma useVerticalIf on
 start
 if (Age < 1) then (yes)
-  -[#green]->
-  #palegreen:NB;
+    -[#green]->
+    #palegreen:NB;
 elseif (Age <= 10) then (yes)
-  -[#green]->
-  #palegreen:Child;
+    -[#green]->
+    #palegreen:Child;
 elseif (Gender m) then (yes)
-  -[#green]->
-  if (Age 30) then (yes)
     -[#green]->
-    #palegreen:30;
-  elseif (Age < 25) then (yes)
-    -[#green]->
-    #palegreen:mLow;
-  else (other)
-    -[#green]->
-    #palegreen:mHigh;
-  endif
+    if (Age 30) then (yes)
+        -[#green]->
+        #palegreen:30;
+    elseif (Age < 25) then (yes)
+        -[#green]->
+        #palegreen:mLow;
+    else (other)
+        -[#green]->
+        #palegreen:mHigh;
+    endif
 elseif (Gender f) then (yes)
-  -[#green]->
-  if (Age 25) then (yes)
     -[#green]->
-    #palegreen:25;
-  elseif (Age < 20) then (yes)
-    -[#green]->
-    #palegreen:fLow;
-  else (other)
-    -[#green]->
-    #palegreen:fHigh;
-  endif
+    if (Age 25) then (yes)
+        -[#green]->
+        #palegreen:25;
+    elseif (Age < 20) then (yes)
+        -[#green]->
+        #palegreen:fLow;
+    else (other)
+        -[#green]->
+        #palegreen:fHigh;
+    endif
 else (other)
-  -[#red]->
-  #pink:else;
+    -[#red]->
+    #pink:else;
 endif
 stop
 @enduml
