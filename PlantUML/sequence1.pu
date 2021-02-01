@@ -1,0 +1,65 @@
+@startuml
+'skinparam backgroundColor #EEEBDC
+'skinparam handwritten true
+
+skinparam sequence{
+    ArrowColor DeepSkyBlue
+    ActorBorderColor DeepSkyBlue
+    LifeLineBorderColor blue
+    LifeLineBackgroundColor #A9DCDF
+    
+    ParticipantBorderColor DeepSkyBlue
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontName Impact
+    ParticipantFontSize 17
+    ParticipantFontColor #A9DCDF
+    
+    ActorBackgroundColor aqua
+    ActorFontColor DeepSkyBlue
+    ActorFontSize 17
+    ActorFontName Aapex
+}
+
+actor User as U
+participant "Client" as A
+participant "Application Server" as B
+participant "Datasource" as C
+
+U -> A: Acess Browse
+activate A
+
+A -> B: 1. HTTP GET
+activate B
+
+B -> C: 2. HTTP GET
+activate C
+
+C --> B: 3. JSON Response
+deactivate C
+
+B --> A: 4. JSON Response
+deactivate B
+
+A --> U: 5. Visualization
+activate A
+
+A --> A: 6. Changes
+
+U --> A: 7. Confirmation
+deactivate A
+
+A -> B: 8. HTTP PUT
+activate B
+
+B -> C: 9. HTTP PUT
+activate C
+
+C --> B: 10. Success Response
+deactivate C
+
+B --> A: 11. Success Response
+deactivate B
+
+A --> U: Done
+deactivate A
+@enduml
