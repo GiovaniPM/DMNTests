@@ -1,7 +1,13 @@
 @startuml
+
+!pragma teoz true
 'skinparam backgroundColor #EEEBDC
 'skinparam handwritten true
-autonumber "<b>[000]"
+autonumber "<b>[00]"
+skinparam style strictuml
+skinparam roundcorner 20
+skinparam sequenceParticipant underline
+skinparam maxMessageSize 200
 
 skinparam sequence{
     ArrowColor DeepSkyBlue
@@ -21,30 +27,48 @@ skinparam sequence{
     ActorFontName Aapex
 }
 
+Title "Rest Full"
+Footer "GiovaniPM\n01/02/2021"
+
 actor User as U
-participant "Client" as A
-participant "Application Server" as B
-participant "Datasource" as C
+box "Scope"
+    participant "Client" as A
+    participant "Application Server" as B
+    participant "Datasource" as C
+end box
+database Oracle as O
+
+== Load Data ==
 
 U -> A: Acess Browse
 activate A
 
-A -> B: HTTP GET
+{q1} A -> B: HTTP GET
 activate B
 
 B -> C: HTTP GET
 activate C
 
+C -> O: Select
+
+hnote over C: idle
+
+O -> C: Commit
+
 C --> B: JSON Response
 deactivate C
 
-B --> A: JSON Response
+{q2} B --> A: JSON Response
 deactivate B
+
+== User Maintance ==
 
 group User Revision
 
     A --> U: Visualization
     activate A
+
+    hnote over A: idle
 
     U --> U: Changes
 
@@ -53,18 +77,30 @@ group User Revision
     
 end
 
-A -> B: HTTP PUT
+== Save Data ==
+
+{q3} A -> B: HTTP PUT
 activate B
 
 B -> C: HTTP PUT
 activate C
 
+C -> O: Update
+
+hnote over C: idle
+
+O -> C: Commit
+
 C --> B: Success Response
 deactivate C
 
-B --> A: Success Response
+{q4} B --> A: Success Response
 deactivate B
 
-A --> U: Done
+A -> U: Done
 deactivate A
+
+{q1} <-> {q2} : <color #red>Response Time</color>
+{q3} <-> {q4} : <color #red>Response Time</color>
+
 @enduml
