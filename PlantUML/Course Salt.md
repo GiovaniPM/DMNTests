@@ -488,8 +488,8 @@ Manage colunms to show and organize like a table, in a screen could be used in t
   8. Click in the button **Convert!**
   9. Click in the button **Download ASCII (.TXT)**
   10. Open the downloaded file
-  11. Replace all different character of space (!@#$%^&*()_+-=/\,.:;) by **X** (x in uppercase)
-  12. Replace all space character to **.** (point)
+  11. Replace all different character of **space** (!@#$%^&*()_+-=/\,.:;) by **X** (x in uppercase)
+  12. Replace all **space** character to **.** (point)
   13. Save the downloaded file
   14. Get the content of downloaded file, and use as content in your sprite definition
 
