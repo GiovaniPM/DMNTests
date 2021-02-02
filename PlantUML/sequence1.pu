@@ -83,11 +83,15 @@ activate B
 B -> C: HTTP GET
 activate C
 
-C -> O: Select
+group Consult
 
-hnote over C: idle
+    C -> O: Select
 
-O -> C: Commit
+    hnote over C: idle
+
+    O -> C: Commit
+
+end
 
 C --> B: JSON Response
 deactivate C
@@ -119,11 +123,15 @@ activate B
 B -> C: HTTP PUT
 activate C
 
-C -> O: Update
+group Update
 
-hnote over C: idle
+    C -> O: Update
 
-O -> C: Commit
+    hnote over C: idle
+
+    O -> C: Commit
+
+end
 
 C --> B: Success Response
 deactivate C
