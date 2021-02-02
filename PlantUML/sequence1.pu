@@ -83,7 +83,7 @@ activate B
 B -> C: HTTP GET
 activate C
 
-group Consult
+group Read
 
     C -> O: Select
 
