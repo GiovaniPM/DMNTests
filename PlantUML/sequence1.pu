@@ -1,9 +1,42 @@
 @startuml
 
 !pragma teoz true
-'skinparam backgroundColor #EEEBDC
-'skinparam handwritten true
-autonumber "<b>[00]"
+
+<style>
+title {
+  HorizontalAlignment center
+  FontSize 24
+  FontColor blue
+}
+
+header {
+  HorizontalAlignment center
+  FontSize 26
+  FontColor purple
+}
+
+footer {
+  HorizontalAlignment right
+  FontSize 15
+  FontColor red
+}
+
+legend {
+  FontSize 30
+  BackGroundColor yellow
+  Margin 30
+  Padding 50
+}
+
+caption {
+  FontSize 20
+  FontColor black
+}
+</style>
+
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+autonumber "<b>00."
 skinparam style strictuml
 skinparam roundcorner 20
 skinparam sequenceParticipant underline
@@ -29,6 +62,7 @@ skinparam sequence{
 
 Title "Rest Full"
 Footer "GiovaniPM\n01/02/2021"
+Caption "Figura 1"
 
 actor User as U
 box "Scope"
