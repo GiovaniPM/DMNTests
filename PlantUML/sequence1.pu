@@ -42,7 +42,7 @@ skinparam roundcorner 20
 skinparam sequenceParticipant underline
 skinparam maxMessageSize 200
 
-skinparam sequence{
+skinparam sequence {
     ArrowColor DeepSkyBlue
     ActorBorderColor DeepSkyBlue
     LifeLineBorderColor blue
