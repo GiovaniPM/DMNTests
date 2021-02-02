@@ -481,7 +481,7 @@ Manage colunms to show and organize like a table, in a screen could be used in t
   1. Get some image
   2. Reduce to  the color to **B/W**
   3. Change the resolution: horizontal to **50%** and stay with vertical in **100%**
-  4. Change the file resolution at maximun in **500 Kb** size
+  4. Change the file resolution so that it has a maximum size of **500 Kb**
   5. Go to website [Convert Images to Ascii Art](https://manytools.org/hacker-tools/convert-images-to-ascii-art "Convert Images to Ascii Art")
   6. Click the button **Browse...** and select your image
   7. In **Width of output (in characters, max 200)** put 200
