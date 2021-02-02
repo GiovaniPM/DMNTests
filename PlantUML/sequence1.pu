@@ -89,7 +89,7 @@ group Read
 
     hnote over C: idle
 
-    O -> C: Commit
+    O -> C: Block
 
 end
 
