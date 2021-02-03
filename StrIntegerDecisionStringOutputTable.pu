@@ -8,9 +8,9 @@ if (Age < 1) then (yes)
 elseif (Age <= 10) then (yes)
     -[#green]->
     #palegreen:Child;
-elseif (Gender m) then (yes)
+elseif (Gender = "m") then (yes)
     -[#green]->
-    if (Age 30) then (yes)
+    if (Age = 30) then (yes)
         -[#green]->
         #palegreen:30;
     elseif (Age < 25) then (yes)
@@ -20,9 +20,9 @@ elseif (Gender m) then (yes)
         -[#green,dotted]->
         #palegreen:mHigh;
     endif
-elseif (Gender f) then (yes)
+elseif (Gender = "f") then (yes)
     -[#green]->
-    if (Age 25) then (yes)
+    if (Age = 25) then (yes)
         -[#green]->
         #palegreen:25;
     elseif (Age < 20) then (yes)

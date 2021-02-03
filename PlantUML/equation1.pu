@@ -6,4 +6,6 @@ Try also
 <math>d/dxf(x)=lim_(h->0)(f(x+h)-f(x))/h</math>
 <latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>
 end note
+:<math>f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)</math>;
+:<math>\sum_{i=0}^{n-1} (a_i + b_i^2)</math>;
 @enduml

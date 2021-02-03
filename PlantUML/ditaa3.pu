@@ -19,13 +19,11 @@ ditaa
 |    |    |
 +----+----+
 
-
 Rounded Corners:
 
 /--+
 |  |
 +--/
-
 
 Tags:
 
@@ -47,7 +45,6 @@ Tags:
 |     |
 +-----+
 
-
 Dashed Lines:
 
 +----+
@@ -65,7 +62,6 @@ Dashed Lines:
     |
     v
 
-
 Point Markers:
 
 *----*
@@ -77,5 +73,10 @@ Point Markers:
     /--*
     |
 -*--+
+
+*    /--->
+|    |
+|    |
+\----/
 
 @enduml

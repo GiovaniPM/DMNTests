@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" id="definitions_1jblnbx" name="definitions" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="3.7.3">
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="definitions_1jblnbx" name="definitions" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.5.0">
   <decision id="StrIntegerDecisionStringOutputTable" name="StrIntegerDecisionStringOutput">
     <decisionTable id="decisionTable">
       <input id="input1" label="Gender">
@@ -48,18 +48,6 @@
           <text>"30"</text>
         </outputEntry>
       </rule>
-      <rule id="DecisionRule_1k17ozc">
-        <description>👩</description>
-        <inputEntry id="UnaryTests_1ovy6n5">
-          <text>"f"</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_1ijvf2o">
-          <text>25</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_0g00wfu">
-          <text>"25"</text>
-        </outputEntry>
-      </rule>
       <rule id="row-484867957-1">
         <description>🙋‍♂️</description>
         <inputEntry id="UnaryTests_06l79c1">
@@ -82,6 +70,18 @@
         </inputEntry>
         <outputEntry id="LiteralExpression_0uvxx6a">
           <text>"mHigh"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1k17ozc">
+        <description>👩</description>
+        <inputEntry id="UnaryTests_1ovy6n5">
+          <text>"f"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ijvf2o">
+          <text>25</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0g00wfu">
+          <text>"25"</text>
         </outputEntry>
       </rule>
       <rule id="row-484867957-2">
