@@ -33,7 +33,7 @@
   <bpmn:process id="Process_06l5zxh" isExecutable="false">
     <bpmn:dataObjectReference id="DataObjectReference_0uipryn" name="file.dmn" dataObjectRef="DataObject_0bnbhi1" />
     <bpmn:dataObject id="DataObject_0bnbhi1" />
-    <bpmn:businessRuleTask id="Activity_0z9ffyl" name="Rules Reading" camunda:decisionRef="">
+    <bpmn:businessRuleTask id="Activity_0z9ffyl" name="Rules Reading" camunda:decisionRef="Rules/string_integer_decision">
       <bpmn:property id="Property_0byyscl" name="__targetRef_placeholder" />
       <bpmn:dataInputAssociation id="DataInputAssociation_0zwwbtk">
         <bpmn:sourceRef>DataObjectReference_0uipryn</bpmn:sourceRef>
@@ -82,27 +82,8 @@
       <bpmndi:BPMNShape id="Event_12lzbfc_di" bpmnElement="Event_1jis1yt" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
         <dc:Bounds x="682" y="292" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Participant_0wadba6_di" bpmnElement="Participant_0wadba6" isHorizontal="true" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
-        <dc:Bounds x="199" y="410" width="581" height="120" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="TextAnnotation_0ubxior_di" bpmnElement="TextAnnotation_0ubxior" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
-        <dc:Bounds x="658" y="474" width="100" height="30" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1cxzxe9_di" bpmnElement="Activity_03jrboj" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
-        <dc:Bounds x="444" y="430" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Association_19w0lgs_di" bpmnElement="Association_19w0lgs" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
-        <di:waypoint x="544" y="491" />
-        <di:waypoint x="658" y="491" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="Participant_01dvwfa_di" bpmnElement="Participant_1u09s52" isHorizontal="true" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
-        <dc:Bounds x="199" y="119" width="581" height="60" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Participant_1vsr7a4_di" bpmnElement="Participant_1vsr7a4" isHorizontal="true" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
         <dc:Bounds x="199" y="530" width="581" height="120" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="TextAnnotation_0pap33j_di" bpmnElement="TextAnnotation_0pap33j" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
-        <dc:Bounds x="661" y="563" width="100" height="54" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="DataObjectReference_0uipryn_di" bpmnElement="DataObjectReference_0uipryn" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
         <dc:Bounds x="590" y="565" width="36" height="50" />
@@ -113,13 +94,40 @@
       <bpmndi:BPMNShape id="Activity_1vzoebg_di" bpmnElement="Activity_0z9ffyl" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
         <dc:Bounds x="444" y="550" width="100" height="80" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_0pap33j_di" bpmnElement="TextAnnotation_0pap33j" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
+        <dc:Bounds x="661" y="563" width="100" height="54" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_1yrwle9_di" bpmnElement="Association_1yrwle9" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
         <di:waypoint x="626" y="590" />
         <di:waypoint x="661" y="590" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Participant_0wadba6_di" bpmnElement="Participant_0wadba6" isHorizontal="true" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
+        <dc:Bounds x="199" y="410" width="581" height="120" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1cxzxe9_di" bpmnElement="Activity_03jrboj" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
+        <dc:Bounds x="444" y="430" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_0ubxior_di" bpmnElement="TextAnnotation_0ubxior" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
+        <dc:Bounds x="658" y="474" width="100" height="30" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_19w0lgs_di" bpmnElement="Association_19w0lgs" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
+        <di:waypoint x="544" y="491" />
+        <di:waypoint x="658" y="491" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Participant_01dvwfa_di" bpmnElement="Participant_1u09s52" isHorizontal="true" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
+        <dc:Bounds x="199" y="119" width="581" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataInputAssociation_0zwwbtk_di" bpmnElement="DataInputAssociation_0zwwbtk" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
+        <di:waypoint x="590" y="590" />
+        <di:waypoint x="544" y="590" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1khxku9_di" bpmnElement="Flow_1khxku9" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <di:waypoint x="400" y="179" />
         <di:waypoint x="400" y="270" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0kxio7i_di" bpmnElement="Flow_0kxio7i" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
+        <di:waypoint x="590" y="270" />
+        <di:waypoint x="590" y="179" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0h2ic9b_di" bpmnElement="Flow_0h2ic9b" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
         <di:waypoint x="400" y="350" />
@@ -131,21 +139,13 @@
         <di:waypoint x="580" y="470" />
         <di:waypoint x="580" y="350" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0kxio7i_di" bpmnElement="Flow_0kxio7i" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
-        <di:waypoint x="590" y="270" />
-        <di:waypoint x="590" y="179" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_18pgr4y_di" bpmnElement="Flow_18pgr4y" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
-        <di:waypoint x="519" y="550" />
-        <di:waypoint x="519" y="510" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0qrtsva_di" bpmnElement="Flow_0qrtsva" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
         <di:waypoint x="474" y="510" />
         <di:waypoint x="474" y="550" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="DataInputAssociation_0zwwbtk_di" bpmnElement="DataInputAssociation_0zwwbtk" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
-        <di:waypoint x="590" y="590" />
-        <di:waypoint x="544" y="590" />
+      <bpmndi:BPMNEdge id="Flow_18pgr4y_di" bpmnElement="Flow_18pgr4y" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
+        <di:waypoint x="519" y="550" />
+        <di:waypoint x="519" y="510" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
