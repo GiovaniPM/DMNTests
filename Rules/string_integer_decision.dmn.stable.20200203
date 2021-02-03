@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" id="definitions_1jblnbx" name="definitions" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="3.7.3">
+  <decision id="StrIntegerDecisionStringOutputTable" name="StrIntegerDecisionStringOutput">
+    <decisionTable id="decisionTable">
+      <input id="input1" label="Gender">
+        <inputExpression id="inputExpression1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1tm0ceq" label="Age">
+        <inputExpression id="LiteralExpression_04o7chw" typeRef="integer" />
+      </input>
+      <output id="output1" label="Result" name="" typeRef="string" />
+      <rule id="DecisionRule_03xf8h9">
+        <description>child</description>
+        <inputEntry id="UnaryTests_1hgq66x">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1h8g2a7">
+          <text>&lt;= 10</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0zpvw7u">
+          <text>"Child"</text>
+        </outputEntry>
+      </rule>
+      <rule id="row-484867957-5">
+        <description>👨</description>
+        <inputEntry id="UnaryTests_148tr41">
+          <description>mGender Description</description>
+          <text>"m"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0vir5ok">
+          <text>30</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0dvud7t">
+          <text>"30"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1k17ozc">
+        <description>m25</description>
+        <inputEntry id="UnaryTests_1ovy6n5">
+          <text>"f"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ijvf2o">
+          <text>25</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0g00wfu">
+          <text>"25"</text>
+        </outputEntry>
+      </rule>
+      <rule id="row-484867957-1">
+        <description>🙋‍♂️</description>
+        <inputEntry id="UnaryTests_06l79c1">
+          <text>"m"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ldsism">
+          <text>&lt; 25</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_01n13q2">
+          <text>"mLow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="row-484867957-3">
+        <description>👴</description>
+        <inputEntry id="UnaryTests_0epikzx">
+          <text>"m"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0vf51t0">
+          <text>&gt;= 25</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0uvxx6a">
+          <text>"mHigh"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1k17ozc">
+        <description>👩</description>
+        <inputEntry id="UnaryTests_1ovy6n5">
+          <text>"f"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ijvf2o">
+          <text>25</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0g00wfu">
+          <text>"25"</text>
+        </outputEntry>
+      </rule>
+      <rule id="row-484867957-2">
+        <description>🙋‍♀️</description>
+        <inputEntry id="UnaryTests_197hyvw">
+          <text>"f"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0boy770">
+          <text>&lt; 20</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_16njszh">
+          <text>"fLow"</text>
+        </outputEntry>
+      </rule>
+      <rule id="row-484867957-4">
+        <description>👵</description>
+        <inputEntry id="UnaryTests_0iv5y6t">
+          <text>"f"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1jecoo3">
+          <text>&gt;= 20</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1fnfw23">
+          <text>"fHigh"</text>
+        </outputEntry>
+      </rule>
+      <rule id="row-484867957-7">
+        <description>⚠️</description>
+        <inputEntry id="UnaryTests_1swc6fh">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0u4hmbg">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_19qgvg3">
+          <text>"ELSE"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

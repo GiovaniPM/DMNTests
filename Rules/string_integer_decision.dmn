@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="definitions_1jblnbx" name="definitions" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.5.0">
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" id="definitions_1jblnbx" name="definitions" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="3.7.3">
   <decision id="StrIntegerDecisionStringOutputTable" name="StrIntegerDecisionStringOutput">
     <decisionTable id="decisionTable">
       <input id="input1" label="Gender">
@@ -11,113 +11,112 @@
         <inputExpression id="LiteralExpression_04o7chw" typeRef="integer" />
       </input>
       <output id="output1" label="Result" name="" typeRef="string" />
-      <rule id="DecisionRule_0klrivp">
-        <description>⁉️</description>
-        <inputEntry id="UnaryTests_1wyr6ok">
+      <rule id="DecisionRule_01c2wmj">
+        <description>1</description>
+        <inputEntry id="UnaryTests_0dhqnda">
           <text></text>
         </inputEntry>
-        <inputEntry id="UnaryTests_0ewucdp">
-          <text>&lt; 1</text>
+        <inputEntry id="UnaryTests_1cka3v7">
+          <text>&lt; 19</text>
         </inputEntry>
-        <outputEntry id="LiteralExpression_1a6nq24">
-          <text>"NB"</text>
+        <outputEntry id="LiteralExpression_0wuwc56">
+          <text>"Faixa 1"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_03xf8h9">
-        <description>👶</description>
+        <description>2</description>
         <inputEntry id="UnaryTests_1hgq66x">
           <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_1h8g2a7">
-          <text>&lt;= 10</text>
+          <text>&lt; 24</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0zpvw7u">
-          <text>"Child"</text>
+          <text>"Faixa 2"</text>
         </outputEntry>
       </rule>
-      <rule id="row-484867957-5">
-        <description>👨</description>
-        <inputEntry id="UnaryTests_148tr41">
-          <description>mGender Description</description>
-          <text>"m"</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_0vir5ok">
-          <text>30</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_0dvud7t">
-          <text>"30"</text>
-        </outputEntry>
-      </rule>
-      <rule id="row-484867957-1">
-        <description>🙋‍♂️</description>
-        <inputEntry id="UnaryTests_06l79c1">
-          <text>"m"</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_1ldsism">
-          <text>&lt; 25</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_01n13q2">
-          <text>"mLow"</text>
-        </outputEntry>
-      </rule>
-      <rule id="row-484867957-3">
-        <description>👴</description>
-        <inputEntry id="UnaryTests_0epikzx">
-          <text>"m"</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_0vf51t0">
-          <text>&gt;= 25</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_0uvxx6a">
-          <text>"mHigh"</text>
-        </outputEntry>
-      </rule>
-      <rule id="DecisionRule_1k17ozc">
-        <description>👩</description>
-        <inputEntry id="UnaryTests_1ovy6n5">
-          <text>"f"</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_1ijvf2o">
-          <text>25</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_0g00wfu">
-          <text>"25"</text>
-        </outputEntry>
-      </rule>
-      <rule id="row-484867957-2">
-        <description>🙋‍♀️</description>
-        <inputEntry id="UnaryTests_197hyvw">
-          <text>"f"</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_0boy770">
-          <text>&lt; 20</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_16njszh">
-          <text>"fLow"</text>
-        </outputEntry>
-      </rule>
-      <rule id="row-484867957-4">
-        <description>👵</description>
-        <inputEntry id="UnaryTests_0iv5y6t">
-          <text>"f"</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_1jecoo3">
-          <text>&gt;= 20</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_1fnfw23">
-          <text>"fHigh"</text>
-        </outputEntry>
-      </rule>
-      <rule id="row-484867957-7">
-        <description>⚠️</description>
-        <inputEntry id="UnaryTests_1swc6fh">
+      <rule id="DecisionRule_01yg6rj">
+        <description>3</description>
+        <inputEntry id="UnaryTests_0ptj004">
           <text></text>
         </inputEntry>
-        <inputEntry id="UnaryTests_0u4hmbg">
+        <inputEntry id="UnaryTests_1ppirs6">
+          <text>&lt; 28</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0vstz6j">
+          <text>"Faixa 3"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1tzmudi">
+        <description>4</description>
+        <inputEntry id="UnaryTests_0d38s4v">
           <text></text>
         </inputEntry>
-        <outputEntry id="LiteralExpression_19qgvg3">
-          <text>"ELSE"</text>
+        <inputEntry id="UnaryTests_1eld9j0">
+          <text>&lt; 33</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_09u7bs0">
+          <text>"Faixa 4"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0id80ck">
+        <description>5</description>
+        <inputEntry id="UnaryTests_0kb07l8">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0tkgfn4">
+          <text>&lt; 38</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0vdv7xs">
+          <text>"Faixa 5"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1bhn14j">
+        <description>6</description>
+        <inputEntry id="UnaryTests_1suh5c0">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0nho6a6">
+          <text>&lt; 43</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_045g6qw">
+          <text>"Faixa 6"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_15emc6l">
+        <description>7</description>
+        <inputEntry id="UnaryTests_1akci43">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_097si3x">
+          <text>&lt; 48</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_15ucvv0">
+          <text>"Faixa 7"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1gp7lvg">
+        <description>8</description>
+        <inputEntry id="UnaryTests_0rh99p7">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1il747f">
+          <text>&lt; 53</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1re9agm">
+          <text>"Faixa 8"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_13vhv2z">
+        <description>9</description>
+        <inputEntry id="UnaryTests_071xstf">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1b84csp">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1u139c7">
+          <text>"Faixa 9"</text>
         </outputEntry>
       </rule>
     </decisionTable>
