@@ -567,7 +567,7 @@ Manage colunms to show and organize like a table, in a screen could be used in t
 ```plantuml
 @startsalt
 'skinparam BackgroundColor lightblue
-scale 1.5
+scale 0.5
 {+
     |area1|area2|area3|area4|area5|area6|area7
     |.|{* File | Edit | Source | ?
