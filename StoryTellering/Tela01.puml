@@ -1,6 +1,6 @@
 @startsalt
 
-!$showspace = 1
+!$showspace = 0
 !$menu = 0
 !$addresstype = 1
 !$addreslayout = 1
