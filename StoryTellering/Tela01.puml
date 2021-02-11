@@ -1,8 +1,9 @@
 @startsalt
 
+!$showspace = 0
 !$menu = 0
 !$addresstype = 1
-!$addreslayout = 2
+!$addreslayout = 1
 
 !procedure Menu()
     !if ($menu == 1)
@@ -68,7 +69,7 @@
 !endprocedure
 
 !procedure DialogDropBox($text,$value)
-    $text|^$value^
+    $text:|^$value^
 !endprocedure
 
 !function Lpad($text,$value,$string)
@@ -86,12 +87,15 @@
         !$text = $string + $text
         !$loop = $loop - 1
     !endwhile
-    !local $begin = %strlen($text) - $value
     !return %substr($text,$begin,$value)
 !endfunction
 
 !procedure Spaces($value)
-    <color:white>Lpad("X",$value,"X")
+    !if ($showspace == 1)
+        <color:gainsboro>Lpad("X",$value,"X")
+    !else
+        <color:white>Lpad("X",$value,"X")
+    !endif
 !endprocedure
 
 !procedure DialogAddress1($text)
@@ -193,12 +197,12 @@ scale 1.5
     ..|*|*|*|*|*|*|*
     |.
     |.|{DialogDropBox("Image Mode","Smart")|
-        |Spaces(25)|
+        |Spaces(10)|
         |DialogOptions()|
-        |Spaces(25)|
+        |Spaces(10)|
         |DialogPrivacy()}|*|*|*|*|*|*|.
     |.
-    |.|.|.|.|.|.|{[  OK<&account-login>   ]|[Cancel<&circle-x>]}|*|.
+    |.|.|.|.|.|.|Spaces(25)|{[  OK<&account-login>   ]|[Cancel<&circle-x>]}|.
     |.
 }
 @endsalt
