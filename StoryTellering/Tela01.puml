@@ -1,0 +1,204 @@
+@startsalt
+
+!$menu = 0
+!$addresstype = 3
+!$addreslayout = 2
+
+!procedure Menu()
+    !if ($menu == 1)
+        {* File | Edit | Source | ? 
+        File | New | Open File | - | Close | Close All | - | Exit}
+    !elseif ($menu == 2)
+        {* File | Edit | Source | ?
+        Edit | Copy | Paste | - | Delete}
+    !elseif ($menu == 3)
+        {* File | Edit | Source | ?
+        Source | Find ...}
+    !elseif ($menu == 4)
+        {* File | Edit | Source | ?
+        ? | About}
+    !else
+        {* File | Edit | Source | ?}
+    !endif
+!endprocedure
+
+!procedure DialogGender() 
+    {^" Gender: " |
+        (X) Masculine |
+        () Feminine |
+        () NInf
+    }
+!endprocedure
+
+!procedure DialogPrivacy()
+    {^" Privacy: " |
+        (X) public |
+        () default |
+        () private
+    }
+!endprocedure
+
+!procedure DialogState()
+    {S 
+        Acre
+        Amapa
+        Amazonas
+    }
+!endprocedure
+
+!procedure DialogCountry()
+    {S 
+        Brasil
+        China
+        Estados Unidos
+    }
+!endprocedure
+
+!procedure DialogOptions()
+    {^" Options: "
+        [X] Smooth images when zoomed
+        [X] Confirm image deletion
+        [ ] Show hidden images
+    }
+!endprocedure
+
+!procedure DialogRead($text,$mask,$value)
+    !$mask = $mask + "(" + $value + ")"
+    $text|"<color:red>Lpad($mask,$value," ")"
+!endprocedure
+
+!procedure DialogDropBox($text,$value)
+    $text|^$value^
+!endprocedure
+
+!function Lpad($text,$value,$string)
+    !local $loop = $value / %strlen($string)
+    !while $loop > 0
+        !$text = $text + $string
+        !$loop = $loop - 1
+    !endwhile
+    !return %substr($text,0,$value)
+!endfunction
+
+!function Rpad($text,$value,$string)
+    !local $loop = $value / %strlen($string)
+    !while $loop > 0
+        !$text = $string + $text
+        !$loop = $loop - 1
+    !endwhile
+    !local $begin = %strlen($text) - $value
+    !return %substr($text,$begin,$value)
+!endfunction
+
+!procedure Spaces($value)
+    <color:white>Lpad("X",$value,"X")
+!endprocedure
+
+!procedure DialogAddress1($text)
+    {^" $text: " 
+        |.|{DialogRead("Address Line 1: ","X",50)|
+            |DialogRead("Address Line 2: ","X",50)}
+        |.|{DialogRead("Address Line 3: ","X",50)|
+            |DialogRead("City: ","X",50)}
+        |.|{DialogDropBox("State/Province: ","State/Province")|
+            |DialogDropBox("Country/Region: ","Country/Region")|
+            |DialogRead("CEP: ","X",10)}
+    }
+!endprocedure
+
+!procedure DialogAddress2($text)
+    {^" $text: " 
+        |.|DialogRead("Address Line 1: ","X",50)
+        |.|DialogRead("Address Line 2: ","X",50)
+        |.|DialogRead("Address Line 3: ","X",50)
+        |.|{DialogRead("City: ","X",50)|
+            |DialogDropBox("State/Province: ","State/Province")|
+            |.}|*
+        |.|{DialogRead("CEP: ","X",10)|
+            |DialogDropBox("Country/Region: ","Country/Region")|
+            |.}|*
+    }
+!endprocedure
+
+!procedure DialogAddress3($text)
+    {^" $text: " 
+        |.|DialogRead("Address Line 1: ","X",50)
+        |.|DialogRead("Address Line 2: ","X",50)
+        |.|DialogRead("Address Line 3: ","X",50)
+        |.|DialogRead("City: ","X",50)
+        |.|DialogDropBox("State/Province: ","State/Province")
+        |.|DialogRead("CEP: ","X",10)
+        |.|DialogDropBox("Country/Region: ","Country/Region")
+    }
+!endprocedure
+
+!procedure DialogAddress($text)
+    !if ($addreslayout == 1)
+        DialogAddress1($text)
+    !elseif ($addreslayout == 2)
+        DialogAddress2($text)
+    !else
+        DialogAddress3($text)
+    !endif
+!endprocedure
+
+!procedure ListAddress()
+    !if ($addresstype == 1)
+        |Adresses:|{
+            |{SI 
+                |.|
+                DialogAddress("Address 1")|.
+                |.|
+                DialogAddress("Address 2")|.}}
+    !elseif ($addresstype == 2)
+        {
+            |.
+            |.|DialogAddress("Address 1")|*|*|*|*|*
+            |.
+            |.|DialogAddress("Address 2")|*|*|*|*|*}
+    !else
+        {
+            |.
+            |.|DialogAddress("Address 1")|*|*|*|*|*}
+    !endif
+!endprocedure
+
+!procedure Rule($value)
+    !local $loop = $value
+    !local $index = 1
+    !while $loop > 0
+        !if ($index == 10)
+            !$index = 0
+        !endif
+        !if ($loop == 1)
+            |$index
+        !else
+            |$index|
+        !endif
+        !$index = $index + 1
+        !$loop = $loop - 1
+    !endwhile
+!endprocedure
+
+scale 1.5
+
+{+
+    |Menu()|*|*|*|*|*|*|*|*
+    |.
+    |.|DialogRead("Name: ","X",50)|
+        |.|.|Spaces(32)|
+        |DialogGender()|*
+    ..|*|*|*|*|*|*|*
+    |.|ListAddress()|*|*|*|*|*
+    ..|*|*|*|*|*|*|*
+    |.
+    |.|{DialogDropBox("Image Mode","Smart")|
+        |Spaces(25)|
+        |DialogOptions()|
+        |Spaces(25)|
+        |DialogPrivacy()}|*|*|*|*|*|*|.
+    |.
+    |.|.|.|.|.|.|{[  OK<&account-login>   ]|[Cancel<&circle-x>]}|*|.
+    |.
+}
+@endsalt
