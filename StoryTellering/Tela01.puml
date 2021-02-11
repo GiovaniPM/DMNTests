@@ -1,6 +1,6 @@
 @startsalt
 
-!$showspace = 0
+!$showspace = 1
 !$menu = 0
 !$addresstype = 1
 !$addreslayout = 1
@@ -197,9 +197,9 @@ scale 1
     ..|*|*|*|*|*|*|*
     |.
     |.|{DialogDropBox("Image Mode","Smart")|
-        |Spaces(10)|
+        |Spaces(25)|
         |DialogOptions()|
-        |Spaces(10)|
+        |Spaces(25)|
         |DialogPrivacy()}|*|*|*|*|*|*|.
     |.
     |.|.|.|.|.|.|Spaces(25)|{[  OK<&account-login>   ]|[Cancel<&circle-x>]}|.
