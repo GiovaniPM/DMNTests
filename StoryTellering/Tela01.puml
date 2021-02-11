@@ -1,7 +1,7 @@
 @startsalt
 
 !$menu = 0
-!$addresstype = 3
+!$addresstype = 1
 !$addreslayout = 2
 
 !procedure Menu()
