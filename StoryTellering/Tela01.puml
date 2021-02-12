@@ -1,9 +1,12 @@
 @startsalt
+skinparam BackgroundColor white
 
 !$showspace = 0
 !$menu = 0
 !$addresstype = 1
-!$addreslayout = 1
+!$addreslayout = 2
+
+scale 1
 
 !procedure Menu()
     !if ($menu == 1)
@@ -167,7 +170,7 @@
     !endif
 !endprocedure
 
-!procedure Rule($value)
+!procedure GridRule($value)
     !local $loop = $value
     !local $index = 1
     !while $loop > 0
@@ -184,7 +187,30 @@
     !endwhile
 !endprocedure
 
-scale 1
+!procedure Rule($value)
+    !local $loop = $value
+    !local $index = 1
+    !local $decimal = 0
+    !local $rule1 = ""
+    !local $rule2 = ""
+    !while $loop > 0
+        !if ($index == 10)
+            !$index = 0
+            !$decimal = $decimal + 1
+            !if ($decimal == 10)
+                !$decimal = 0
+            !endif
+            !$rule1 = $rule1 + $decimal
+        !else
+            !$rule1 = $rule1 + ""
+        !endif
+        !$rule2 = $rule2 + $index
+        !$index = $index + 1
+        !$loop = $loop - 1
+    !endwhile
+    {$rule1
+        $rule2}
+!endprocedure
 
 {+
     |Menu()|*|*|*|*|*|*|*|*
@@ -193,7 +219,9 @@ scale 1
         |.|.|Spaces(32)|
         |DialogGender()|*
     ..|*|*|*|*|*|*|*
+    |.
     |.|ListAddress()|*|*|*|*|*
+    |.
     ..|*|*|*|*|*|*|*
     |.
     |.|{DialogDropBox("Image Mode","Smart")|
