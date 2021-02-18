@@ -16,4 +16,12 @@ Few parameters are compulsory in data structure to build a cache and other param
 - ActionCode – Mandatory
 - Cursor – Mandatory
 
-![Cache Data Structure](/images/logo.png)
+![Cache Data Structure](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/ej0lzbf7.bmp)
+
+## 2. Attach the Data structure to C BSFN
+
+![Attach DS to BSFN](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/nr7xbz9b.bmp)
+
+## 3. Generate the Skeleton for the Business function
+
+![Attach DS to BSFN](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/a9wzpec0.bmp)
