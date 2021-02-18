@@ -98,3 +98,7 @@ Unzip **V47124-01.zip** the file and run the Oracle Client Setup (“Setup.exe�
 **<span style="color:red;">Note:</span>** Oracle 12c 32 bit Client required non-administrator user for Installation, during the installation Enter the non-administrator user for installing Oracle 12c Client. If you already created non admin user use option 1 or use option 2 allow OUI to create non admin user ID.
 
 ![Oracle1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/s133rsut.bmp)
+
+Now, it’s time to install Oracle E1local DB 12c and JDE standalone Client itself. The install process is divided in two parts: the first install the Oracle Database and the second the JDE Client. The four files that we downloaded earlier must be combined to make a working setup installation extract the four files and you will have a folder structure like this.
+
+**<span style="color:red;">V100564-01-zip, V97804-01-zip, V97805-01-zip, V97806-01-zip</span>**
