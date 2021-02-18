@@ -102,3 +102,14 @@ Unzip **V47124-01.zip** the file and run the Oracle Client Setup (“Setup.exe�
 Now, it’s time to install Oracle E1local DB 12c and JDE standalone Client itself. The install process is divided in two parts: the first install the Oracle Database and the second the JDE Client. The four files that we downloaded earlier must be combined to make a working setup installation extract the four files and you will have a folder structure like this.
 
 **<span style="color:red;">V100564-01-zip, V97804-01-zip, V97805-01-zip, V97806-01-zip</span>**
+
+
+1. Move the contents from folder V97805-01-01 to folder V97806-01
+1. Move the contents from folder V97804-01-01 to folder V100564-01
+1. Now Move the contents from folder V97806-01-01 to folder V100564-01\ThirdParty\ORACLE
+
+**<span style="color:red;">Note:</span>** Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
+
+Follow the below screenshots
+
+Extract all 4 Setup files
