@@ -67,3 +67,17 @@ In this scenario also, first fetch will get performed to check the existence of 
 Values of the first record got dsiplayed in the application after pressing the Fecth Record Button
 
 ![Cache 3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/46xptb9n.bmp)
+
+## 10. Enter the key values to Delete the record from cache
+
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/v7mbtanh.bmp)
+
+In this scenario also, first fetch will get performed to check the existence of the record and if exists then the values will get deleted after the jdeCacheDelete API returns success.
+
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/q0wtoun8.bmp)
+
+## 11. When we try to delete the same record in cache again it will return error because record is not present
+
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/iizlgczn.bmp)
+
+Similar way we can call the C BSFN to fetch the sequential records from cache and destroy the cache.
