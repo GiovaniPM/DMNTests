@@ -56,3 +56,14 @@ In this case first fetch from the cache will happen to check if the record exist
 
 ![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/dazv4f1b.bmp)
 
+## 9. Enter the key value to fetch the record from the cache
+
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/ko9srhs9.bmp)
+
+In this scenario also, first fetch will get performed to check the existence of the record and if exists then the values will get assign to the BSFN parameters after the jdeCacheFetchPosition API returns success.
+
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/sviihitd.bmp)
+
+Values of the first record got dsiplayed in the application after pressing the Fecth Record Button
+
+![Cache 3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/46xptb9n.bmp)
