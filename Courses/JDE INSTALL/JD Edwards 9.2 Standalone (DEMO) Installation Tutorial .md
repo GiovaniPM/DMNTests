@@ -30,6 +30,24 @@ Standalone 9.2, Oracle WebLogic Server , Oracle 12c Client Setup files can be do
 
 ## 1. Software Download
 
-In the [Oracle Software Delivery Cloud](https://edelivery.oracle.com/) home page, login using your credentials. Accept the “Export Restrictions” and this will lead to the Product Selection screen. For Product select “**JD Edwards EnterpriseOne System Foundation**” and Platform as “**Microsoft Windows x64 (64-bit)**“
+In the [Oracle Software Delivery Cloud](https://edelivery.oracle.com/) home page, login using your credentials. Accept the “Export Restrictions” and this will lead to the Product Selection screen.
 
-![OSDC](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/zrbk9sov.bmp)
+### JDE 9.2
+
+For Product select “**JD Edwards EnterpriseOne System Foundation**” and Platform as “**Microsoft Windows x64 (64-bit)**“
+
+![JDE1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/zrbk9sov.bmp)
+
+JD Edwards 9.2 Standalone Setup files comes in 4 zip files .This setup files are divided in two parts JD Edwards Standalone components and Oracle Database 12c components.
+
+![JDE2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/nid962z4.bmp)
+
+### Oracle 12C
+
+As JD Edwards is 32 bit software, we need to install Oracle 12C 32 bit clientfor DB connection. For Product select “**Oracle Database Enterprise Edition**” and Platform as “**Microsoft Windows x64 (64-bit)**“
+
+![ORACLE1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/s0avbagr.bmp)
+
+Download the Oracle 12C 32 bit software (V47124-01.zip) setup file.
+
+![ORACLE2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/48hnohds.bmp)
