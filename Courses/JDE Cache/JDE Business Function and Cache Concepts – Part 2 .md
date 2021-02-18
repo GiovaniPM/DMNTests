@@ -24,4 +24,10 @@ Few parameters are compulsory in data structure to build a cache and other param
 
 ## 3. Generate the Skeleton for the Business function
 
-![Attach DS to BSFN](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/a9wzpec0.bmp)
+![Function Creation](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/a9wzpec0.bmp)
+![Function Prototype](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/jby2fxmt.bmp)
+
+## 4. Create Data structure definition in the .h file
+
+![DS Design](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/o1kxvqol.bmp)
+![DS .h](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/jgj3nt0m.bmp)
