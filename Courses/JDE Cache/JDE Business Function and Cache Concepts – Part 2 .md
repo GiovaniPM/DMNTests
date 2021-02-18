@@ -63,5 +63,4 @@ The Cache is initialized using ‘jdeCacheInit’ API. This is the most importan
 1. Names the cache with the name passed in this API.
 1. Associates the cache with a cache handle (HCACHE) that the user will use to reference the cache in call to JDE Cache 1. APIs.
 
-### 1. 
-### 1.
+![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/2gjwkt4u.bmp)
