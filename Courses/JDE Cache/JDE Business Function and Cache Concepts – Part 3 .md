@@ -23,3 +23,19 @@ Action Code Values:
 ## 3. In Update Record Button Call the C BSFN to update the records in cache
 
 ![Update](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/2pn6zl49.bmp)
+
+## 4. In Fetch Record Button Call the C BSFN to fetch the records from cache
+
+![Fetch](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/j3smdgc5.bmp)
+
+## 5. In Delete Record Button Call the C BSFN to add the records from cache
+
+![Delete](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/3d7isns2.bmp)
+
+## 6. Run the application in web client and key in the values for inserting the record in cache and press the Add Record button
+
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/jvj2l6rd.bmp)
+
+We can see the values have been added in cache after jdeCacheAdd API is called in the C BSFN
+
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/zko0oi6b.bmp)
