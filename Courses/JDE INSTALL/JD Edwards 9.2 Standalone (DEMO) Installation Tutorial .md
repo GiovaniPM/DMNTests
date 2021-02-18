@@ -51,3 +51,13 @@ As JD Edwards is 32 bit software, we need to install Oracle 12C 32 bit clientfor
 Download the Oracle 12C 32 bit software (V47124-01.zip) setup file.
 
 ![ORACLE2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/48hnohds.bmp)
+
+### WebLogic
+
+For Product select “**Oracle Weblogic Server Enterprise Edition**” and Platform as “**Microsoft Windows x86 (32-bit)**“
+
+![WL1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/y5bcifoe.bmp)
+
+Download the Oracle Web logic Server (V44413-01.zip) Setup file.
+
+![WL2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/qdj1sprk.bmp)
