@@ -61,3 +61,12 @@ For Product select “**Oracle Weblogic Server Enterprise Edition**” and Platf
 Download the Oracle Web logic Server (V44413-01.zip) Setup file.
 
 ![WL2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/qdj1sprk.bmp)
+
+## 2. Prerequisites
+
+JD Edwards E920 Standalone client requires some of the prerequisites software to works perfectly
+
+1. Install 32 bit [JDK – Oracle JDK 1.7.0_91](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
+1. Install [Microsoft Visual C++ RTL 2013](https://www.microsoft.com/en-au/download/details.aspx?id=40784) (x86 & x64)
+1. Install [Microsoft Visual Studio 2013](https://www.microsoft.com/en-au/download/details.aspx?id=44914).(Required for BSFN development)
+1. Install [PDF Reader](https://www.foxitsoftware.com/products/pdf-reader/), Chrome or [Firefox\(https://www.mozilla.org/en-US/firefox/new/)
