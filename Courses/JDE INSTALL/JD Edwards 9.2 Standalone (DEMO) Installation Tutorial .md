@@ -13,3 +13,23 @@ Standalone 9.2 Install JD Edwards Enterprise One 9.2 Standalone Demo (Oracle ver
 This procedure was a result from information that I gathered from tips from another users and “trial and error” tests. Suggestions and comments are always welcome.
 
 Before we get started, if you find any issue, do read through the comments or visit the [troubleshooting guide for 9.2 installation](https://www.jdesource.com/enterpriseone/jd-edwards-standalone-e920-troubleshooting-guide/)
+
+## Let's GO
+
+
+1. Certification or MTR for JD Edwards Standalone can be verified from certification tab of support portal. Tips: JD Edwards Standalone Certification can be verified under product “JD Edwards Development client”
+1. We verified the certifications, now we need to install the below components for complete the installation of JD Edwards 9.2 Standalone Successfully.
+1. Software Download
+1. Prerequisites
+1. Installation of Oracle Web logic Server
+1. Installation of Oracle 12c Client
+1. Installation of Oracle E1local 12c DB
+1. Installation of Standalone Development client
+
+Standalone 9.2, Oracle WebLogic Server , Oracle 12c Client Setup files can be download from [Oracle Software Delivery Cloud](https://edelivery.oracle.com/)
+
+## 1. Software Download
+
+In the [Oracle Software Delivery Cloud](https://edelivery.oracle.com/) home page, login using your credentials. Accept the “Export Restrictions” and this will lead to the Product Selection screen. For Product select “**JD Edwards EnterpriseOne System Foundation**” and Platform as “**Microsoft Windows x64 (64-bit)**“
+
+![OSDC](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/zrbk9sov.bmp)
