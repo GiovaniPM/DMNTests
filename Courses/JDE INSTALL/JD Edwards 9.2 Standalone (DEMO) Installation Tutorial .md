@@ -113,3 +113,14 @@ Now, it’s time to install Oracle E1local DB 12c and JDE standalone Client itse
 Follow the below screenshots
 
 Extract all 4 Setup files
+
+![Oracle2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/sinv7am8.bmp)
+
+1. Move the contents from folder V97805-01-01 to folder V97806-01
+
+![Oracle3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/9dnmqu39.bmp)
+
+2. Move the contents from folder V97804-01-01 to folder V100564-01
+3. Now Move the contents from folder V97806-01-01 to folder V100564-01\ThirdParty\ORACLE
+
+**<span style="color:red;">Note:</span>** Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
