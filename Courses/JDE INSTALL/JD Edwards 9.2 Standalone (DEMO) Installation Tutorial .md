@@ -124,3 +124,18 @@ Extract all 4 Setup files
 3. Now Move the contents from folder V97806-01-01 to folder V100564-01\ThirdParty\ORACLE
 
 **<span style="color:red;">Note:</span>** Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
+
+## 5. Install E1Local 12c DB
+
+From Release E920, Oracle E1local DB 12C required non-administrator user for Installation. Run the “InstallManager.exe”.Click Enterpriseone Oracle 12c Database Engine on JD Edwards Install Manager
+
+![JDE1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/00p8meim.bmp)
+
+In the next screen as we already created Non admin user while installing Oracle 12c 32 bit client, Use the Option 1 and provide the non-administrator credentials and click on Next. Once E1local 12C Successfully Installed, we will receive a saying that message “E1local successfully installed”. Now click yes to reboot the machine.
+
+![JDE2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/8ab4r565.bmp)
+
+**<span style="color:red;">Once this is completed, check the following</span>**
+
+Oracle has noted that there is a problem with IMPDP.exe and EXPDP.exe in their 12c database client software.
+The solution: Ensure that both the 32-bit client and the 64-bit client are both in your PATH. (ie: c:\app\oracle\product\12.1.0\client_1\bin;C:\Oracle\E1Local\bin). Rename the impdp.exe and expdp.exe in the c:\app\oracle\product\12.1.0\client_1\bin folder to impdp.exe.bak and expdp.exe.bak. The install will then use the impdp.exe from the database install and everything will work.  You can find the Path Envt variables in the System Settings (from control panel) – Advanced Tab – Environment Variables – System Variables
