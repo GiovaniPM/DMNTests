@@ -70,3 +70,19 @@ JD Edwards E920 Standalone client requires some of the prerequisites software to
 1. Install [Microsoft Visual C++ RTL 2013](https://www.microsoft.com/en-au/download/details.aspx?id=40784) (x86 & x64)
 1. Install [Microsoft Visual Studio 2013](https://www.microsoft.com/en-au/download/details.aspx?id=44914).(Required for BSFN development)
 1. Install [PDF Reader](https://www.foxitsoftware.com/products/pdf-reader/), Chrome or [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+## 3. Installation of Oracle Weblogic Server
+
+From Release 9.2, OC4J has been removed so we need to install Oracle Weblogic Server for installing Local Web client
+
+The Standalone Web Client can be only Installed on Oracle WebLogic Server application server.
+
+Extract the download weblogic setup (V44413-01 zip)file in desktop or any folder, we will get the jar file **fmw_12.1.3.0.0_wls.jar**.
+
+Now Open the Command Prompt as **<span style="color:red;">Run administrator</span>** and use cd command to navigate to 32 bit Java Installed location( cd C:\Program Files (x86)\java\jdk1.7.0_91\bin) and run the weblogic Server Installer using the below command (Java -jar c:\users\JDE\Desktop\fmw_12.1.3.0.0_wls.jar)
+
+Enter the Oracle_Home as per your requirement and once installation completed uncheck the automatically launch the configuration wizard as shown in the below screen shot and click on finish.
+
+![WL1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/jb6up0lz.bmp)
+
+**<span style="color:red;">Note:</span>** No need to create a domain for web logic server
