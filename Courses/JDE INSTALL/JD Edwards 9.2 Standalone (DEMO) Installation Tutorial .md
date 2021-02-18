@@ -87,4 +87,14 @@ Enter the Oracle_Home as per your requirement and once installation completed un
 
 **<span style="color:red;">Note:</span>** No need to create a domain for web logic server
 
-<p style='color:red'>This is some red text.</p>
+## 4. Install Oracle 12C 32 bit Client
+
+From Release E920 with Oracle 12C 32 bit Client required non-administrator user for the Installation.
+
+Unzip **V47124-01.zip** the file and run the Oracle Client Setup (“Setup.exe”) program.
+
+**<span style="color:red;">Very important:</span>** Select Option 2 Administrator Option while installing Oracle DB 12c Client. Oracle Documentation state that “Runtime” also will work. So you may use them if running low on space.
+
+**<span style="color:red;">Note:</span>** Oracle 12c 32 bit Client required non-administrator user for Installation, during the installation Enter the non-administrator user for installing Oracle 12c Client. If you already created non admin user use option 1 or use option 2 allow OUI to create non admin user ID.
+
+![Oracle1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/s133rsut.bmp)
