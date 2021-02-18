@@ -52,7 +52,7 @@ Few parameters are compulsory in data structure to build a cache and other param
 
 ![Initialize User](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/dcjf2pe9.bmp)
 
-## Initialize Cache
+## 10. Initialize Cache
 
 The Cache is initialized using ‘jdeCacheInit’ API. This is the most important step for creating a cache.
 
