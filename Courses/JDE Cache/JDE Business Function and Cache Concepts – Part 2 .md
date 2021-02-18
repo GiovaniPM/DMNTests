@@ -43,3 +43,22 @@ Few parameters are compulsory in data structure to build a cache and other param
 ## 7. Create Instances For Cache and Cache Key in .c file
 
 ![Instances](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/idgw25eb.bmp)
+
+## 8. Declare pointers and Variables in .c file
+
+![Pointers](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/6plq3scq.bmp)
+
+## 9. Initialize User
+
+![Initialize User](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/dcjf2pe9.bmp)
+
+## Initialize Cache
+
+The Cache is initialized using ‘jdeCacheInit’ API. This is the most important step for creating a cache.
+
+‘jdeCacheInit’ initializes a named cache, associates the initialized cache with a user and returns a handle to the initialized cache. This API contains four things:
+
+1. Creates a cache in memory.
+1. Creates an index that will be used to access records in the cache.
+1. Names the cache with the name passed in this API.
+1. Associates the cache with a cache handle (HCACHE) that the user will use to reference the cache in call to JDE Cache 1. APIs.
