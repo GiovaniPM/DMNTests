@@ -77,30 +77,30 @@ Some of them are listed below:
 
 ‘jdeCacheUpdate’ updates the record that is currently being pointed to by the passed HJDECURSOR with the passed data.
 
-![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/sbsb5k40.bmp)
+![Cache Add/Update](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/sbsb5k40.bmp)
 
 ### Cache Single Fetch
 
 ‘jdeCacheFetchPosition’ retrieves the record that corresponds to the given key. This API can be used to position the HJDECURSOR to a specific location within the data set. When a call to jdeCacheFetch is made, it will start fetching from the next position. This is useful for making sequential fetches beginning at a specific location in the cache.
 
-![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/t4tpy2gf.bmp)
+![Cache Fetch Single](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/t4tpy2gf.bmp)
 
 ### Cache Multiple Fetch
 
 Multiple fetch is possible through the  ‘JdeCacheFetch’ API. ‘JdeCacheFetch’ advances the cursor to the next record in the data set relative to the current cursor position and retrieves the record. This will now be the new position associated with HJDECURSOR. This API does not search for a record in the cache but fetches whatever record is after the record that is currently being pointed to the passed HJDECURSOR. The API is ideal for performing sequential fetches
 
-![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/3ci2vjt2.bmp)
+![Cache Multiple Fetch](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/3ci2vjt2.bmp)
 
 ### Cache Delete
 
 ‘jdeCacheDelete’ is the API that deletes the record that is pointed by the cursor. Only one record can be deleted at a time.
 
-![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/afu9mc5s.bmp)
+![Cache Delete](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/afu9mc5s.bmp)
 
 ### Cache Terminate
 
 Once all the processing is complete, the memory allocated for cache should be destroyed. ‘jdeCacheTerminateAll’ destroys all caches with the same name as the one with the given hCache. The caches are physically removed from memory.
 
-![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/s1qxvfe8.bmp)
+![Cache Terminate](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/s1qxvfe8.bmp)
 
 Sample code (below) for creating cache is given for reference.
