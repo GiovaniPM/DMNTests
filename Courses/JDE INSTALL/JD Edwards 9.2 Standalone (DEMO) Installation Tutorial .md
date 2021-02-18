@@ -139,3 +139,29 @@ In the next screen as we already created Non admin user while installing Oracle 
 
 Oracle has noted that there is a problem with IMPDP.exe and EXPDP.exe in their 12c database client software.
 The solution: Ensure that both the 32-bit client and the 64-bit client are both in your PATH. (ie: c:\app\oracle\product\12.1.0\client_1\bin;C:\Oracle\E1Local\bin). Rename the impdp.exe and expdp.exe in the c:\app\oracle\product\12.1.0\client_1\bin folder to impdp.exe.bak and expdp.exe.bak. The install will then use the impdp.exe from the database install and everything will work.  You can find the Path Envt variables in the System Settings (from control panel) – Advanced Tab – Environment Variables – System Variables
+
+## 6. Install JD Edwards E920 Standalone Client
+
+Once Machine rebooted we are ready to Install JD Edwards E920 Standalone client. Open InstallManager.exe as run as administrator. Click EnterpriseOne Standalone client on JD Edwards Install Manager. Enter the Installation path as per your requirement (i.e C:\JDEdwards\E920_1).
+
+![JDE3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/n5gmy46n.bmp)
+
+In the Next screen the select the package and click on next
+
+![JDE4](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/4ph95hml.bmp)
+
+**<span style="color:red;">Tips:</span>** If you face error message “Unable to connect to Database” in this step.
+
+Could be the configuration issue with listener.ora & tnsnames.ora. Best Practice Provide the Hostname(Instead of IP or Localhost) as machine name in both the files.
+
+JDK will not be shipped with E920 Installer. Install JDK and provide the path of the JDK as below and click on Next
+
+Summary: This screen will shows the information which we provided in the above Steps. Verify it once more before we click on Install button.
+
+![JDE5](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/vfhl1rd2.bmp)
+
+JD Edwards Standalone E920 Installation will goes for minimum 2 hours and more (Note : Time to complete the installation depends on Ram of your machine)
+
+After the Installation of JD Edwards Standalone client completed, Installer automatically start to configure the Local web. During the local web configuration. We need to provide the web logic password(**welcome1**) for creating the domain and managed server for local web client as shown below
+
+![JDE6](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/gvxer7en.bmp)
