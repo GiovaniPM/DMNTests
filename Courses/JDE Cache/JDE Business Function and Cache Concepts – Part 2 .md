@@ -38,4 +38,8 @@ Few parameters are compulsory in data structure to build a cache and other param
 
 ## 6. Define the Cache Key Structure in .h file
 
-![Cache DS](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/zvpwa2hl.bmp)
+![Cache Key](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/zvpwa2hl.bmp)
+
+## 7. Create Instances For Cache and Cache Key in .c file
+
+![Instances](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/idgw25eb.bmp)
