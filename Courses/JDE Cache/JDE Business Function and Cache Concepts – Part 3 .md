@@ -8,7 +8,7 @@ Steps for using the business function
 
 ## 1. Create the application to pass or retrieve the values as given below
 
-![Form](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/0mplafhi.bmp)
+![Form](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/0mplafhi.bmp)
 
 Action Code Values:
 
@@ -18,66 +18,66 @@ Action Code Values:
 
 ## 2. In Add Record Button Call the C BSFN to add the records in cache
 
-![Add](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/8drx92cw.bmp)
+![Add](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/8drx92cw.bmp)
 
 ## 3. In Update Record Button Call the C BSFN to update the records in cache
 
-![Update](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/2pn6zl49.bmp)
+![Update](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/2pn6zl49.bmp)
 
 ## 4. In Fetch Record Button Call the C BSFN to fetch the records from cache
 
-![Fetch](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/j3smdgc5.bmp)
+![Fetch](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/j3smdgc5.bmp)
 
 ## 5. In Delete Record Button Call the C BSFN to add the records from cache
 
-![Delete](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/3d7isns2.bmp)
+![Delete](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/3d7isns2.bmp)
 
 ## 6. Run the application in web client and key in the values for inserting the record in cache and press the Add Record button
 
-![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/jvj2l6rd.bmp)
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/jvj2l6rd.bmp)
 
 We can see the values have been added in cache after jdeCacheAdd API is called in the C BSFN
 
-![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/zko0oi6b.bmp)
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/zko0oi6b.bmp)
 
 ## 7. Enter the different values in form control and press the Add Record Button again to add one more record in cache
 
-![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/km5eqe6h.bmp)
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/km5eqe6h.bmp)
 
 We can see the values have been added in cache after jdeCacheAdd API is called in the C BSFN
 
-![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/rfuf4bqx.bmp)
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/rfuf4bqx.bmp)
 
 ## 8. Enter the different value in the form control to update the first record of the cache
 
-![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/cs7m54me.bmp)
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/cs7m54me.bmp)
 
 In this case first fetch from the cache will happen to check if the record exists in the cache, if the record is there then it will get updated in cache after jdeCacheUpdate API gets called in C BSFN.
 
-![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/dazv4f1b.bmp)
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/dazv4f1b.bmp)
 
 ## 9. Enter the key value to fetch the record from the cache
 
-![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/ko9srhs9.bmp)
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/ko9srhs9.bmp)
 
 In this scenario also, first fetch will get performed to check the existence of the record and if exists then the values will get assign to the BSFN parameters after the jdeCacheFetchPosition API returns success.
 
-![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/sviihitd.bmp)
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/sviihitd.bmp)
 
 Values of the first record got dsiplayed in the application after pressing the Fecth Record Button
 
-![Cache 3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/46xptb9n.bmp)
+![Cache 3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/46xptb9n.bmp)
 
 ## 10. Enter the key values to Delete the record from cache
 
-![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/v7mbtanh.bmp)
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/v7mbtanh.bmp)
 
 In this scenario also, first fetch will get performed to check the existence of the record and if exists then the values will get deleted after the jdeCacheDelete API returns success.
 
-![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/q0wtoun8.bmp)
+![Cache 2](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/q0wtoun8.bmp)
 
 ## 11. When we try to delete the same record in cache again it will return error because record is not present
 
-![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/iizlgczn.bmp)
+![Cache 1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/iizlgczn.bmp)
 
 Similar way we can call the C BSFN to fetch the sequential records from cache and destroy the cache.

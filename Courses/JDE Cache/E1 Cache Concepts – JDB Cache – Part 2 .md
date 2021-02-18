@@ -14,11 +14,11 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 1. APIs like JDB_SetSelection or JDB_SetSequencing must not be called when using the JDB cache.
 1. There is no synchronization / replication across processes.
 
-![F98613](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/3dvb5c97.bmp)
+![F98613](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/3dvb5c97.bmp)
 
 ## Works in below manner:
 
-![Flow](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/pdvo712d.bmp)
+![Flow](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/pdvo712d.bmp)
 
 ## Limitations
 
