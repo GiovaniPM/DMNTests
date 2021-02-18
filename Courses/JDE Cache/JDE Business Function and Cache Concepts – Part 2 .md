@@ -64,3 +64,17 @@ The Cache is initialized using ‘jdeCacheInit’ API. This is the most importan
 1. Associates the cache with a cache handle (HCACHE) that the user will use to reference the cache in call to JDE Cache 1. APIs.
 
 ![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/2gjwkt4u.bmp)
+
+## 11. Cache Processing
+
+Most of the time cache processing is consist of adding, updating, fetching and deleting the cache.
+
+Some of them are listed below:
+
+### Cache Add/Update
+
+‘jdeCacheAdd’ adds a record to the cache identified by the cache handle hCache that was obtained from the call to ‘jdeCacheInit’.
+
+‘jdeCacheUpdate’ updates the record that is currently being pointed to by the passed HJDECURSOR with the passed data.
+
+![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/sbsb5k40.bmp)
