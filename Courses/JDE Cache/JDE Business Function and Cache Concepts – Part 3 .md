@@ -1,0 +1,25 @@
+# JDE Business Function and Cache Concepts – Part 3 
+
+In our last article (part 2) we demonstrated the process of cache creation business function (step by step) using cache APIs and explained the purpose of cache APIs.
+
+In this article we will see how to use the cache business function in JDE object and how the values will get stored in cache and how can we manipulate the same.  
+
+Steps for using the business function
+
+## 1. Create the application to pass or retrieve the values as given below
+
+![Form](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/0mplafhi.bmp)
+
+Action Code Values:
+
+1. Add/Update
+2. Fetch based on key
+3. Delete from cache
+
+## 2. In Add Record Button Call the C BSFN to add the records in cache
+
+![Add](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/8drx92cw.bmp)
+
+## 3. In Update Record Button Call the C BSFN to update the records in cache
+
+![Update](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/2pn6zl49.bmp)
