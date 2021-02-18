@@ -86,3 +86,5 @@ Enter the Oracle_Home as per your requirement and once installation completed un
 ![WL1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/jb6up0lz.bmp)
 
 **<span style="color:red;">Note:</span>** No need to create a domain for web logic server
+
+<p style='color:red'>This is some red text.</p>
