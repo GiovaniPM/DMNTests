@@ -69,4 +69,4 @@ JD Edwards E920 Standalone client requires some of the prerequisites software to
 1. Install 32 bit [JDK – Oracle JDK 1.7.0_91](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
 1. Install [Microsoft Visual C++ RTL 2013](https://www.microsoft.com/en-au/download/details.aspx?id=40784) (x86 & x64)
 1. Install [Microsoft Visual Studio 2013](https://www.microsoft.com/en-au/download/details.aspx?id=44914).(Required for BSFN development)
-1. Install [PDF Reader](https://www.foxitsoftware.com/products/pdf-reader/), Chrome or [Firefox\(https://www.mozilla.org/en-US/firefox/new/)
+1. Install [PDF Reader](https://www.foxitsoftware.com/products/pdf-reader/), Chrome or [Firefox](https://www.mozilla.org/en-US/firefox/new/)
