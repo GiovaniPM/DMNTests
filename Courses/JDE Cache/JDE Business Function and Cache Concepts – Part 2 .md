@@ -78,3 +78,9 @@ Some of them are listed below:
 ‘jdeCacheUpdate’ updates the record that is currently being pointed to by the passed HJDECURSOR with the passed data.
 
 ![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/sbsb5k40.bmp)
+
+### Cache Single Fetch
+
+‘jdeCacheFetchPosition’ retrieves the record that corresponds to the given key. This API can be used to position the HJDECURSOR to a specific location within the data set. When a call to jdeCacheFetch is made, it will start fetching from the next position. This is useful for making sequential fetches beginning at a specific location in the cache.
+
+![Initialize Cache](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/t4tpy2gf.bmp)
