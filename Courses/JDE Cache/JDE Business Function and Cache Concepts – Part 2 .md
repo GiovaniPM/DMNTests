@@ -31,3 +31,11 @@ Few parameters are compulsory in data structure to build a cache and other param
 
 ![DS Design](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/o1kxvqol.bmp)
 ![DS .h](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/jgj3nt0m.bmp)
+
+## 5. Define the Cache Structure in .h
+
+![Cache DS](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/avk28gbz.bmp)
+
+## 6. Define the Cache Key Structure in .h file
+
+![Cache DS](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/zvpwa2hl.bmp)
