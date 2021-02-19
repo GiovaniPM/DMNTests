@@ -76,7 +76,7 @@ Few **Cache APIs** which we use commonly to create the cache and use it to store
 |Initialize the Cache|jdeCacheInit|
 |Add a record to Cache|jdeAddCache|
 |Open a cursor in Cache|jdeCacheOpenCursor|
-|Any Cache manipulation|Cursor Advancing<br>- jdeCacheFetch<br>- jdeCacheFetchPosition<br>- jdeCacheResetCursor<br>Non Cursor Advancing<br>- jdeCacheUpdate<br>- jdeCacheDelete|
+|Any Cache manipulation|Cursor Advancing:<br>- jdeCacheFetch<br>- jdeCacheFetchPosition<br>- jdeCacheResetCursor<br>Non Cursor Advancing:<br>- jdeCacheUpdate<br>- jdeCacheDelete|
 |Close the Cursor|jdeCacheCloseCursor|
 |Terminate the Cache|jdeCacheTerminate|
 |Free Behavior|JDB_FreeBhvr|
