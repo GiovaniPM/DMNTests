@@ -194,10 +194,13 @@ Go to Tools  EnterpriseOne Menu to start the local web client. It will start the
 
 We have installed JD Edwards 9.2 Demo Successfully. Cheers!!!
 
+## Config files
+
 For those who have issues with the Demo installation – Attached are the ini files from Jerome (jde.ini, jdbj.ini, jdeinterop.ini)
 
-### jdbj.ini
+[E92 Standalone ini Files](https://www.jdesource.com/wp-content/uploads/E92-Standalone-ini-Files.zip)
 
+### jdbj.ini
 ``` dos
 #=======================================================================
 #                    jdbj.ini - JDBj configuration
@@ -591,4 +594,424 @@ usageFetchSizeThreshold=500
 #                              END OF FILE
 #=======================================================================
 
+```
+
+### jdbj.ini
+``` dos
+;OneWorld initialization file JDE.INI
+;Client specific version - E920
+
+[JDE_CG]
+VisualStudioVersion=2013
+STDLIBDIR=$(COMP)\VC98\lib
+TPLNAME=EXEFORM2
+ERRNAME=CGERR
+TARGET=Optimize
+INCLUDES=$(COMP)\VC98\include;$(SYSTEM)\include;$(SYSTEM)\cg;$(APP)\include;$(SYSTEM)\includev
+LIBS=$(COMP)\VC98\lib;$(SYSTEM)\lib32;$(APP)\lib32;$(SYSTEM)\libv32
+MAKEDIR=$(COMP)\VC98\bin;$(COMP)\Common\MSDev98\Bin
+USER=JDE
+
+[DEBUG]
+TAMMultiUserOn=0
+Output=NONE
+ServerLog=0
+LEVEL=BSFN,EVENTS
+;BSFN,EVENTS,SF_CONTROL,SF_GRID,SF_PARENT_CHILD,SF_GENERAL,SF_MESSAGING,SF_WORKFLOW,SF_WORKFLOW_ADMIN,SF_MEDIA_OBJ
+DebugFile=c:\jdedebug.log
+JobFile=c:\jde.log
+Frequency=10000
+RepTrace=0
+
+[Explorer]
+ExplorerHomeURL=\E920\SolutionExplorer\data\index.html
+ExplorerStart=INTERNET
+
+[PORTALENVMAP]
+PD9=JPD9
+PY9=JPY9
+DV9=JDV9
+TS9=JTS9
+PR9=JPR9
+
+[EVEREST]
+ColorScheme=1
+ShowAlias=0
+ServerHelpPath=\E920\helps
+
+[SVR]
+EnvType=1
+EnvironmentName=DEMO
+SpecPath=spec
+SourcePath=source
+ObjectPath=obj
+HeaderPath=include
+HeaderVPath=includev
+BinPath=bin32
+LibPath=lib32
+LibVPath=libv32
+MakePath=make
+WorkPath=work
+CodeGeneratorPath=cg
+ResourcePath=res
+IconPath=res\icons
+HelpPath=helps
+TreeBmpPath=res\treebmps
+ModelPath=models
+LocalePath=locale
+IconvPath=locale\Iconv
+LibraryListName=DEMO920
+
+[INSTALL]
+DefaultSystem=system
+ClientPath=client
+ClientInstallPath=EnterpriseOne Client Install
+PackagePath=package
+DataPath=data
+HOSTS=hosts
+HP9100=hp9100
+SUN=sun
+RS6000=rs6000
+AS400=as400
+Double_Byte=0
+LocalCodeSet=WE_ISO88591
+ActiveConsole=1
+ExplorerShortCut=1
+B9=D:\JDEdwards\E920_1
+ClientType=standalone
+MobileClientDeveloper=yes
+SerialNumber=-1104552603
+
+[LOCK MANAGER]
+RequestedService=None
+
+[DB SYSTEM SETTINGS]
+Version=43
+Default User=DEMO
+Default Role=*ALL
+Default Env=DEMO920
+Default PathCode=DEMO
+Base Datasource=System Local
+Server=localhost
+Database=E1Local
+Load Library=
+Decimal Shift =Y
+Julian Dates=Y
+Use Owner=N
+Secured=Y
+Type=E
+Library List=
+Library=
+Default Pwd=_
+DatabaseName2=JDESY920
+ServerPort=1521
+JDBNETUse=N
+UnicodeFlag=Y
+LOBFlag=Y
+ConnectionPooling=0
+
+[DB SYSTEM SETTINGS - SECONDARY]
+Base Datasource=Versions Local
+Object Owner=
+Server=localhost
+Database=E1Local
+Load Library=
+Decimal Shift=Y
+Julian Dates=Y
+Use Owner=N
+Secured=Y
+Type=E
+Library List=
+Library=
+DatabaseName2=JDEVL920
+ServerPort=1521
+JDBNETUse=N
+UnicodeFlag=Y
+LOBFlag=Y
+
+[REPLICATION]
+DataSource=
+DefaultEnvironment=DEMO920
+RetryInterval=3600
+RepTrace=0
+ForcedSync=0
+
+[SECURITY]
+SecurityServer=localhost
+User=DEMO
+Password=DEMO
+DefaultEnvironment=DEMO920
+DataSource=System Local
+Default Role=*ALL
+
+[JDENET]
+serviceNameListen=6012
+serviceNameConnect=6012
+netTrace=0
+tempFileDir=c:\temp
+
+[JDEMAIL]
+mailProfile="Default Exchange Profile"
+Rule1=90|OPT|MAILSERVER=mail.jdedwards.com
+Rule2=100|DEFAULT|OWMON=OWMON@jdedwards.com
+Rule3=110|DEFAULT|JDE_SYSTEM=JDE_System@jdedwards.com
+Rule4=120|DEFAULT|WORKFLOW_SYSTEM=Workflow@jdedwards.com
+Rule5=130|OPT|MERGELOCAL=1
+Rule6=140|OPT|UPDATELOCAL=0
+
+[NETWORK QUEUE SETTINGS]
+UBEQueue=QE920
+UBEPriority=5
+PrintImmediate=FALSE
+SaveOutput=TRUE
+InstallSpecs=Y
+JDENETTimeout=60
+
+[INTERACTIVE RUNTIME]
+DefaultMailServer=C:\Program Files\Microsoft Exchange\Exchng32.exe
+DefaultBrowser=http://www.peoplesoft.com
+PWndBackground=onemenu.bmp
+BITMAP_StatusBar=stbr1.bmp
+OBJECTQUEUE=
+FONT_FaceName=Arial
+FONT_Height=-12
+FONT_Weight=400
+COLOR_GridBackground=255,255,128
+COLOR_GridForeground=0,0,0
+COLOR_GridDesktop=64,128,128
+COLOR_GridLines=0,0,0
+CACHE_UseCache=1
+CACHE_MaximumNodes=50
+GRID_GridIntegralRows=1
+GRID_FONT_FaceName=Arial
+GRID_FONT_Height=-12
+GRID_FONT_Weight=400
+EXCEPTION_Enabled=True
+Initial_Language_Code=
+Text Limit=80
+PWndLocation=0,0,768,537,327681
+MirrorImage=0
+MaxFileUploadSize=50
+
+[UBE]
+UBEDebugLevel=0
+UBESaveLogFile=0
+UBEFont_FaceName=Times New Roman
+UBEFont_PointSize=8
+BlindRDPrinterPrompt=FALSE
+UBEFormatXML=1
+UBEXMLVersion=2
+
+[OBJECT LIBRARIAN]
+OLTLogMode=YES
+OLTLogContents=GENERAL
+
+[SIGNON]
+LASTENV=DEMO920
+LASTUSER=DEMO
+Default Role=*ALL
+LastRole=*ALL
+SHOWOPTIONS=1
+
+[JDENET_KERNEL_DEF2]
+krnlName=UBE KERNEL
+dispatchDLLName=jdekrnl.dll
+dispatchDLLFunction=_JDEK_DispatchUBEMessage@28
+maxNumberOfProcesses=1
+numberOfAutoStartProcesses=0
+
+[JDENET_KERNEL_DEF4]
+krnlName=SECURITY KERNEL
+dispatchDLLName=jdekrnl.dll
+dispatchDLLFunction=_JDEK_DispatchSecurity@28
+maxNumberOfProcesses=1
+numberOfAutoStartProcesses=0
+
+[JDENET_KERNEL_DEF6]
+krnlName=CALL OBJECT KERNEL
+dispatchDLLName=XMLCallObj.dll
+dispatchDLLFunction=_XMLCallObjectDispatch@28
+maxNumberOfProcesses=1
+numberOfAutoStartProcesses=0
+
+[JDENET_KERNEL_DEF12]
+krnlName=UBE SUBSYSTEM KERNEL
+dispatchDLLName=jdekrnl.dll
+dispatchDLLFunction=_JDEK_DispatchUBESBSMessage@28
+maxNumberOfProcesses=1
+numberOfAutoStartProcesses=0
+
+[JDENET_KERNEL_DEF13]
+#So html4apps will work with workflow
+krnlName=WORK FLOW KERNEL
+dispatchDLLName=workflow.dll
+dispatchDLLFunction=_JDEK_DispatchWFServerProcess@28
+maxNumberOfProcesses=1
+numberOfAutoStartProcesses=0
+
+[JDENET_KERNEL_DEF14]
+krnlName=QUEUE KERNEL
+dispatchDLLName=jdekrnl.dll
+dispatchDLLFunction=_DispatchQueueMessage@28
+maxNumberOfProcesses=1
+numberOfAutoStartProcesses=0
+
+
+[LOCALWEB]
+# Installation flag, if it is 0, no HTML testing setup, disable all HTML testing
+AppServerInstalled=1
+
+# Datasource containing serialized specs for web runtime (F989998 F989999)
+# Used for synchonization of specs through JDB
+Spec Datasource=Versions Local
+
+# Name of local web server, localhost is default but may not be valid always.
+webhostname=localhost
+
+# web server port , Websphere Express default is 7080
+webport=9200
+
+# executable for starting web server
+webserverstart=D:\JDEdwards\E920_1\system\JAS\WLS_Scripts\E1StartManagedServer.cmd
+
+# executable for stopping web server
+webserverstop=D:\JDEdwards\E920_1\system\JAS\WLS_Scripts\E1StopManagedServer.cmd
+
+# start web server on demand, or immediately
+# valid values : ONDEMAND (web server will be started on the first HTTP request) ,
+MANUAL (web server has to be started manually by user on port specified),
+IMME (web server starts as soon as ActivConsole starts)
+StartAppServer=IMME
+
+# delay time between starting web server and launching browser window
+# default value is 60 (60 secs)
+WebDelay=
+
+
+
+webserverstoparg=E1Server
+
+webserverstartarg=E1Server
+
+[MTR VALIDATION]
+LiteRecords=12
+MDACVersion=2.60.6526.2
+NMakeVersion=6.00.8168.0
+DeployDiskInMB=5000
+CDiskInMB=200
+BusobjInMB=350
+EnterpriseDiskInMB=3000
+
+[XML]
+ICUPath=D:\JDEdwards\E920_1\system\locale\xml
+
+
+```
+
+### jdeinterop.ini
+``` dos
+[SERVER]
+glossaryTextServer=LOCALHOST:6012
+codePage=1252
+
+[JDENET]
+serviceNameListen=6667
+serviceNameConnect=6012
+enterpriseServerTimeout=90000
+maxPoolSize=30
+maxKernelRanges=1
+
+[JDENET_KERNEL_DEF1]
+krnlName=SBFServerJava Kernel
+processClassName=oracle.e1.bssvfoundation.impl.jdenet.SBFServerJavaKernel
+startMessageRange=16201
+endMessageRange=16450
+maxNumberOfThread=10
+
+#==========================================================
+# Define Cache feature for Connector
+#==========================================================
+[CACHE]
+UserSession=18000000
+SpecExpire=300000000
+
+#==========================================================
+# Define the features for inbound Business Function call
+#==========================================================
+[INTEROP]
+enterpriseServer=LOCALHOST
+port=6081
+manual_timeout=30000000
+Repository=c:\connector\repository
+
+#==========================================================
+# Define the features for outbound events
+#==========================================================
+[EVENTS]
+port=6010
+ListenerMaxConnection=100
+ListenerMaxQueueEntry=100
+outbound_timeout=6000000
+#==========================================================
+# JNDI information for communication with the J2EE server.
+#==========================================================
+initialContextFactory=com.ibm.websphere.naming.WsnInitialContextFactory
+jndiProviderURL=corbaloc:iiop:localhost:2809
+#==========================================================
+#  URL for communicating with the event client service.
+#==========================================================
+eventServiceURL=http://localhost:9080/e1events/EventClientService
+
+#==========================================================
+# Security Server. Security server port is in [JDENET]
+#==========================================================
+[SECURITY]
+NumServers=1
+SecurityServer=localhost
+
+#==========================================================
+# OCMEnabled--It will enforce Connector to use OCM to find
+# enterpriser server or use setting in [Interop]section.
+#==========================================================
+[OCM]
+OCMEnabled=true
+
+[TRANSACTIONS]
+ReapInterval=5
+MaxAge=10
+
+[WEB DEVELOPMENT] 
+WebDevelopment=TRUE
+
+#==========================================================
+# These settings are for Async HTTP callback from 
+# third party system to BSSV server.
+# HTTPCallbackEndpoint-This setting contains the server,
+# port and context root information for the BSSV server.
+#==========================================================
+[HTTPCallbackSettings]
+HTTPCallbackEndpoint=localhost:20002/LOCALDEV
+
+#==========================================================
+# These settings are for Async HTTP with SSL
+# keystorefile - This setting will be the path to the
+#                keystore file.
+# keystorepasswd - This setting will be the keystore password.
+# keyalias - This setting will be the keystore alias name.
+# certificatepasswd -This setting will be the keystore
+#                    certicate password.
+# truststorefile - This setting will be the path to the
+#                  truststore file.
+# truststorepasswd - This setting will be the truststore
+#                    password.
+#==========================================================
+[KEYSTORE]
+keystorefile=
+keystorepasswd=
+keyalias=
+certificatepasswd=
+
+[TRUST_STORE]
+truststorefile=
+truststorepasswd=
 ```
