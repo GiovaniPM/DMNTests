@@ -129,7 +129,7 @@ Extract all 4 Setup files
 
 ### 3.3. Install E1Local 12c DB
 
-From Release E920, Oracle E1local DB 12C required non-administrator user for Installation. Run the “InstallManager.exe”.Click Enterpriseone Oracle 12c Database Engine on JD Edwards Install Manager
+From Release E920, Oracle E1local DB 12C required non-administrator user for Installation. Run the “InstallManager.exe”. Click Enterpriseone Oracle 12c Database Engine on JD Edwards Install Manager
 
 ![JDE1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/00p8meim.bmp)
 
@@ -158,11 +158,11 @@ Could be the configuration issue with listener.ora & tnsnames.ora. Best Practice
 
 JDK will not be shipped with E920 Installer. Install JDK and provide the path of the JDK as below and click on Next
 
-Summary: This screen will shows the information which we provided in the above Steps. Verify it once more before we click on Install button.
+**<span style="color:red;">Summary:</span>** This screen will shows the information which we provided in the above Steps. Verify it once more before we click on Install button.
 
 ![JDE5](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/vfhl1rd2.bmp)
 
-JD Edwards Standalone E920 Installation will goes for minimum 2 hours and more (Note : Time to complete the installation depends on Ram of your machine)
+JD Edwards Standalone E920 Installation will goes for minimum 2 hours and more (**<span style="color:red;">Note:</span>** Time to complete the installation depends on Ram of your machine)
 
 After the Installation of JD Edwards Standalone client completed, Installer automatically start to configure the Local web. During the local web configuration. We need to provide the web logic password(**welcome1**) for creating the domain and managed server for local web client as shown below
 
@@ -176,9 +176,9 @@ Installation of Local Web client will takes sometimes to configure the Local Web
 
 Copy the file tnsnames.ora from the location C:\Oracle\E1local\Network\ADMIN to the location C:\app\Oracle\product\12.1.0\network\admin
 
-**<span style="color:red;">Tips:</span>** Oracle 12c 32 client required for JD Edwards to connect to E1loccal (64 bit) DB & Main DB ( 64 bit)
+**<span style="color:red;">Tips:</span>** Oracle 12c 32 client required for JD Edwards to connect to E1loccal (64 bit) DB & Main DB (64 bit)
 
-Click on JD Edwards Icon on the Desktop and Enter username: DEMO, Password :DEMO.
+Click on JD Edwards Icon on the Desktop and Enter username: **DEMO**, Password: **DEMO**.
 
 ![JDE8](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/fddgy1wr.bmp)
 
