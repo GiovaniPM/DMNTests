@@ -72,19 +72,11 @@ Few **Cache APIs** which we use commonly to create the cache and use it to store
 |Proposal|Command|
 |:-----|:-----|
 |Connect to OneWorld|JDB_InitBhvr|
-|Create Index Data Structure Definition|Index.CacheKey[n].nOffset|
-||Index.CacheKey[n].nSize|
-||Index.CacheKey[n].idDataType|
+|Create Index Data Structure Definition|Index.CacheKey[n].nOffset<br>Index.CacheKey[n].nSize<br>Index.CacheKey[n].idDataType|
 |Initialize the Cache|jdeCacheInit|
 |Add a record to Cache|jdeAddCache|
 |Open a cursor in Cache|jdeCacheOpenCursor|
-|Any Cache manipulation|Cursor Advancing|
-||- jdeCacheFetch|
-||- jdeCacheFetchPosition|
-||- jdeCacheResetCursor|
-||Non Cursor Advancing|
-||- jdeCacheUpdate|
-||- jdeCacheDelete|
+|Any Cache manipulation|Cursor Advancing<br>- jdeCacheFetch<br>- jdeCacheFetchPosition<br>- jdeCacheResetCursor<br>Non Cursor Advancing<br>- jdeCacheUpdate<br>- jdeCacheDelete|
 |Close the Cursor|jdeCacheCloseCursor|
 |Terminate the Cache|jdeCacheTerminate|
 |Free Behavior|JDB_FreeBhvr|
