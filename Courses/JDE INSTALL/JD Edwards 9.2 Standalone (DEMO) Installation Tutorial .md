@@ -71,7 +71,9 @@ JD Edwards E920 Standalone client requires some of the prerequisites software to
 1. Install [Microsoft Visual Studio 2013](https://www.microsoft.com/en-au/download/details.aspx?id=44914).(Required for BSFN development)
 1. Install [PDF Reader](https://www.foxitsoftware.com/products/pdf-reader/), Chrome or [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
-## 3. Installation of Oracle Weblogic Server
+## 3. Install
+
+### 3.1. Installation of Oracle Weblogic Server
 
 From Release 9.2, OC4J has been removed so we need to install Oracle Weblogic Server for installing Local Web client
 
@@ -87,7 +89,7 @@ Enter the Oracle_Home as per your requirement and once installation completed un
 
 **<span style="color:red;">Note:</span>** No need to create a domain for web logic server
 
-## 4. Install Oracle 12C 32 bit Client
+### 3.2. Install Oracle 12C 32 bit Client
 
 From Release E920 with Oracle 12C 32 bit Client required non-administrator user for the Installation.
 
@@ -125,7 +127,7 @@ Extract all 4 Setup files
 
 **<span style="color:red;">Note:</span>** Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
 
-## 5. Install E1Local 12c DB
+### 3.3. Install E1Local 12c DB
 
 From Release E920, Oracle E1local DB 12C required non-administrator user for Installation. Run the “InstallManager.exe”.Click Enterpriseone Oracle 12c Database Engine on JD Edwards Install Manager
 
@@ -140,7 +142,7 @@ In the next screen as we already created Non admin user while installing Oracle 
 Oracle has noted that there is a problem with IMPDP.exe and EXPDP.exe in their 12c database client software.
 The solution: Ensure that both the 32-bit client and the 64-bit client are both in your PATH. (ie: c:\app\oracle\product\12.1.0\client_1\bin;C:\Oracle\E1Local\bin). Rename the impdp.exe and expdp.exe in the c:\app\oracle\product\12.1.0\client_1\bin folder to impdp.exe.bak and expdp.exe.bak. The install will then use the impdp.exe from the database install and everything will work.  You can find the Path Envt variables in the System Settings (from control panel) – Advanced Tab – Environment Variables – System Variables
 
-## 6. Install JD Edwards E920 Standalone Client
+### 3.4. Install JD Edwards E920 Standalone Client
 
 Once Machine rebooted we are ready to Install JD Edwards E920 Standalone client. Open InstallManager.exe as run as administrator. Click EnterpriseOne Standalone client on JD Edwards Install Manager. Enter the Installation path as per your requirement (i.e C:\JDEdwards\E920_1).
 
@@ -170,7 +172,7 @@ Installation of Local Web client will takes sometimes to configure the Local Web
 
 ![JDE7](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/w7df42et.bmp)
 
-## 7. Post Installation Task
+### 3.5. Post Installation Task
 
 Copy the file tnsnames.ora from the location C:\Oracle\E1local\Network\ADMIN to the location C:\app\Oracle\product\12.1.0\network\admin
 
@@ -184,7 +186,7 @@ Click on JD Edwards Icon on the Desktop and Enter username: DEMO, Password :DEMO
 
 Now You will be successfully Logged into DEMO920 Environment
 
-## 8. Verify the Login and Local web client
+### 3.6. Verify the Login and Local web client
 
 Open the JD Edwards icon on the desktop and Enter the username as DEMO and Password as DEMO. Now you will be able to login into JDE Fat client.
 
