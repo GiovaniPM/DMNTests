@@ -3,9 +3,17 @@
 ![Title](http://satyr.io/1000x80/1?text=How+Install+JD+Edwards+Demo+Version)
 ![Title](http://satyr.io/1000x80/white?text=by)
 ![Title](http://satyr.io/1000x80/white?text=Giovani+Perotto+Mesquita)
+![Title](http://satyr.io/1000x80/white?text=Thanks+to)
+![Title](http://satyr.io/1000x80/white?text=RestfulClouds)
 [![Email](https://img.shields.io/badge/mail-giovanipm%40gmaill.com-lightgray.svg)](mailto:giovanipm@gmail.com)
 
 </div>
+
+<br>
+<br>
+<br>
+
+---
 
 <div align="right">
 
