@@ -44,13 +44,9 @@ In simple layman term, below are the usage of each function which gets called in
 |:-----|:-----|
 |Begin Doc|Initialize both Header and Detail Cache<br>Add or Update the Header|
 |Edit Line|Add Detail Cache Record|
-|Edit Doc|Read Header Cache|
-||Update Header Cache|
+|Edit Doc|Read Header Cache<br>Update Header Cache|
 |End Doc|Read the Records from Header and Detail Cache and write to tables|
-|Clear Doc|Delete Header Cache|
-||Read Detail Cache|
-||Delete Detail Cache|
-||Terminate Cache|
+|Clear Doc|Delete Header Cache<br>Read Detail Cache<br>Delete Detail Cache<br>Terminate Cache|
 
 ## What is Cache:
 
