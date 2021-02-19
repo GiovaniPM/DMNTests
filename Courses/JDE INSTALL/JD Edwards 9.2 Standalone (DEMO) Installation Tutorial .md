@@ -595,7 +595,6 @@ usageFetchSizeThreshold=500
 #=======================================================================
 #                              END OF FILE
 #=======================================================================
-
 ```
 
 ### jde.ini
@@ -906,8 +905,6 @@ EnterpriseDiskInMB=3000
 
 [XML]
 ICUPath=D:\JDEdwards\E920_1\system\locale\xml
-
-
 ```
 
 ### jdeinterop.ini
