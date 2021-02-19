@@ -35,3 +35,12 @@
 
 - [E1 Cache Concepts – JDB Cache – Part 1](https://github.com/GiovaniPM/DMNTests/blob/main/Courses/JDE%20Cache/E1%20Cache%20Concepts%20%E2%80%93%20JDB%20Cache%20%E2%80%93%20Part%201%20.md)
 - [E1 Cache Concepts – JDB Cache – Part 2](https://github.com/GiovaniPM/DMNTests/blob/main/Courses/JDE%20Cache/E1%20Cache%20Concepts%20%E2%80%93%20JDB%20Cache%20%E2%80%93%20Part%202%20.md)
+
+## Links
+
+- [JDE Knowledge Spread](https://www.jdefusion.com/)
+- [JDE List](https://www.jdelist.com)
+- [JDE Source](https://www.jdesource.com/)
+- [JDE Tables](http://www.jdetables.com/)
+- [Smart Add-ons for JDEdwards](https://jdemart.com/)
+- [Tips & Tricks for Oracle JDEdwards CNC Admins](https://e1tips.com/)
