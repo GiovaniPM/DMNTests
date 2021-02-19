@@ -38,9 +38,11 @@
 
 ## Links
 
+- [Everest](http://www.everestsoftint.com/)
 - [JDE Knowledge Spread](https://www.jdefusion.com/)
 - [JDE List](https://www.jdelist.com)
 - [JDE Source](https://www.jdesource.com/)
 - [JDE Tables](http://www.jdetables.com/)
+- [Partwel Software](http://www.patwel.com/)
 - [Smart Add-ons for JDEdwards](https://jdemart.com/)
 - [Tips & Tricks for Oracle JDEdwards CNC Admins](https://e1tips.com/)
