@@ -598,7 +598,7 @@ usageFetchSizeThreshold=500
 
 ```
 
-### jdbj.ini
+### jde.ini
 ``` dos
 ;OneWorld initialization file JDE.INI
 ;Client specific version - E920
