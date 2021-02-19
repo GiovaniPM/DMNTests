@@ -42,8 +42,7 @@ In simple layman term, below are the usage of each function which gets called in
 
 |Function Name|Usage|
 |:-----|:-----|
-|Begin Doc|Initialize both Header and Detail Cache|
-||Add or Update the Header|
+|Begin Doc|Initialize both Header and Detail Cache<br>Add or Update the Header|
 |Edit Line|Add Detail Cache Record|
 |Edit Doc|Read Header Cache|
 ||Update Header Cache|
