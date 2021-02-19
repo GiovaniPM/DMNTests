@@ -1,4 +1,23 @@
+<div align="center">
+
+![Title](http://satyr.io/1000x80/1?text=How+Install+JD+Edwards+Demo+Version)
+![Title](http://satyr.io/1000x80/white?text=by)
+![Title](http://satyr.io/1000x80/white?text=Giovani+Perotto+Mesquita)
+[![Email](https://img.shields.io/badge/mail-giovanipm%40gmaill.com-lightgray.svg)](mailto:giovanipm@gmail.com)
+
+</div>
+
+<div align="right">
+
+[![JD Edwards 9.20](https://img.shields.io/badge/JD_Edwards-9.20-brightgreen.svg)](https://www.oracle.com/technical-resources/documentation/jd-edwards-enterpriseone.html)
+
+</div>
+
+<div align="center">
+
 # JD Edwards 9.2 Standalone (DEMO) Installation Tutorial 
+
+</div>
 
 Standalone 9.2 Install JD Edwards Enterprise One 9.2 Standalone Demo (Oracle version) on your PC or server with this step by step guide.
 
@@ -17,7 +36,7 @@ Before we get started, if you find any issue, do read through the comments or vi
 ## Let's GO
 
 
-1. Certification or MTR for JD Edwards Standalone can be verified from certification tab of support portal. Tips: JD Edwards Standalone Certification can be verified under product “JD Edwards Development client”
+1. Certification or MTR for JD Edwards Standalone can be verified from certification tab of support portal. **<span style="color:red;">Tips:</span>** JD Edwards Standalone Certification can be verified under product “JD Edwards Development client”
 1. We verified the certifications, now we need to install the below components for complete the installation of JD Edwards 9.2 Standalone Successfully.
 1. Software Download
 1. Prerequisites
@@ -123,7 +142,7 @@ Extract all 4 Setup files
 ![Oracle3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/9dnmqu39.bmp)
 
 2. Move the contents from folder V97804-01-01 to folder V100564-01
-3. Now Move the contents from folder V97806-01-01 to folder V100564-01\ThirdParty\ORACLE
+2. Now Move the contents from folder V97806-01-01 to folder V100564-01\ThirdParty\ORACLE
 
 **<span style="color:red;">Note:</span>** Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
 
