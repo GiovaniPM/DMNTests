@@ -27,7 +27,7 @@ if (Is table setup in\nF98613?) then (yes)
 else (no)
     if (Has\nJDB_addTableToDBCache()\nadded the table?) then (yes)
     else (no)
-        :Fetch from\ntable
+        :Fetch from\ntable;
     endif
 endif
 @enduml
