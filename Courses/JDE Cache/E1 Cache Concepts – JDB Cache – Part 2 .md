@@ -22,7 +22,7 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 
 ``` plantuml
 @startuml
-:start;
+start
 if (Is table setup in\nF98613?) then (yes)
 else (no)
     if (Has\nJDB_addTableToDBCache()\nadded the table?) then (yes)
@@ -30,6 +30,16 @@ else (no)
         :Fetch from\ntable;
     endif
 endif
+if (Is Full\nPrimary Key\nUsed?) then (yes)
+else (no)
+   :Fetch from\ntable;
+endif
+if (Is record\nalready\nin Cache?) then (yes)
+   :Cache HIT - Fetch\nfrom cache;
+else (no)
+   :Cache MISS - Fetch\nfrom table;
+endif
+stop
 @enduml
 ```
 
