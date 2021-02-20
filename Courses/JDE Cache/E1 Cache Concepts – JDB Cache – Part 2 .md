@@ -25,7 +25,7 @@ start
 
 if (Is table setup in F98613?) then (yes)
 else (no)
-    if (Has JDB_AddTableToDBCache()<br> added the table?) then (yes)
+    if (Has JDB_AddTableToDBCache()\n added the table?) then (yes)
     else (no)
         :Fetch from table;
     endif
