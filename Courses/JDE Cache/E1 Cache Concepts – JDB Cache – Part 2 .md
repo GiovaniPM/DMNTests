@@ -20,6 +20,19 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 
 ![Flow](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/pdvo712d.bmp)
 
+``` plantuml
+@startuml
+:start;
+if (Is table setup in\nF98613?) then (yes)
+else (no)
+    if (Has\nJDB_addTableToDBCache()\nadded the table?) then (yes)
+    else (no)
+        :Fetch from\ntable
+    endif
+endif
+@enduml
+```
+
 ## Limitations
 
 1. Tables must be static.
