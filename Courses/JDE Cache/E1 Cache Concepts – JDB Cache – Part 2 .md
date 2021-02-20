@@ -19,19 +19,6 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 ## Works in below manner:
 
 ![Flow](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/pdvo712d.bmp)
-``` plantuml
-@startuml
-start
-
-if (Is table setup in F98613?) then (yes)
-elseif (Has JDB_AddTableToDBCache()\n added the table?) then (yes)
-else (no)
-    :Fetch from table;
-endif
-
-stop
-@enduml
-```
 
 ## Limitations
 
