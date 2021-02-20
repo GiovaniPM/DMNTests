@@ -19,6 +19,20 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 ## Works in below manner:
 
 ![Flow](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/pdvo712d.bmp)
+``` plantuml
+@startuml
+start
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+
+stop
+@enduml
+```
 
 ## Limitations
 
