@@ -18,7 +18,9 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 
 ## Works in below manner:
 
+<!--
 ![Flow](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20Cache/Images/pdvo712d.bmp)
+-->
 
 ``` plantuml
 @startuml
@@ -32,12 +34,20 @@ else (no)
 endif
 if (Is Full\nPrimary Key\nUsed?) then (yes)
 else (no)
-   :Fetch from\ntable;
+    :Fetch from\ntable;
 endif
 if (Is record\nalready\nin Cache?) then (yes)
-   :Cache HIT - Fetch\nfrom cache;
+    :Cache HIT - Fetch\nfrom cache;
+    note left
+        no database
+        operation
+    end note
 else (no)
-   :Cache MISS - Fetch\nfrom table;
+    :Cache MISS - Fetch\nfrom table;
+    note right
+        and store
+        in cache
+    end note
 endif
 stop
 @enduml
