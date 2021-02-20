@@ -24,6 +24,7 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 start
 
 if (Is table setup in F98613?) then (yes)
+    break
 else (no)
     if (Has JDB_AddTableToDBCache()\n added the table?) then (yes)
     else (no)
