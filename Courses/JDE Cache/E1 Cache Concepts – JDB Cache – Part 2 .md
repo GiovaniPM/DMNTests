@@ -23,11 +23,8 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 @startuml
 start
 
-if (Graphviz installed?) then (yes)
-  :process all\ndiagrams;
+if ("Is table setup in F98613?") then (yes)
 else (no)
-  :process only
-  __sequence__ and __activity__ diagrams;
 endif
 
 stop
