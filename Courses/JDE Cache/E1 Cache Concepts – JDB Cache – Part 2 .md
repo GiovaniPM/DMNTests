@@ -23,9 +23,9 @@ When a table is configured to be a part of JDB cache then , once a record is fet
 @startuml
 start
 
-if ("Is table setup in F98613?") then (yes)
+if (Is table setup in F98613?) then (yes)
 else (no)
-    if ("Has JDB_AddTableToDBCache() added the table?") then (yes)
+    if (Has JDB_AddTableToDBCache()<br> added the table?) then (yes)
     else (no)
         :Fetch from table;
     endif
