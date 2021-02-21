@@ -115,7 +115,8 @@ Enter the Oracle_Home as per your requirement and once installation completed un
 
 ![WL1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/jb6up0lz.bmp)
 
->**<span style="color:red;">📓Note:</span>** No need to create a domain for web logic server
+> [!NOTE]
+> No need to create a domain for web logic server
 
 ### 3.2. Install Oracle 12C 32 bit Client
 
@@ -125,7 +126,8 @@ Unzip **V47124-01.zip** the file and run the Oracle Client Setup (“Setup.exe�
 
 >**<span style="color:red;">🛑Very important:</span>** Select Option 2 Administrator Option while installing Oracle DB 12c Client. Oracle Documentation state that “Runtime” also will work. So you may use them if running low on space.
 
->**<span style="color:red;">📓Note:</span>** Oracle 12c 32 bit Client required non-administrator user for Installation, during the installation Enter the non-administrator user for installing Oracle 12c Client. If you already created non admin user use option 1 or use option 2 allow OUI to create non admin user ID.
+> [!NOTE]
+> Oracle 12c 32 bit Client required non-administrator user for Installation, during the installation Enter the non-administrator user for installing Oracle 12c Client. If you already created non admin user use option 1 or use option 2 allow OUI to create non admin user ID.
 
 ![Oracle1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/JDE%20INSTALL/Images/s133rsut.bmp)
 
@@ -138,7 +140,8 @@ Now, it’s time to install Oracle E1local DB 12c and JDE standalone Client itse
 1. Move the contents from folder V97804-01-01 to folder V100564-01
 1. Now Move the contents from folder V97806-01-01 to folder V100564-01\ThirdParty\ORACLE
 
->**<span style="color:red;">📓Note:</span>** Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
+> [!NOTE]
+> Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
 
 Follow the below screenshots
 
@@ -153,7 +156,8 @@ Extract all 4 Setup files
 2. Move the contents from folder V97804-01-01 to folder V100564-01
 2. Now Move the contents from folder V97806-01-01 to folder V100564-01\ThirdParty\ORACLE
 
->**<span style="color:red;">📓Note:</span>** Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
+> [!NOTE]
+> Now rename the Folder V100564-01 as standalone. It has the correct structured installation setup files.
 
 ### 3.3. Install E1Local 12c DB
 
@@ -192,7 +196,8 @@ JDK will not be shipped with E920 Installer. Install JDK and provide the path of
 
 JD Edwards Standalone E920 Installation will goes for minimum 2 hours and more
 
->**<span style="color:red;">📓Note:</span>** Time to complete the installation depends on Ram of your machine
+> [!NOTE]
+> Time to complete the installation depends on Ram of your machine
 
 After the Installation of JD Edwards Standalone client completed, Installer automatically start to configure the Local web. During the local web configuration. We need to provide the web logic password(**welcome1**) for creating the domain and managed server for local web client as shown below
 
