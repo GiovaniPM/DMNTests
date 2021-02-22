@@ -27,3 +27,15 @@ Lembrando que a menor carta é o 2 e a maior é o ás.
 >Quatro cartas de naipes iguais.
 >
 >![Quadra](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Quadra.jpg)
+
+### Full House
+
+>Uma trinca e uma dupla.
+>
+>![Full House](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Full%20House.jpg)
+
+### Flush
+
+>Quaisquer cinco cartas do mesmo naipe.
+>
+>![Flush](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Full%20House.jpg)
