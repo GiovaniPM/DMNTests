@@ -15,3 +15,15 @@ Lembrando que a menor carta é o 2 e a maior é o ás.
 >Sequência de dez(T) a Ás(A), sendo todas cartas do mesmo naipe. É a única mão imbatível no poker.
 >
 >![Royal Straight Flush](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Royal%20Straight%20Flush.jpg)
+
+### Straight Flush
+
+>Qualquer sequência de cartas com naipes iguais.
+>
+>![Straight Flush](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Straight%20Flush.jpg)
+
+### Quadra
+
+>Quatro cartas iguais.
+>
+>![Quadra](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Straight%20Flush.jpg)
