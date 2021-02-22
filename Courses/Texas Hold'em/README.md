@@ -50,4 +50,4 @@ Lembrando que a menor carta é o 2 e a maior é o ás.
 
 >Três cartas iguais.
 >
->![Trinca](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Sequ%C3%AAncia%20ou%20Seguida%20(Straigh).jpg)
+>![Trinca](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Trinca.jpg)
