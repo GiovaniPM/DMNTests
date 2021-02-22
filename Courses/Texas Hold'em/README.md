@@ -20,7 +20,11 @@ O objetivo do jogo é fazer a melhor mão possível de cinco cartas, combinando 
 Veja abaixo o ranking das mãos possíveis no Texas Hold'em, em ordem decrescente de força.
 
 >**Obs:** Lembrando que a menor carta é o **2** e a maior é o **ás**.
->![Cards](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/cards.bmp)
+<div align="center">
+
+![Cards](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/cards.bmp)
+
+</div>
 
 ### 1. Royal Straight Flush
 
@@ -96,6 +100,12 @@ Se, por exemplo, você tiver um par de 4 na mão, e na mesa tiver um sequência 
 ## Cartas comunitárias
 
 Cartas comunitárias, também chamadas de bordo ("board") são abertas na seguinte sequência:
+
+<div align="center">
+
+![Comunitárias](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/comunit%C3%A1ria.svg)
+
+</div>
 
 - **Flop**: 3 cartas são abertas de uma só vez.
 - **Turn**: 1 carta é aberta.
