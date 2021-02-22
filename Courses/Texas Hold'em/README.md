@@ -57,3 +57,9 @@ Lembrando que a menor carta é o 2 e a maior é o ás.
 >Duas duplas de cartas iguais.
 >
 >![Dois Pares](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Dois%20Pares.jpg)
+
+### Par
+
+>Duas cartas iguais.
+>
+>![Par](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Par.jpg)
