@@ -7,6 +7,8 @@
 <br>
 <br>
 
+---
+
 # CONHEÇA AS REGRAS
 
 ## Objetivo do jogo
