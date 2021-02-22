@@ -136,17 +136,11 @@ Antes e após cada abertura das cartas comunitárias, os jogadores decidem se v�
 
 ## A dinâmica do jogo
 
-<div align="center">
-
-![Blinds](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Blinds.svg)
-
-</div>
-
 Uma vez definido o dealer e os blinds terem sido colocados na mesa, são distribuídas duas cartas fechadas a cada um dos jogadores da mesa. A seguir, começando pelo jogador a esquerda do "big blind" (ou seja, o "UTG"), começa a primeira rodada de apostas. Os jogadores têm 3 opções de ação:
 
 <div align="center">
 
-![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Preflop.svg)
+![Blinds](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Blinds.svg)
 
 </div>
 
@@ -159,11 +153,17 @@ Uma vez definido o dealer e os blinds terem sido colocados na mesa, são distrib
 3. **Raise**
 >Aumentar a aposta, colocando na mesa o valor que ele deseja(*), desde que seja, no mínimo, o dobro do valor anterior. Exemplo: se o big blind for 10, o "raise" mínimo na primeira rodada de apostas é 20.
 
+<div align="center">
+
+![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Preflop.svg)
+
+</div>
+
 Após todos os jogadores terem tomado suas decisões (fold, call ou raise), são abertas as 3 primeiras cartas comunitárias na mesa, o que é chamado de "flop". Então uma nova rodada de apostas se segue.
 
 <div align="center">
 
-![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Flop.svg)
+![Flop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Flop.svg)
 
 </div>
 
@@ -173,7 +173,7 @@ Se houver necessidade, uma quarta é aberta na mesa, chamada de "turn". Então s
 
 <div align="center">
 
-![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Turn.svg)
+![Turn](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Turn.svg)
 
 </div>
 
@@ -181,7 +181,7 @@ Então é aberta a última carta comunitária, chamada de "river" e a última ro
 
 <div align="center">
 
-![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/River.svg)
+![River](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/River.svg)
 
 </div>
 
@@ -189,7 +189,7 @@ Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizad
 
 <div align="center">
 
-![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Showdown.svg)
+![Showdown](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Showdown.svg)
 
 </div>
 
