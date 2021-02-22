@@ -1,4 +1,13 @@
-# CONHEÇA AS REGRAS DO TEXAS HOLD'EM
+![Title](http://satyr.io/1000x80/white?text=TEXAS)
+![Title](http://satyr.io/1000x80/white?text=HOLD'EM)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# CONHEÇA AS REGRAS
 
 ## Objetivo do jogo
 
