@@ -102,13 +102,13 @@ Antes e após cada abertura das cartas comunitárias, os jogadores decidem se v�
 
 Uma vez definido o dealer e os blinds terem sido colocados na mesa, são distribuídas duas cartas fechadas a cada um dos jogadores da mesa. A seguir, começando pelo jogador a esquerda do "big blind" (ou seja, o "UTG"), começa a primeira rodada de apostas. Os jogadores têm 3 opções de ação:
 
-1. Fold
+1. **Fold**
 >Desistir da mão.
 
-2. Call
+2. **Call**
 >Pagar a aposta (que no caso seria o valor do big blind) para ver as três cartas do flop.
 
-3. Raise
+3. **Raise**
 >Aumentar a aposta, colocando na mesa o valor que ele deseja(*), desde que seja, no mínimo, o dobro do valor anterior. Exemplo: se o big blind for 10, o "raise" mínimo na primeira rodada de apostas é 20.
 
 Após todos os jogadores terem tomado suas decisões (fold, call ou raise), são abertas as 3 primeiras cartas comunitárias na mesa, o que é chamado de "flop". Então uma nova rodada de apostas se segue.
@@ -123,6 +123,6 @@ Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizad
 
 >Obs: existem 3 tipos básicos de Texas Hold'em, no que se refere aos valores máximo de apostas.
 
-1. Fixed Limit: o valor máximo da aposta é definido(fixo).
-2. Pot Limit: o valor máximo da aposta é a quantidade total de fichas no pote naquele determinado momento.
-3. No Limit: o jogador pode apostar o valor que quiser, inclusive todas elas("All In").
+1. **Fixed Limit**: o valor máximo da aposta é definido(fixo).
+2. **Pot Limit**: o valor máximo da aposta é a quantidade total de fichas no pote naquele determinado momento.
+3. **No Limit**: o jogador pode apostar o valor que quiser, inclusive todas elas("All In").
