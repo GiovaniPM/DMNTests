@@ -1,0 +1,17 @@
+# CONHEÇA AS REGRAS DO TEXAS HOLD'EM
+
+## Objetivo do jogo
+
+O objetivo do jogo é fazer a melhor mão possível de cinco cartas, combinando as duas cartas fechadas, que cada jogador recebe no ínicio de cada rodada, com as cinco cartas "comunitárias" abertas pelo "dealer" (crupiê) na mesa, o que será melhor explicado adiante.
+
+## Ranking de mãos
+
+Veja abaixo o ranking das mãos possíveis no Texas Hold'em, em ordem decrescente de força.
+
+Lembrando que a menor carta é o 2 e a maior é o ás.
+
+### Royal Straight Flush
+
+Sequência de dez(T) a Ás(A), sendo todas cartas do mesmo naipe. É a única mão imbatível no poker.
+
+![Royal Straight Flush]()

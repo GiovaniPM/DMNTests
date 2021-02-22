@@ -24,6 +24,14 @@
       "number": "646 555-4567"
     }
   ],
+  "eletronic address": [
+    {
+      "email": "giovanipm@gmail.com"
+    },
+    {
+      "email": "giovani_pm@hotmail.com"
+    }
+  ],
   "children": [],
   "spouse": null
 }
