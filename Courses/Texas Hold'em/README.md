@@ -89,13 +89,13 @@ Antes e após cada abertura das cartas comunitárias, os jogadores decidem se v�
 
 ## Conceitos básicos
 
-1. O "dealer" ("botão")
+1. **O "dealer" ("botão")**
 >A distribuição das cartas e a ordem das apostas é sempre realizada no sentido horário. Em cada rodada, um dos jogadores terá o botão do dealer em sua frente, indicando que a ação começará com o jogador a sua esquerda. Assim, o jogador que tem o botão a sua frente sempre será o último a agir.
 
-2. Os "Blinds"
+2. **Os "Blinds"**
 >São apostas obrigatórias, que devem ser feitas pelos jogadores nas duas posições imediatamente a esquerda do "dealer", antes mesmo de receber suas cartas. O primeiro o "small blind" (SB), com metade do valor do segundo jogador, que apostará o "big blind" (BB). Nos torneios, os valores dos blinds vão aumentando ao longo do jogo. Já nos "ring-games" ("cash-games"), os blinds permanecem fixos.
 
-3. Posições na mesa
+3. **Posições na mesa**
 >Em geral, uma mesa de Texas Hold'em é composta por 9 jogadores, e todas as posições na mesa recebem algumas denominações. Por exemplo, o primeiro a agir em uma rodada é chamado "Under The Gun" (UTG). Essa é a pior posição na mesa, uma vez que o jogador tem que tomar uma decisão sem nenhuma informação sobre os adversários. Por outro lado, o jogador em "late position", último a agir, tem a vantagem de tomar sua decisão baseado em ações anteriores dos adversários.
 
 ## A dinâmica do jogo
