@@ -113,7 +113,7 @@ Uma vez definido o dealer e os blinds terem sido colocados na mesa, são distrib
 
 Após todos os jogadores terem tomado suas decisões (fold, call ou raise), são abertas as 3 primeiras cartas comunitárias na mesa, o que é chamado de "flop". Então uma nova rodada de apostas se segue.
 
->Obs: se antes do "flop" algum jogador fizer uma aposta e todos os demais desistirem, ele leva o pote e não haverá a abertura de cartas comunitárias. Da mesma forma, se após o flop alguêm apostar e todos desistirem, a mão é decidida ali mesmo.
+>**Obs:** se antes do "flop" algum jogador fizer uma aposta e todos os demais desistirem, ele leva o pote e não haverá a abertura de cartas comunitárias. Da mesma forma, se após o flop alguêm apostar e todos desistirem, a mão é decidida ali mesmo.
 
 Se houver necessidade, uma quarta é aberta na mesa, chamada de "turn". Então segue mais uma rodada de apostas.
 
@@ -121,7 +121,7 @@ Então é aberta a última carta comunitária, chamada de "river" e a última ro
 
 Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizado o "showdown", momento que todos jogadores mostram as cartas para ver quem tem o melhor jogo. O jogador com a melhor mão leva todas as fichas do pote e uma nova rodada se inicia.
 
->Obs: existem 3 tipos básicos de Texas Hold'em, no que se refere aos valores máximo de apostas.
+>**Obs:** existem 3 tipos básicos de Texas Hold'em, no que se refere aos valores máximo de apostas.
 
 1. **Fixed Limit**: o valor máximo da aposta é definido(fixo).
 2. **Pot Limit**: o valor máximo da aposta é a quantidade total de fichas no pote naquele determinado momento.
