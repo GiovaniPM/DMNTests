@@ -89,6 +89,8 @@ Antes e após cada abertura das cartas comunitárias, os jogadores decidem se v�
 
 ## Conceitos básicos
 
+>![Mesa](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Par.jpg)
+
 1. **O "dealer" ("botão")**
 >A distribuição das cartas e a ordem das apostas é sempre realizada no sentido horário. Em cada rodada, um dos jogadores terá o botão do dealer em sua frente, indicando que a ação começará com o jogador a sua esquerda. Assim, o jogador que tem o botão a sua frente sempre será o último a agir.
 
