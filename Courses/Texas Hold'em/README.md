@@ -4,6 +4,8 @@
 
 O objetivo do jogo é fazer a melhor mão possível de cinco cartas, combinando as duas cartas fechadas, que cada jogador recebe no ínicio de cada rodada, com as cinco cartas "comunitárias" abertas pelo "dealer" (crupiê) na mesa, o que será melhor explicado adiante.
 
+---
+
 ## Ranking de mãos
 
 Veja abaixo o ranking das mãos possíveis no Texas Hold'em, em ordem decrescente de força.
@@ -73,10 +75,14 @@ Veja abaixo o ranking das mãos possíveis no Texas Hold'em, em ordem decrescent
 
 >Em caso de dois ou mais jogadores terem mãos iguais, por exemplo, um par, vencerá aquele com o par mais alto. Se ambos tiverem o mesmo par, vencerá aquele que tem a carta mais alta nas mãos, que é chamada de "kicker". Se a carta mais alta estiver na mesa, então haverá empate na rodada.
 
+---
+
 ## Regra da Mesa
 
 Nem sempre as duas cartas na mão de um jogador serão utilizadas para formar um jogo.
 Se, por exemplo, você tiver um par de 4 na mão, e na mesa tiver um sequência de dez a ás, seu jogo será a sequência, e não o par. Isso porque as cartas na mesa são "comunitárias", ou seja, servem para todos os jogadores. Caso nenhum dos envolvidos na mão tenham um jogo maior do que a seqência na mesa, haverá empate na rodada.
+
+---
 
 ## Cartas comunitárias
 
@@ -87,6 +93,8 @@ Cartas comunitárias, também chamadas de bordo ("board") são abertas na seguin
 - **River**: 1 carta é aberta.
 
 Antes e após cada abertura das cartas comunitárias, os jogadores decidem se vão ou não continuar jogando aquela mão e realizam suas ações.
+
+---
 
 ## Conceitos básicos
 
@@ -104,6 +112,8 @@ Antes e após cada abertura das cartas comunitárias, os jogadores decidem se v�
 
 3. **Posições na mesa**
 >Em geral, uma mesa de Texas Hold'em é composta por 9 jogadores, e todas as posições na mesa recebem algumas denominações. Por exemplo, o primeiro a agir em uma rodada é chamado "Under The Gun" (UTG). Essa é a pior posição na mesa, uma vez que o jogador tem que tomar uma decisão sem nenhuma informação sobre os adversários. Por outro lado, o jogador em "late position", último a agir, tem a vantagem de tomar sua decisão baseado em ações anteriores dos adversários.
+
+---
 
 ## A dinâmica do jogo
 
