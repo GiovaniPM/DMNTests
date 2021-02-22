@@ -81,9 +81,9 @@ Se, por exemplo, você tiver um par de 4 na mão, e na mesa tiver um sequência 
 
 Cartas comunitárias, também chamadas de bordo ("board") são abertas na seguinte sequência:
 
-- Flop: 3 cartas são abertas de uma só vez.
-- Turn: 1 carta é aberta.
-- River: 1 carta é aberta.
+- **Flop**: 3 cartas são abertas de uma só vez.
+- **Turn**: 1 carta é aberta.
+- **River**: 1 carta é aberta.
 
 Antes e após cada abertura das cartas comunitárias, os jogadores decidem se vão ou não continuar jogando aquela mão e realizam suas ações.
 
