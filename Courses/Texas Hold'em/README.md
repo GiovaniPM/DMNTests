@@ -136,7 +136,19 @@ Antes e após cada abertura das cartas comunitárias, os jogadores decidem se v�
 
 ## A dinâmica do jogo
 
+<div align="center">
+
+![Blinds](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Blinds.svg)
+
+</div>
+
 Uma vez definido o dealer e os blinds terem sido colocados na mesa, são distribuídas duas cartas fechadas a cada um dos jogadores da mesa. A seguir, começando pelo jogador a esquerda do "big blind" (ou seja, o "UTG"), começa a primeira rodada de apostas. Os jogadores têm 3 opções de ação:
+
+<div align="center">
+
+![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Preflop.svg)
+
+</div>
 
 1. **Fold**
 >Desistir da mão.
@@ -149,13 +161,37 @@ Uma vez definido o dealer e os blinds terem sido colocados na mesa, são distrib
 
 Após todos os jogadores terem tomado suas decisões (fold, call ou raise), são abertas as 3 primeiras cartas comunitárias na mesa, o que é chamado de "flop". Então uma nova rodada de apostas se segue.
 
+<div align="center">
+
+![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Flop.svg)
+
+</div>
+
 >**Obs:** se antes do "flop" algum jogador fizer uma aposta e todos os demais desistirem, ele leva o pote e não haverá a abertura de cartas comunitárias. Da mesma forma, se após o flop alguêm apostar e todos desistirem, a mão é decidida ali mesmo.
 
 Se houver necessidade, uma quarta é aberta na mesa, chamada de "turn". Então segue mais uma rodada de apostas.
 
+<div align="center">
+
+![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Turn.svg)
+
+</div>
+
 Então é aberta a última carta comunitária, chamada de "river" e a última rodada de aposta se segue.
 
+<div align="center">
+
+![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/River.svg)
+
+</div>
+
 Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizado o "showdown", momento que todos jogadores mostram as cartas para ver quem tem o melhor jogo. O jogador com a melhor mão leva todas as fichas do pote e uma nova rodada se inicia.
+
+<div align="center">
+
+![PreFlop](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Showdown.svg)
+
+</div>
 
 >**Obs:** existem 3 tipos básicos de Texas Hold'em, no que se refere aos valores máximo de apostas.
 
