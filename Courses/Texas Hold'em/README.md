@@ -8,13 +8,8 @@ O objetivo do jogo é fazer a melhor mão possível de cinco cartas, combinando 
 
 Veja abaixo o ranking das mãos possíveis no Texas Hold'em, em ordem decrescente de força.
 
->Lembrando que a menor carta é o **2** e a maior é o **ás**.
-><div align="center">
->
->![Mesa](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Mesa.bmp)
->
-></div>
-
+>**Obs:** Lembrando que a menor carta é o **2** e a maior é o **ás**.
+>![Cards](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/cards.bmp)
 
 ### 1. Royal Straight Flush
 
