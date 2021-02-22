@@ -24,6 +24,6 @@ Lembrando que a menor carta é o 2 e a maior é o ás.
 
 ### Quadra
 
->Quatro cartas iguais.
+>Quatro cartas de naipes iguais.
 >
->![Quadra](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Straight%20Flush.jpg)
+>![Quadra](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Quadra.jpg)
