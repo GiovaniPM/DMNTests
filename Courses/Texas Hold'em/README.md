@@ -44,4 +44,10 @@ Lembrando que a menor carta é o 2 e a maior é o ás.
 
 >São 5 cartas em sequência, de naipes diferentes.
 >
->![Sequência ou Seguida (Straigh)](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Flush.jpg)
+>![Sequência ou Seguida (Straigh)](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Sequ%C3%AAncia%20ou%20Seguida%20(Straigh).jpg)
+
+### Trinca
+
+>Três cartas iguais.
+>
+>![Trinca](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Sequ%C3%AAncia%20ou%20Seguida%20(Straigh).jpg)
