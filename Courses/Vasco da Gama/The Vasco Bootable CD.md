@@ -372,7 +372,6 @@ Por exemplo o script pegará o string identificador da placa do arquivo PCI, con
 >        ViewPort    0 0
 >    EndSubsection
 >EndSection
->```
 >
 >Section "Serverlayout"
 >    Identifier "Video_Card"
@@ -380,4 +379,5 @@ Por exemplo o script pegará o string identificador da placa do arquivo PCI, con
 >    InputDevice "Mouse1" "CorePointer"
 >    InputDevice "Keyboard1" "CoreKeyboard"
 >EndSection
+>```
 >**Figura 14** - _Listagem **XF86Config.next**_
