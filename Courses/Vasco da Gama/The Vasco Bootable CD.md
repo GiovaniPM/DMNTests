@@ -382,3 +382,31 @@ Por exemplo o script pegará o string identificador da placa do arquivo PCI, con
 >EndSection
 >```
 >**Figura 14** - _Listagem **XF86Config.next**_
+
+>``` bash
+>#!/bin/sh
+>
+>cat /proc/pci | grep VGA > /tmp/hp_0005
+>tail /tmp/hp_0005 > /tmp/hp_0006
+>colrm 1 31 < /tmp/hp_0006 > /tmp/hp_0005
+>colrm 51 < /etc/X11/video_cards.txt > /tmp/hp_0006
+>_status="no"
+>for i in `cat /tmp/hp_0006`
+>do
+>    grep -i $i /tmp/hp_0005 > /tmp/hp_0007
+>    _card=`colrm 2 < /tmp/hp_0007`
+>    if [ "x"$_card != "x" ]
+>    then
+>      echo "Card found: " $i
+>      /etc/X11/makeXfile.sh $i
+>      _status="ok"
+>    fi
+>    done
+>if [ $_status = "no" ]
+>then
+>#    /etc/X11/menu.sh
+>    co /etc/X11/XF86Config.framebufer /etc/X11/XF86Config
+>fi
+>win
+>```
+>**Figura 15** - _Listagem **detect.sh**_
