@@ -264,42 +264,42 @@ end fork
 >**Figura 10** - _Criação do **XF86Config**_
 -->
 
->>``` plantuml
->>@startuml
->>frame detect {
->>    agent "makeXfile" as a2
->>    file "/etc/X11/<driver name>" as a1
->>}
->>frame mount {
->>    file "/etc/X11/XF86Config.previous" as b1
->>    agent "driver name" as b2
->>    file "/etc/X11/XF86Config.next" as b3
->>}
->>file "/etc/X11/XF86Config" as c1
->>a1 -[dashed]-> a2
->>detect -----[bold]-> b2
->>b1 -[dashed]-> b2
->>b3 -[dashed]-> b2
->>mount --[bold]-> c1
->>@enduml
->>```
+>``` plantuml
+>@startuml
+>frame detect {
+>    agent "makeXfile" as a2
+>    file "/etc/X11/<driver name>" as a1
+>}
+>frame mount {
+>    file "/etc/X11/XF86Config.previous" as b1
+>    agent "driver name" as b2
+>    file "/etc/X11/XF86Config.next" as b3
+>}
+>file "/etc/X11/XF86Config" as c1
+>a1 -[dashed]-> a2
+>detect -----[bold]-> b2
+>b1 -[dashed]-> b2
+>b3 -[dashed]-> b2
+>mount --[bold]-> c1
+>@enduml
+>```
 >**Figura 10** - _Criação do **XF86Config**_
 
 Por exemplo o script pegará o string identificador da placa do arquivo PCI, consultará o arquivo **video_cards.txt** localizado no diretório **/etc/X11** devolvendo o driver adequado. Caso a placa possua particularidades de hardware, haverá também um arquivo denominado com o nome do driver contendo estas particularidades.
 
->>```dos
->>Ati                                                              ati
->>Cirrus                                                           cirrus
->>Intel                                                            i810
->>Matrox                                                           mga
->>S3                                                               savage
->>```
+>```dos
+>Ati                                                              ati
+>Cirrus                                                           cirrus
+>Intel                                                            i810
+>Matrox                                                           mga
+>S3                                                               savage
+>```
 >**Figura 11** - _Listagem do **video_cards.txt**_
 
->>```dos
->>      Option         "noaccel"
->>      Option         "no_bitblt"
->>```
+>```dos
+>      Option         "noaccel"
+>      Option         "no_bitblt"
+>```
 >**Figura 11** - _Listagem do arquivo de particularidades **cirrus.txt**_
 
 >``` bash
