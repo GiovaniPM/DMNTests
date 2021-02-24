@@ -104,3 +104,12 @@ Para a inicialização do Linux é necessário haver uma estrutura mínima, que 
 >>@endsalt
 >>```
 >Figura 3 - Estrutura de root.bin
+
+Após a execução do Init será chamado um script de inicialização de serviços denominado Inittab dentro do diretório /etc.
+
+>``` bash
+>#/etc/inittab
+>#     init(8) configuration for Debian boot-floppies Root Disk
+>#
+>```
+>Figura 4 - Arquivo Inittab
