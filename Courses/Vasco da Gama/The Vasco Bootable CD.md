@@ -38,10 +38,10 @@ Optou-se então pela primeira alternativa pois esta era mais factível para as n
 >```
 >**Figura 1** - _Estrutura de diretórios para o boot do CD_
 
->>``` dos
->>@echo off
->>loadlin bzImage ramdisk_size=20000 root=/dev/ram ro initrd=root.bin
->>```
+>``` dos
+>@echo off
+>loadlin bzImage ramdisk_size=20000 root=/dev/ram ro initrd=root.bin
+>```
 >**Figura 2** - _Conteúdo do arquivo de lote para a chamada do Linux (**Linux.bat**)_
 
 Não abordaremos neste documento como é efetuada a decisão de qual o sistema operacional será chamado, pois dependerá da criação de um outro programa objeto de outra pesquisa.
@@ -200,6 +200,7 @@ A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, resp
 >|< 64 Mb|CD|CD|
 >|64 Mb - 127 Mb|CD|Memória|
 >| > 128 Mb|Memória|Memória|
+>
 >**Figura 7** - _Otimizações de filesystem_
 
 >``` bash
