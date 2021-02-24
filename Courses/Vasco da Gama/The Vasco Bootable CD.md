@@ -59,7 +59,7 @@ Para isso usamos a compilação do kernel 2.2.18 aplicando o patch de suporte a 
 
 ## Como inicializar o Linux
 
-Para a inicialização do Linux é necessário haver uma estrutura mínima, que fornece as condições necessárias para a execução do Linux. Esta estrutura é definida como um ramdisk inicial e será responsável pela hospedagem de programas, drivers e dispositivos necessários para a imediata execução do Linux. O programa de maior importância é o Init, que proverá uma série de funcionalidades (analagas ao command.com do DOS). Consideramos o Init como uma caixa preta, já que usaremos o do próprio CD de instalação do Debian com as funcionalidades necessárias. Poderá havers futuras customizações do Init, mas como fora citada anteriormente. Em nosso caso isto é dispensável. Para um melhor entendimento é aconselhável observar o root.bin:
+Para a inicialização do Linux é necessário haver uma estrutura mínima, que fornece as condições necessárias para a execução do Linux. Esta estrutura é definida como um ramdisk inicial e será responsável pela hospedagem de programas, drivers e dispositivos necessários para a imediata execução do Linux. O programa de maior importância é o **Init**, que proverá uma série de funcionalidades (analagas ao **command.com** do DOS). Consideramos o **Init** como uma caixa preta, já que usaremos o do próprio CD de instalação do Debian com as funcionalidades necessárias. Poderá havers futuras customizações do **Init**, mas como fora citada anteriormente. Em nosso caso isto é dispensável. Para um melhor entendimento é aconselhável observar o **root.bin**:
 
 >>``` plantuml
 >>@startsalt
@@ -103,9 +103,9 @@ Para a inicialização do Linux é necessário haver uma estrutura mínima, que 
 >>}
 >>@endsalt
 >>```
->Figura 3 - Estrutura de root.bin
+>Figura 3 - Estrutura de **root.bin**
 
-Após a execução do Init será chamado um script de inicialização de serviços denominado Inittab dentro do diretório /etc.
+Após a execução do **Init** será chamado um script de inicialização de serviços denominado **Inittab** dentro do diretório **/etc**.
 
 >``` bash
 >#/etc/inittab
@@ -147,4 +147,6 @@ Após a execução do Init será chamado um script de inicialização de serviç
 >::ctrlaltdel:/bin/umount -a -r > /dev/null 2>&1
 >::ctrlaltdel:/sbin/swapoff -a > /dev/null 2>&1
 >```
->Figura 4 - Arquivo Inittab
+>Figura 4 - Arquivo **Inittab**
+
+O principal script por nós customizado é o **startcd** localizado dentro do **/sbin**, ele é responsável pela chamada dos serviços que preverão a execução do CD.
