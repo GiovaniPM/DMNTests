@@ -246,19 +246,40 @@ A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, resp
 
 A terceira tarefa a ser executado pelo **startcd** é a detecção e customização do ambiente gráfico através do script **detect.sh** localizado no diretório **/etc/X11**. Não existe mágica apenas recorremos ao arquivo **PCI** do diretório **/proc** e capturamos a placa de vídeo.
 
->>``` plantuml
->>@startuml
->>:makeXfile
->>if (multiprocessor?) then (yes)
->>  fork
->>    :Treatment 1;
->>  fork again
->>    :Treatment 2;
->>  end fork
->>else (monoproc)
->>  :Treatment 1;
->>  :Treatment 2;
->>endif
->>@enduml
->>```
->**Figura 9** - _Listagem do **mountXwin**_
+<!--
+``` plantuml
+@startuml
+:makeXfile;
+:/etc/X11/<driver name>;
+fork
+  :/etc/X11/XF86Config.previous;
+fork again
+  :driver name;
+fork again
+  :/etc/X11/XF86Config.next;
+end fork
+:/etc/X11/XF86Config;
+@enduml
+```
+>**Figura 10** - _Criação do **XF86Config**_
+-->
+
+``` plantuml
+@startuml
+frame initialization {
+    agent "makeXfile" as a2
+    file "/etc/X11/<driver name>" as a1
+}
+frame mounting {
+    file "/etc/X11/XF86Config.previous" as b1
+    agent "driver name" as b2
+    file "/etc/X11/XF86Config.next" as b3
+}
+file "/etc/X11/XF86Config" as c1
+a1 -[dashed]-> a2
+initialization -----[bold]-> b2
+b1 -[dashed]-> b2
+b3 -[dashed]-> b2
+mounting --[bold]-> c1
+@enduml
+```
