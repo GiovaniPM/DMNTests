@@ -244,4 +244,21 @@ A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, resp
 >```
 >**Figura 9** - _Listagem do **mountXwin**_
 
-A terceira tarefa a ser executad pelo **startcd** é a detecção e customização do ambiente gráfico através do script **detect.sh** localizado no diretório **/etc/X11**. Não existe mágica apenas recorremos ao arquivo **PCI** do diretório **/proc** e capturamos a placa de vídeo.
+A terceira tarefa a ser executado pelo **startcd** é a detecção e customização do ambiente gráfico através do script **detect.sh** localizado no diretório **/etc/X11**. Não existe mágica apenas recorremos ao arquivo **PCI** do diretório **/proc** e capturamos a placa de vídeo.
+
+>>``` plantuml
+>>@startuml
+>>:makeXfile
+>>if (multiprocessor?) then (yes)
+>>  fork
+>>    :Treatment 1;
+>>  fork again
+>>    :Treatment 2;
+>>  end fork
+>>else (monoproc)
+>>  :Treatment 1;
+>>  :Treatment 2;
+>>endif
+>>@enduml
+>>```
+>**Figura 9** - _Listagem do **mountXwin**_
