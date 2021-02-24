@@ -20,22 +20,22 @@ Com isso em mente criou-se um impasse de como carregar o Linux, sabiamos que par
 
 Optou-se então pela primeira alternativa pois esta era mais factível para as necessidades paresentadas pelo CD. Para isso foi criada a seguinte estrutura:
 
->>``` plantuml
->>@startsalt
->>{
->>    {T
->>        + Structure         | Descrition
->>        + /                 | .
->>        ++ boot/            | .
->>        +++ bzImage         | (Kernel 2.2.18)
->>        +++ floppy.raw      | (Imagem de disco de boot DOS)
->>        +++ linux.bat       | (Arquivo de lote para chamada)
->>        +++ loadlin.exe     | (Programa de carga do Linux)
->>        +++ root.bin        | (Ambiente básico do Linux)
->>    }
->>}
->>@endsalt
->>```
+>``` plantuml
+>@startsalt
+>{
+>    {T
+>        + Structure         | Descrition
+>        + /                 | .
+>        ++ boot/            | .
+>        +++ bzImage         | (Kernel 2.2.18)
+>        +++ floppy.raw      | (Imagem de disco de boot DOS)
+>        +++ linux.bat       | (Arquivo de lote para chamada)
+>        +++ loadlin.exe     | (Programa de carga do Linux)
+>        +++ root.bin        | (Ambiente básico do Linux)
+>    }
+>}
+>@endsalt
+>```
 >**Figura 1** - _Estrutura de diretórios para o boot do CD_
 
 >>``` dos
@@ -61,48 +61,48 @@ Para isso usamos a compilação do kernel 2.2.18 aplicando o patch de suporte a 
 
 Para a inicialização do Linux é necessário haver uma estrutura mínima, que fornece as condições necessárias para a execução do Linux. Esta estrutura é definida como um ramdisk inicial e será responsável pela hospedagem de programas, drivers e dispositivos necessários para a imediata execução do Linux. O programa de maior importância é o **Init**, que proverá uma série de funcionalidades (analagas ao **command.com** do DOS). Consideramos o **Init** como uma caixa preta, já que usaremos o do próprio CD de instalação do Debian com as funcionalidades necessárias. Poderá havers futuras customizações do **Init**, mas como fora citada anteriormente. Em nosso caso isto é dispensável. Para um melhor entendimento é aconselhável observar o **root.bin**:
 
->>``` plantuml
->>@startsalt
->>{
->>    {T
->>        + /
->>        ++ bin/
->>        ++ cdrom/
->>        ++ dev/
->>        +++ ida/
->>        +++ inet/
->>        +++ rd/
->>        ++ etc/
->>        +++ init.d/
->>        +++ j2re1.3/
->>        ++++ security/
->>        +++ menu-methods/
->>        +++ X11/
->>        ++++ app-defaults/
->>        ++++ fs/
->>        ++++ proxymngr/
->>        ++++ rstart/
->>        ++++ twm/
->>        ++++ xinit/
->>        ++++ xkb/
->>        ++++ xserver/
->>        ++++ xsm/
->>        ++ floppy/
->>        ++ initrd/
->>        ++ java/
->>        ++ lib/
->>        +++ modules/
->>        ++++ 2.2.18/
->>        ++ mnt/
->>        ++ proc/
->>        ++ sbin/
->>        ++ tmp/
->>        ++ usr/
->>        ++ var/
->>    }
->>}
->>@endsalt
->>```
+>``` plantuml
+>@startsalt
+>{
+>    {T
+>        + /
+>        ++ bin/
+>        ++ cdrom/
+>        ++ dev/
+>        +++ ida/
+>        +++ inet/
+>        +++ rd/
+>        ++ etc/
+>        +++ init.d/
+>        +++ j2re1.3/
+>        ++++ security/
+>        +++ menu-methods/
+>        +++ X11/
+>        ++++ app-defaults/
+>        ++++ fs/
+>        ++++ proxymngr/
+>        ++++ rstart/
+>        ++++ twm/
+>        ++++ xinit/
+>        ++++ xkb/
+>        ++++ xserver/
+>        ++++ xsm/
+>        ++ floppy/
+>        ++ initrd/
+>        ++ java/
+>        ++ lib/
+>        +++ modules/
+>        ++++ 2.2.18/
+>        ++ mnt/
+>        ++ proc/
+>        ++ sbin/
+>        ++ tmp/
+>        ++ usr/
+>        ++ var/
+>    }
+>}
+>@endsalt
+>```
 >**Figura 3** - _Estrutura de **root.bin**_
 
 Após a execução do **Init** será chamado um script de inicialização de serviços denominado **Inittab** dentro do diretório **/etc**.
@@ -195,11 +195,11 @@ A primeira tarefa executada será a montagem do CD, note que esta tarefa não é
 
 A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, responsável pela montagem do filesysetm **java** e do **Xfree**. Por motivos de otimização optamos carregar em memória caso haja o suficiente, como segue a tabela:
 
->>|Qtde Memória|Java|Xwin|
->>|:-----|:-----|:-----|
->>|< 64 Mb|CD|CD|
->>|64 Mb - 127 Mb|CD|Memória|
->>| > 128 Mb|Memória|Memória|
+>|Qtde Memória|Java|Xwin|
+>|:-----|:-----|:-----|
+>|< 64 Mb|CD|CD|
+>|64 Mb - 127 Mb|CD|Memória|
+>| > 128 Mb|Memória|Memória|
 >**Figura 7** - _Otimizações de filesystem_
 
 >``` bash
