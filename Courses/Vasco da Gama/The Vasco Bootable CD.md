@@ -193,10 +193,55 @@ A primeira tarefa executada será a montagem do CD, note que esta tarefa não é
 >```
 >**Figura 6** - _Listagem do **mountcd**_
 
-A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, responsável pela montagem do filesysetm **java** e do **Xfree**. Por motivos de otimização optamos carregar em memória caso haja o suficiente, como segue a tavela:
+A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, responsável pela montagem do filesysetm **java** e do **Xfree**. Por motivos de otimização optamos carregar em memória caso haja o suficiente, como segue a tabela:
 
-|Qtde Memória|Java|Xwin|
-|:-----|:-----|:-----|
-|< 64 Mb|CD|CD|
-|64 Mb - 127 Mb|CD|Memória|
-| > 128 Mb|Memória|Memória|
+>>|Qtde Memória|Java|Xwin|
+>>|:-----|:-----|:-----|
+>>|< 64 Mb|CD|CD|
+>>|64 Mb - 127 Mb|CD|Memória|
+>>| > 128 Mb|Memória|Memória|
+>**Figura 7** - _Otimizações de filesystem_
+
+>``` bash
+>#!/bin/sh
+>
+>if [ $1 = "-mem" ]
+>then
+>    #Create a ramdisk for the JVM
+>    dd if=/dev/zero of=/dev/ram1 bs=1k count=36000
+>    echo y | mkfs -t ext2 -m 0 /dev/ram1 36000
+>    mount -t ext2 /dev/ram1 /usr/lib/j2re1.3
+>    cd /usr/lib/j2re1.3
+>    tar -zxvf /cdrom/java.tgz
+>#    mkdir /tmp/point1
+>#    mount -t ext2 -o loop -r /cdrom/jre1.3 /tp/point1
+>#    cd /usr/lib/j2re1.3
+>#    cp -dpR /tmp/point1/. .
+>else
+>    #Creaet a loopback for the JVM
+>    mount -t ext2 -o loop -r /cdrom/jre1.3 /usr/lib/j2re1.3
+>```
+>**Figura 8** - _Listagem do **mountjava**_
+
+>``` bash
+>#!/bin/sh
+>
+>if [ $1 = "-mem" ]
+>then
+>    #Create a ramdisk for the XFree86
+>    dd if=/dev/zero of=/dev/ram2 bs=1k count=101000
+>    echo y | mkfs -t ext2 -m 0 /dev/ram2 101000
+>    mount -t ext2 /dev/ram2 /usr/X11R6
+>    cd /usr/X11R6
+>    tar -zxvf /cdrom/xwin.tgz
+>#    mkdir /tmp/point2
+>#    mount -t ext2 -o loop -r /cdrom/Xwin_4.1 /tp/point2
+>#    cd /usr/X11R6
+>#    cp -dpR /tmp/point2/. .
+>else
+>    #Creaet a loopback for the XFree86
+>    mount -t ext2 -o loop -r /cdrom/Xwin_4.1 /usr/X11R6
+>```
+>**Figura 9** - _Listagem do **mountXwin**_
+
+A terceira tarefa a ser executad pelo **startcd** é a detecção e customização do ambiente gráfico através do script **detect.sh** localizado no diretório **/etc/X11**. Não existe mágica apenas recorremos ao arquivo **PCI** do diretório **/proc** e capturamos a placa de vídeo.
