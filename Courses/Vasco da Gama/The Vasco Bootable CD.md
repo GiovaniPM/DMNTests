@@ -36,13 +36,13 @@ Optou-se então pela primeira alternativa pois esta era mais factível para as n
 >>}
 >>@endsalt
 >>```
->Figura 1 - Estrutura de diretórios para o boot do CD
+>Figura 1 - _Estrutura de diretórios para o boot do CD_
 
 >>``` dos
 >>@echo off
 >>loadlin bzImage ramdisk_size=20000 root=/dev/ram ro initrd=root.bin
 >>```
->Figura 2 - Conteúdo do arquivo de lote para a chamada do Linux (Linux.bat)
+>Figura 2 - _Conteúdo do arquivo de lote para a chamada do Linux (**Linux.bat**)_
 
 Não abordaremos neste documento como é efetuada a decisão de qual o sistema operacional será chamado, pois dependerá da criação de um outro programa objeto de outra pesquisa.
 
