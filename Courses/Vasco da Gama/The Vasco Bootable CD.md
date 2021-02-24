@@ -410,3 +410,60 @@ Por exemplo o script pegará o string identificador da placa do arquivo PCI, con
 >win
 >```
 >**Figura 15** - _Listagem **detect.sh**_
+
+>``` bash
+>#!/bin/sh
+>/etc/X11/video.sh "$1";
+>cat /etc/X11/XF86Config.previous                    >  /etc/X11/XF86Config;
+>echo -e "    Driver      \ ""`cat /tmp/hp_0003`"\"" >> /etc/X11/XF86Config;
+>_file_card="/etc/X11/"`cat /tmp/hp_0003".txt"
+>if [ -f $_file_card ]
+>then
+>      cat $_file_card                               >> /etc/X11/XF86Config;
+>fi
+>cat /etc/X11/XF86Config.next                        >> /etc/X11/XF86Config;
+>```
+>**Figura 16** - _Listagem **makeXfile.sh**_
+
+>``` bash
+>#!/bin/sh
+>
+>export PATH=.:/usr/X11R6/bin:/usr/X11R6/lib:$PATH
+>startx
+>```
+>**Figura 17** - _Listagem **win**_
+
+A primeira tarefa do ambiente gráfico é ler o arquivo das configurações iniciais do ambiente localizado em **/etc/X11/xinit** denominado **xinitrc**.
+
+>``` bash
+>#!/bin/sh
+># $Xorg: xinitrc.cpp,v 1.3 2000/08/17 19:54:30 cpqbld Exp $
+>
+>userresources=$HOME/.Xresources
+>usermodmap=$HOME/.Xmodmap
+>sysresources=/usr/X11R6/lib/X11/xinit/.Xresouerces
+>sysmodmap=/usr/X11R6/lib/X11/xinit/.Xmodmap
+>
+># merge in defaults and keymaps
+>
+>if [ -f $sysresources ]; then
+>    xrdb -merge $sysresources
+>fi
+>
+>if [ -f $sysmodmap ]; then
+>    xmodmap $sysmodmap
+>fi
+>
+>if [ -f $userresources ]; then
+>    xrdb -merge $userresources
+>fi
+>
+>if [ -f $usermodmap ]; then
+>    xmodmap $usermodmap
+>fi
+>
+>cd /cdrom/hpgui
+>oroborus &
+>java HPGUI
+>```
+>**Figura 17** - _Listagem **xinitrc**_
