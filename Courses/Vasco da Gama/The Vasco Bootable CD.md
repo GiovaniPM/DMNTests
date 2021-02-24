@@ -192,3 +192,11 @@ A primeira tarefa executada será a montagem do CD, note que esta tarefa não é
 >#/bin/umount -n /cdrom
 >```
 >**Figura 6** - _Listagem do **mountcd**_
+
+A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, responsável pela montagem do filesysetm **java** e do **Xfree**. Por motivos de otimização optamos carregar em memória caso haja o suficiente, como segue a tavela:
+
+|Qtde Memória|Java|Xwin|
+|:-----|:-----|:-----|
+|< 64 Mb|CD|CD|
+|64 Mb - 127 Mb|CD|Memória|
+| > 128 Mb|Memória|Memória|
