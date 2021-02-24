@@ -20,31 +20,20 @@ Com isso em mente criou-se um impasse de como carregar o Linux, sabiamos que par
 
 Optou-se então pela primeira alternativa pois esta era mais factível para as necessidades paresentadas pelo CD. Para isso foi criada a seguinte estrutura:
 
->``` plantuml
->@startsalt
->{
->    {T
->        + Structure         | Descrition
->        + /                 | .
->        ++ boot/            | .
->        +++ bzImage         | (Kernel 2.2.18)
->        +++ floppy.raw      | (Imagem de disco de boot DOS)
->        +++ linux.bat       | (Arquivo de lote para chamada)
->        +++ loadlin.exe     | (Programa de carga do Linux)
->        +++ root.bin        | (Ambiente básico do Linux)
->    }
->}
->@endsalt
->```
-
-~~~javascript
-Esta é uma linha de código em Javascript.
-~~~
-
-~~~php
-Esta é uma linha de código em PHP.
-~~~
-
-~~~html
-Esta é uma linha de código em HTML.
-~~~
+>>``` plantuml
+>>@startsalt
+>>{
+>>    {T
+>>        + Structure         | Descrition
+>>        + /                 | .
+>>        ++ boot/            | .
+>>        +++ bzImage         | (Kernel 2.2.18)
+>>        +++ floppy.raw      | (Imagem de disco de boot DOS)
+>>        +++ linux.bat       | (Arquivo de lote para chamada)
+>>        +++ loadlin.exe     | (Programa de carga do Linux)
+>>        +++ root.bin        | (Ambiente básico do Linux)
+>>    }
+>>}
+>>@endsalt
+>>```
+>Figura 1 - Estrutura de diretórios para o boot do CD
