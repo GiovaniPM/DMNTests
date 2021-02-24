@@ -150,3 +150,45 @@ Após a execução do **Init** será chamado um script de inicialização de ser
 >**Figura 4** - _Arquivo **Inittab**_
 
 O principal script por nós customizado é o **startcd** localizado dentro do **/sbin**, ele é responsável pela chamada dos serviços que preverão a execução do CD.
+
+>``` bash
+>#!/bin/sh
+>
+>/sbin/mountcd
+>/sbin/loader
+>#/etc/X11/menu.sh
+>/etc/X11/detect.sh
+>```
+>**Figura 5** - _Listagem do **startcd**_
+
+A primeira tarefa executada será a montagem do CD, note que esta tarefa não é trivial. A montagem deve ser sensível a quanitdade de drivers existentes, e a qual unidade precisamente estará situado o CD.
+
+>``` bash
+>#!/bin/sh
+>
+># I could have built IDE as a loadable module but I'm lazy and I want
+># to be able to use this same kernel as my routine one.
+>
+>mount_CD() {
+>    echo Looking for the ATA CD device...
+>    for i in hdc hdb hdd hda hde hdf
+>    do
+>      if /sbin/mount -n -r -t iso9660 /dev/$i /cdrom
+>      then
+>        CD_DEVICE=-$i
+>            echo -e "CD found in /dev/$i device."
+>          return
+>      fi
+>    done
+>    echo CD not found
+>    What do i do now!
+>}
+>
+>mount_CD
+>
+>export CD_DEVICE
+>
+># Use instance of umount not on the CD
+>#/bin/umount -n /cdrom
+>```
+>**Figura 6** - _Listagem do **mountcd**_
