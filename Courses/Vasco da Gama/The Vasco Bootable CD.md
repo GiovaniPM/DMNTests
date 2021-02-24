@@ -467,3 +467,58 @@ A primeira tarefa do ambiente gráfico é ler o arquivo das configurações inic
 >java HPGUI
 >```
 >**Figura 17** - _Listagem **xinitrc**_
+
+>```graphviz
+>digraph G {
+>    node [shape=box];
+>    n01 [label=" 1. CD BOOTSTRAP"];
+>    n02 [label=" 2. LOAD MSDOS\nOPERATION SYSTEM"];
+>    n03 [label=" 3. LOAD LINUX\nOPERATION SYSTEM"];
+>    n04 [label=" 4. EXECUTE DOS\nPROGRAM"];
+>    n05 [label=" 5. REBOOT PROGRAM"];
+>    n06 [label=" 6. LINUX KERNEL\n2.2.18"];
+>    n07 [label=" 7. ROOT.BIN"];
+>    n08 [label=" 8. POWEROFF"];
+>
+>    n01 -> n02;
+>    n02 -> n03 -> n06 -> n07;
+>    n02 -> n04 -> n05;
+>    n05 -> n01;
+>    n05 -> n08;
+>    n07 -> n05;
+>}
+>```
+>**Figura 18.a** - _BOOT SEQUENCE_
+>
+>```graphviz
+>digraph G {
+>    node [shape=box];
+>    n01 [label=" 1. INIT PROGRAM"];
+>    n02 [label=" 2. INITTAB"];
+>    n03 [label=" 3. STARTCD"];
+>    n04 [label=" 4. MOUNTCD"];
+>    n05 [label=" 5. LOADER"];
+>    n06 [label=" 6. DETECT.SH"];
+>    n07 [label=" 7. MAKEXFILE"];
+>    n08 [label=" 8. WIN"];
+>    n09 [label=" 9. STARTX"];
+>    n10 [label="10. MOUNT.GRAPH"];
+>
+>    n01 -> n02 -> n03;
+>    n03 -> n04 -> n05;
+>    n03 -> n05;
+>    n03 -> n06 -> n08 -> n09;
+>    n05 -> n10 -> n06;
+>    n06 -> n07 -> n08;
+>}
+>```
+>**Figura 18.b** - _ROOT.BIN_
+>
+>```graphviz
+>digraph G {
+>    node [shape=box];
+>    n01 [label=" 1. MOUNTJAVA"];
+>    n02 [label=" 2. MOUNTXWIN"];
+>}
+>```
+>**Figura 18.c** - _MOUNT.GRAPH_
