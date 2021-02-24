@@ -42,4 +42,17 @@ Optou-se então pela primeira alternativa pois esta era mais factível para as n
 >>@echo off
 >>loadlin bzImage ramdisk_size=20000 root=/dev/ram ro initrd=root.bin
 >>```
->Figira 2 - Conteúdo do arquivo de lote para a chamada do Linux (Linux.bat)
+>Figura 2 - Conteúdo do arquivo de lote para a chamada do Linux (Linux.bat)
+
+Não abordaremos neste documento como é efetuada a decisão de qual o sistema operacional será chamado, pois dependerá da criação de um outro programa objeto de outra pesquisa.
+
+## Qual kernel usar
+
+Precisamos criar um kernel que suportasse as máquinas alvo bem como otimizações de performance. Dentre as otimizações criadas estão:
+
+- compactação de file system;
+- suporte a frame buffer;
+- utilização de diversos ramdisks;
+- suporte a loop devices.
+
+Para isso usamos a compilação do kernel 2.2.18 aplicando o patch de suporte a EXT3.
