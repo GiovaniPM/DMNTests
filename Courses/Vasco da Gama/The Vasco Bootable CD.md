@@ -37,3 +37,9 @@ Optou-se então pela primeira alternativa pois esta era mais factível para as n
 >>@endsalt
 >>```
 >Figura 1 - Estrutura de diretórios para o boot do CD
+
+>>``` dos
+>>@echo off
+>>loadlin bzImage ramdisk_size=20000 root=/dev/ram ro initrd=root.bin
+>>```
+>Figira 2 - Conteúdo do arquivo de lote para a chamada do Linux (Linux.bat)
