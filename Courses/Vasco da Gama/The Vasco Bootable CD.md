@@ -56,3 +56,51 @@ Precisamos criar um kernel que suportasse as máquinas alvo bem como otimizaçõ
 - suporte a loop devices.
 
 Para isso usamos a compilação do kernel 2.2.18 aplicando o patch de suporte a EXT3.
+
+## Como inicializar o Linux
+
+Para a inicialização do Linux é necessário haver uma estrutura mínima, que fornece as condições necessárias para a execução do Linux. Esta estrutura é definida como um ramdisk inicial e será responsável pela hospedagem de programas, drivers e dispositivos necessários para a imediata execução do Linux. O programa de maior importância é o Init, que proverá uma série de funcionalidades (analagas ao command.com do DOS). Consideramos o Init como uma caixa preta, já que usaremos o do próprio CD de instalação do Debian com as funcionalidades necessárias. Poderá havers futuras customizações do Init, mas como fora citada anteriormente. Em nosso caso isto é dispensável. Para um melhor entendimento é aconselhável observar o root.bin:
+
+>>``` plantuml
+>>@startsalt
+>>{
+>>    {T
+>>        + /
+>>        ++ bin/
+>>        ++ cdrom/
+>>        ++ dev/
+>>        +++ ida/
+>>        +++ inet/
+>>        +++ rd/
+>>        ++ etc/
+>>        +++ init.d/
+>>        +++ j2re1.3/
+>>        ++++ security/
+>>        +++ menu-methods/
+>>        +++ X11/
+>>        ++++ app-defaults/
+>>        ++++ fs/
+>>        ++++ proxymngr/
+>>        ++++ rstart/
+>>        ++++ twm/
+>>        ++++ xinit/
+>>        ++++ xkb/
+>>        ++++ xserver/
+>>        ++++ xsm/
+>>        ++ floppy/
+>>        ++ initrd/
+>>        ++ java/
+>>        ++ lib/
+>>        +++ modules/
+>>        ++++ 2.2.18/
+>>        ++ mnt/
+>>        ++ proc/
+>>        ++ sbin/
+>>        ++ tmp/
+>>        ++ usr/
+>>        ++ var/
+>>    }
+>>}
+>>@endsalt
+>>```
+>Figura 3 - Estrutura de root.bin
