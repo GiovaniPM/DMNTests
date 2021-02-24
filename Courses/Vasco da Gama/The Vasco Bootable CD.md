@@ -264,22 +264,120 @@ end fork
 >**Figura 10** - _Criação do **XF86Config**_
 -->
 
-``` plantuml
-@startuml
-frame initialization {
-    agent "makeXfile" as a2
-    file "/etc/X11/<driver name>" as a1
-}
-frame mounting {
-    file "/etc/X11/XF86Config.previous" as b1
-    agent "driver name" as b2
-    file "/etc/X11/XF86Config.next" as b3
-}
-file "/etc/X11/XF86Config" as c1
-a1 -[dashed]-> a2
-initialization -----[bold]-> b2
-b1 -[dashed]-> b2
-b3 -[dashed]-> b2
-mounting --[bold]-> c1
-@enduml
-```
+>>``` plantuml
+>>@startuml
+>>frame detect {
+>>    agent "makeXfile" as a2
+>>    file "/etc/X11/<driver name>" as a1
+>>}
+>>frame mount {
+>>    file "/etc/X11/XF86Config.previous" as b1
+>>    agent "driver name" as b2
+>>    file "/etc/X11/XF86Config.next" as b3
+>>}
+>>file "/etc/X11/XF86Config" as c1
+>>a1 -[dashed]-> a2
+>>detect -----[bold]-> b2
+>>b1 -[dashed]-> b2
+>>b3 -[dashed]-> b2
+>>mount --[bold]-> c1
+>>@enduml
+>>```
+>**Figura 10** - _Criação do **XF86Config**_
+
+Por exemplo o script pegará o string identificador da placa do arquivo PCI, consultará o arquivo **video_cards.txt** localizado no diretório **/etc/X11** devolvendo o driver adequado. Caso a placa possua particularidades de hardware, haverá também um arquivo denominado com o nome do driver contendo estas particularidades.
+
+>>```dos
+>>Ati                                                              ati
+>>Cirrus                                                           cirrus
+>>Intel                                                            i810
+>>Matrox                                                           mga
+>>S3                                                               savage
+>>```
+>**Figura 11** - _Listagem do **video_cards.txt**_
+
+>>```dos
+>>      Option         "noaccel"
+>>      Option         "no_bitblt"
+>>```
+>**Figura 11** - _Listagem do arquivo de particularidades **cirrus.txt**_
+
+>``` bash
+>Section "Module"
+>    Load        "dbe"                      # Double buffer extension
+>    Subsection  "extmod"
+>      Option    "omit xfree86-dg"          # don't initialise the DGA extension
+>    EndSubSection
+>    Load        "type1"
+>    Load        "freetype"
+>EndSection
+>
+>Section "Files"
+>    RGbPath     "/usr/X11R6/lib/X11/rgb"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/local/"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/misc/"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/75dpi/:unscaled"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/100dpi/:unscaled"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/Type1/"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/Speedo/"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/75dpi/"
+>    FontPath    "/usr/X11R6/lib/X11/fonts/100dpi/"
+>EndSection
+>
+>Section "InputDevice"
+>    Identifier "Keyboard1"
+>    Driver     "Keyboard"
+>    Option "AutoRepeat" "500 30"
+>    Option "XkbRules" "xfree86"
+>    Option "XkbModel" "pc101"
+>    Option "Xkblayout" "us"
+>EndSection
+>
+>Section "InputDevice"
+>    Identifier "Mouse1"
+>    Driver     "Mouse"
+>    Option "Protocol" "PS/2"
+>    Option "Device"   "/dev/psaux"
+>EndSection
+>
+>Section "Monitor"
+>    Identifier  "My Monitor"
+>    HorizSync   31.5, 35.15, 35.5
+>    VertRefresh 50-70
+>EndSection
+>
+>Section "Device"
+>    Identifier "Standard VGA"
+>    VendorName "Unknown" 
+>    BoardName  "Unknown" 
+>    Driver     "vga"
+>EndSection
+>
+>Section "Device"
+>    Identifier "Video_Card"
+>```
+>**Figura 13** - _Listagem **XF86Config.previous**_
+
+>``` bash
+>EndSection
+>
+>Section "Screen"
+>    Identifier  "Screen 1"
+>    Device      "Video_Card"
+>    Monitor     "My Monitor"
+>    DefaultDepth 8
+>    Subsection "Display"
+>        Depth       8
+>        Modes       "800x600" "640x480" "640x400"
+>        ViewPort    0 0
+>    EndSubsection
+>EndSection
+>```
+>
+>Section "Serverlayout"
+>    Identifier "Video_Card"
+>    Screen "Screen 1"
+>    InputDevice "Mouse1" "CorePointer"
+>    InputDevice "Keyboard1" "CoreKeyboard"
+>EndSection
+>**Figura 14** - _Listagem **XF86Config.next**_
