@@ -36,13 +36,13 @@ Optou-se então pela primeira alternativa pois esta era mais factível para as n
 >>}
 >>@endsalt
 >>```
->Figura 1 - _Estrutura de diretórios para o boot do CD_
+>**Figura 1** - _Estrutura de diretórios para o boot do CD_
 
 >>``` dos
 >>@echo off
 >>loadlin bzImage ramdisk_size=20000 root=/dev/ram ro initrd=root.bin
 >>```
->Figura 2 - _Conteúdo do arquivo de lote para a chamada do Linux (**Linux.bat**)_
+>**Figura 2** - _Conteúdo do arquivo de lote para a chamada do Linux (**Linux.bat**)_
 
 Não abordaremos neste documento como é efetuada a decisão de qual o sistema operacional será chamado, pois dependerá da criação de um outro programa objeto de outra pesquisa.
 
@@ -103,7 +103,7 @@ Para a inicialização do Linux é necessário haver uma estrutura mínima, que 
 >>}
 >>@endsalt
 >>```
->Figura 3 - Estrutura de **root.bin**
+>**Figura 3** - _Estrutura de **root.bin**_
 
 Após a execução do **Init** será chamado um script de inicialização de serviços denominado **Inittab** dentro do diretório **/etc**.
 
@@ -147,6 +147,6 @@ Após a execução do **Init** será chamado um script de inicialização de ser
 >::ctrlaltdel:/bin/umount -a -r > /dev/null 2>&1
 >::ctrlaltdel:/sbin/swapoff -a > /dev/null 2>&1
 >```
->Figura 4 - Arquivo **Inittab**
+>**Figura 4** - _Arquivo **Inittab**_
 
 O principal script por nós customizado é o **startcd** localizado dentro do **/sbin**, ele é responsável pela chamada dos serviços que preverão a execução do CD.
