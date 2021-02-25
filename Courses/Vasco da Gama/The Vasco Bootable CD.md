@@ -494,7 +494,7 @@ Um dos conceitos muito usado em nosso trabalho foi o filesystem. O filesystem em
 >
 >![20](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/20.svg)
 >
->**Figura 20** - _como o Linux manipul filesystem_
+>**Figura 20** - _Como o Linux manipul filesystem_
 
 ## Formas otimizadas de armazenamento
 
