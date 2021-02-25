@@ -283,3 +283,17 @@ Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizad
 1. **Fixed Limit**: o valor máximo da aposta é definido(fixo).
 2. **Pot Limit**: o valor máximo da aposta é a quantidade total de fichas no pote naquele determinado momento.
 3. **No Limit**: o jogador pode apostar o valor que quiser, inclusive todas elas("All In").
+ 
+ ---
+ 
+## Curiosidades
+ 
+### 1. Dead Man Hand
+ 
+>Dois oitos (espada e paus) e dois Áses (espada e paus).
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/8C.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AS.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/8S.svg" width="150">
