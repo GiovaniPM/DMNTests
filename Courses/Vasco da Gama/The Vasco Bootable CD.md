@@ -523,3 +523,27 @@ O grande gargâlo de performance está localizado no I/O de dispositivo, portant
 >![23](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/23.svg)
 >
 >**Figura 23** - _Filesystem em memória_
+
+- **Montagem de filesystem compactado diretamente do CD**: Uma sofisticação da primeria alternativa, acrescendo o suporte a compactação de filesystem (**EXT3**). Esta compactação deve ser suportada pelo kernel, mediante aplicação do pacth. Esta solução é tão eficiente quanto a anterior, precisando apenas uam vcersão do filesystem. Optamos por esta solução.
+
+>```bash
+>mount -o loop -t ext2 -r /cdrom/jre1.3 /usr/lib/j2re1.3
+>```
+>**Figura 24** - _Montando um filesystem compactado do CD_
+
+## Compactando um flesystem
+
+Para compactar um filesystem é necessário que o kernel possua suporte adequado. A compactação é realizada mediante a troca do atributo de compactação de um arquivo ou diretório.
+
+>```bash
+>chattr -R +c /java/*
+>```
+>**Figura 25** - _Compactando o diretório java_
+
+Cuidado ao manipular arquivos compactados, pois ao transferi-los para uma área não compactada eles automaticamente serão expandidos. Mesmo se copiarmos para uma área compactada, durante o processo de cópia ele será descompactado em memória e recompactado na nova área.
+
+><br>
+>
+>![26](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/26.svg)
+>
+>**Figura 26** - _Transferindo arquivo de área_
