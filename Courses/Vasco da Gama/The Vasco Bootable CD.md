@@ -468,7 +468,7 @@ A primeira tarefa do ambiente gráfico é ler o arquivo das configurações inic
 >```
 >**Figura 17** - _Listagem **xinitrc**_
 
->```graphviz
+>```plantuml
 >digraph G {
 >    node [shape=box];
 >    n01 [label=" 1. CD BOOTSTRAP"];
