@@ -547,3 +547,40 @@ Cuidado ao manipular arquivos compactados, pois ao transferi-los para uma área 
 >![26](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/26.svg)
 >
 >**Figura 26** - _Transferindo arquivo de área_
+
+## Um drive de vídeo genérico
+
+Para ter total controle e a previsibilidade desejada, desenvolvemos um detector de placaa de vídeo (com suporte as placaas conhecidas pelos nossos servidores). Apesar deste detector funcionar a contento, devemos também fornecedor uma alternativa genérica mesmo que essa não seja tão eficiente. Optamos pelo uso do driver vesa, o qual suporta uma grande quantidade de placas (com suporte ao chipset vesa).
+
+Contudo devemos ressaltar que mesmo assim algumas placas de vídeo podeão não funcionar, neste caso deverá ser atualizado o arquivo **video_cards.txt** localizado em **/etc/X11** com a placa e seu respectivo driver.
+
+# 3. Como criar um CD
+
+_Explicaremos agora em linhas gerais a criação do CD._
+
+Primeiramente é aconselhavél que você obtenha o ambiente de criação. A forma mais fácil disto é conseguindo o próprio CD, seguindo os seguintes passos:
+
+1. Você deverá estar no Linus;
+1. Deverá possuir no mínimo 300 Mb disponíveis;
+1. Criar um diretório denominado **/ambiente**;
+1. Criar o diretório **/ambiente/initrd**;
+1. Criar o diretório **/ambiente/struct**;
+1. Executar os seguintes comandos para popular o diretório **/ambiente/initrd**:
+>```bash
+>mkdir /tmp/temp1
+>cp /cdrom/root.bin /tmp/.
+>gunzip -S .bin /temp/root.bin
+>mount -o loop -t ext2 /tmps/root /tmp/temp1
+>cd /temp/temp1
+>cp -dpR . /ambiente/initrd/.
+>umount /temp/temp1
+>```
+>**Figura 27** - _Populando o initrd_
+7. Executar os seguintes comandos para popular o diretório **/ambiente/struct**:
+>```bash
+>cd /cdrom
+>cp -dpR . /ambiente/struct/.
+>```
+>**Figura 28** - _Populando o struct_
+
+Com isso o ambiente de criação do CD estará preparada.
