@@ -193,7 +193,7 @@ Cartas comunitárias, também chamadas de bordo ("board") são abertas na seguin
 
 <div align="center">
 
-![Comunitárias](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/comunit%C3%A1ria.svg)
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/comunit%C3%A1ria.svg" width="300">
 
 </div>
 
