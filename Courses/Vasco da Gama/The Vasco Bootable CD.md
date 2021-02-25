@@ -466,20 +466,24 @@ A primeira tarefa do ambiente gráfico é ler o arquivo das configurações inic
 >oroborus &
 >java HPGUI
 >```
->**Figura 17** - _Listagem **xinitrc**_
+>**Figura 18** - _Listagem **xinitrc**_
 
 >![18a](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/18a.svg)
 >
->**Figura 18.a** - _BOOT SEQUENCE_
+>**Figura 19.a** - _BOOT SEQUENCE_
 >
 >![18b](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/18b.svg)
 >
->**Figura 18.b** - _ROOT.BIN_
+>**Figura 19.b** - _ROOT.BIN_
 >
 >![18c](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/18c.svg)
 >
->**Figura 18.c** - _MOUNT.GRAPH_
+>**Figura 19.c** - _MOUNT.GRAPH_
 
-# Um pouco de Teoria
+# 2. Um pouco de Teoria
 
 _Explicaremos agora algumas premissas usadas na confecção do CD._
+
+O sistema operacional Linux está baseado na filosofia Unix, portanto qualquer pessoa que tenha trabalhado com algum sistema operacional Unix já terá todo o embassamento necessário. O Linux herdou do Unix o sistema de arquivos e a forma com que são gerenciados os dispositivos.
+
+Um dos conceitos muito usado em nosso trabalho foi o filesystem. O filesystem empacota arquivos, podendo estar localizado nos mais diversos dispositivos e facilmente acessado mediante montagem. Como este pacote é enxergado pelo sistema operacional como apenas um único arquivo, podemos colocando dentro de um CD, floppy, Zip drive ou até mesmo na memória.
