@@ -490,6 +490,36 @@ O sistema operacional Linux está baseado na filosofia Unix, portanto qualquer p
 
 Um dos conceitos muito usado em nosso trabalho foi o filesystem. O filesystem empacota arquivos, podendo estar localizado nos mais diversos dispositivos e facilmente acessado mediante montagem. Como este pacote é enxergado pelo sistema operacional como apenas um único arquivo, podemos colocando dentro de um CD, floppy, Zip drive ou até mesmo na memória.
 
+><br>
+>
 >![20](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/20.svg)
 >
 >**Figura 20** - _como o Linux manipul filesystem_
+
+## Formas otimizadas de armazenamento
+
+O grande gargâlo de performance está localizado no I/O de dispositivo, portanto testamos soluções alternativas na tentativ de otimizar o desempenho. Dentre as otimizações cito:
+
+- **Montagem de filesystem diretamente do CD**: Um solução clássica, mas mostrou-se problemática pelo fato de honerar muito tempo (cerca de 3 minutos).
+
+>```bash
+>mount -o loop -t ext2 -r /cdrom/jre1.3 /usr/lib/j2re1.3
+>```
+>**Figura 21** - _Montando um filesystem do CD_
+
+- **Montagem de filesystem na memória**: Com essa solução tentamos reduzir o tempo de I/O, pois ao invés de fazer um acesso direto ao CD descompactamos um único aruivo diretaamente n memória do computador. Como o CD deve ser genérico devemos possuir os filesystems duplicados (versões: tar e filesystem)
+
+>```bash
+>dd if=/dev/zero of=/dev/ram1 bs=1k count=36000
+>echo y | mkfs -t ext2 -m 0 /dev/ram1 36000
+>mount -t ext2 /dev/ram1 /usr/lib/j2re1.3
+>cd /usr/lib/j2re1.3
+>tar -zxvf /cdrom/java.tgz
+>```
+>**Figura 22** - _Montando um filesystem do memória_
+
+><br>
+>
+>![23](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/23.svg)
+>
+>**Figura 23** - _Filesystem em memória_

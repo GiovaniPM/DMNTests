@@ -1,0 +1,25 @@
+digraph g {
+    graph [
+            rankdir = "LR"
+            style="filled"
+    ];
+    node01 [
+            label = "<f0> ROOT.BIN | <f1> ... | <f2> JAVA VIRTUAL MACHINE| <f3> XFREE86 4.1.0 |"
+            shape = "Mrecord"
+            fillcolor = "green"
+    ];
+    node02 [
+            label = "Initial Ram Disk"
+            shape = "none"
+            fillcolor = "green"
+    ];
+    node03 [
+            label = "Ram Disks"
+            shape = "none"
+            fillcolor = "green"
+    ];
+
+    node02 -> node01:f0;
+    node03 -> node01:f2;
+    node03 -> node01:f3;
+}
