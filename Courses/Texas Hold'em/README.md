@@ -286,7 +286,7 @@ Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizad
  
  ---
  
-## Curiosidades
+## Nome de mãos famosas
  
 ### 1. Dead Man Hand
  
@@ -297,3 +297,123 @@ Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizad
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AS.svg" width="150">
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AC.svg" width="150">
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/8S.svg" width="150">
+
+### 2. Four Horsemen
+ 
+>Quatro reis.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KD.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KS.svg" width="150">
+
+### 3. Even Stevens
+ 
+>Cartas pares em sequência.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/2H.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/4S.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/6H.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/8C.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/10D.svg" width="150">
+
+### 4. Knights of the Round Table
+ 
+>Os 4 áses e um rei.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KD.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AS.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AD.svg" width="150">
+
+### 5. Broadway
+ 
+>Cartas A, K, Q, J e 10.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AD.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KS.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/10D.svg" width="150">
+
+### 6. Wheel
+ 
+>Cartas A, 2, 3, 4 e 5.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/2D.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/3S.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/4H.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/5C.svg" width="150">
+
+### 7. Bachelor's Dream
+ 
+>Os 4 áses.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QS.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QD.svg" width="150">
+
+### 8. Jack Pot
+ 
+>Possuir 3 setes.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/7H.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/7S.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/7D.svg" width="150">
+
+### 9. All the Primes
+ 
+>Sequência de números primos independente do naipe.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/2H.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/3D.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/5C.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/7S.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JD.svg" width="150">
+
+### 10. Team Rocket, Thunderbirds ou Musketeers
+ 
+>Os 4 áses.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AS.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AD.svg" width="150">
+
+### 11. Jackasses 
+ 
+>Dois áses e dois valetes.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AS.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JD.svg" width="150">
+
+### 12. Elvis in Vegas 
+ 
+>Quatro damas e um rei.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KD.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QS.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QC.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QD.svg" width="150">
+
+### 13. What Are The Odds
+ 
+>Cartas impares em sequência.
+>
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/AH.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/3S.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/5H.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/7C.svg" width="150">
+><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/9D.svg" width="150">
