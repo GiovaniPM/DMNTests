@@ -560,7 +560,7 @@ _Explicaremos agora em linhas gerais a criação do CD._
 
 Primeiramente é aconselhavél que você obtenha o ambiente de criação. A forma mais fácil disto é conseguindo o próprio CD, seguindo os seguintes passos:
 
-1. Você deverá estar no Linus;
+1. Você deverá estar no Linux;
 1. Deverá possuir no mínimo 300 Mb disponíveis;
 1. Criar um diretório denominado **/ambiente**;
 1. Criar o diretório **/ambiente/initrd**;
@@ -584,3 +584,25 @@ Primeiramente é aconselhavél que você obtenha o ambiente de criação. A form
 >**Figura 28** - _Populando o struct_
 
 Com isso o ambiente de criação do CD estará preparada.
+
+Neste ponto teremos todo o suporte necessário a criação do CD, podemos incluir, excluir ou alterar qualquer componente do CD. Vale lembrar que o diretório **/ambiente/initrd** é responsável pela geração do nosso **ROOT.BIN**, e o diretório **/ambiente/struct** pela geração da imagem do CD.
+
+## Gerando um CD
+
+Vale lembrar que qualquer alteração implica diretamente no funcionamento do CD, portando cuidado e bom senso é uma boa política. Chegamos agora ao momento de criar o nosso CD, para isso executaremos os seguitnes comandos:
+
+>```bash
+>cd /ambiente/struct/boot
+>mkdir /tmp/temp2
+>dd if=/dev/zero of=root count=18000 bs=1k
+>echo y | mkfs -t ext2 root
+>mount -t ext2 -o loop root /tmp/temp2
+>cp -dpR /ambiente/initrd/. /temp/temp2/.
+>umount /tmp/temp2
+>gzip -S .bin root
+>cd /ambiente/struct
+>mkisofs -R -b boot/floppy.raw -l -c boot/isolinux.boot ./ > cd.iso
+>```
+>**Figura 29** - _Criando o CD_
+
+Notem que o parâmetro **count** deverá ser superior ao tamanho do diretório **/ambiente/initrd**, aconselho que haja folga de 3000 para o **/tmp** do CD.
