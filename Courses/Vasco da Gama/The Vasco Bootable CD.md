@@ -468,26 +468,7 @@ A primeira tarefa do ambiente gráfico é ler o arquivo das configurações inic
 >```
 >**Figura 17** - _Listagem **xinitrc**_
 
->```plantuml
->digraph G {
->    node [shape=box];
->    n01 [label=" 1. CD BOOTSTRAP"];
->    n02 [label=" 2. LOAD MSDOS\nOPERATION SYSTEM"];
->    n03 [label=" 3. LOAD LINUX\nOPERATION SYSTEM"];
->    n04 [label=" 4. EXECUTE DOS\nPROGRAM"];
->    n05 [label=" 5. REBOOT PROGRAM"];
->    n06 [label=" 6. LINUX KERNEL\n2.2.18"];
->    n07 [label=" 7. ROOT.BIN"];
->    n08 [label=" 8. POWEROFF"];
->
->    n01 -> n02;
->    n02 -> n03 -> n06 -> n07;
->    n02 -> n04 -> n05;
->    n05 -> n01;
->    n05 -> n08;
->    n07 -> n05;
->}
->```
+>![18a](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/18a.svg)
 >**Figura 18.a** - _BOOT SEQUENCE_
 >
 >```graphviz
