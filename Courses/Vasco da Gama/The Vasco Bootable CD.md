@@ -479,3 +479,7 @@ A primeira tarefa do ambiente gráfico é ler o arquivo das configurações inic
 >![18c](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/18c.svg)
 >
 >**Figura 18.c** - _MOUNT.GRAPH_
+
+# Um pouco de Teoria
+
+_Explicaremos agora algumas premissas usadas na confecção do CD._
