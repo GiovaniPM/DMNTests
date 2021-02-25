@@ -468,6 +468,8 @@ A primeira tarefa do ambiente gráfico é ler o arquivo das configurações inic
 >```
 >**Figura 18** - _Listagem **xinitrc**_
 
+><br>
+>
 >![18a](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/18a.svg)
 >
 >**Figura 19.a** - _BOOT SEQUENCE_
@@ -487,3 +489,7 @@ _Explicaremos agora algumas premissas usadas na confecção do CD._
 O sistema operacional Linux está baseado na filosofia Unix, portanto qualquer pessoa que tenha trabalhado com algum sistema operacional Unix já terá todo o embassamento necessário. O Linux herdou do Unix o sistema de arquivos e a forma com que são gerenciados os dispositivos.
 
 Um dos conceitos muito usado em nosso trabalho foi o filesystem. O filesystem empacota arquivos, podendo estar localizado nos mais diversos dispositivos e facilmente acessado mediante montagem. Como este pacote é enxergado pelo sistema operacional como apenas um único arquivo, podemos colocando dentro de um CD, floppy, Zip drive ou até mesmo na memória.
+
+>![20](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/20.svg)
+>
+>**Figura 20** - _como o Linux manipul filesystem_

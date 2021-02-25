@@ -1,0 +1,36 @@
+digraph g {
+    graph [
+            rankdir = "LR"
+            style="filled"
+    ];
+    node01 [
+            label = "<f0> ROOT.BIN | <f1> ... | <f2> | ..."
+            shape = "Mrecord"
+            fillcolor = "green"
+    ];
+    node02 [
+            label = "<f0> / ...| <f1> /cdrom | <f2> /floppy | <f3> /hd | <f4> /memory"
+            shape = "record"
+            fillcolor = "green"
+    ];
+    node03 [
+            label = "HDD"
+            shape = "cylinder"
+            fillcolor = "green"
+    ];
+    node04 [
+            label = "CD"
+            shape = "doublecircle"
+            fillcolor = "green"
+    ];
+    node05 [
+            label = "Floppy"
+            shape = "signature"
+            fillcolor = "green"
+    ];
+
+    node02:f4 -> node01:f2;
+    node02:f3 -> node03;
+    node02:f1 -> node04;
+    node02:f2 -> node05;
+}
