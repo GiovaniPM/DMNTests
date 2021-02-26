@@ -247,24 +247,6 @@ A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, resp
 
 A terceira tarefa a ser executado pelo **startcd** é a detecção e customização do ambiente gráfico através do script **detect.sh** localizado no diretório **/etc/X11**. Não existe mágica apenas recorremos ao arquivo **PCI** do diretório **/proc** e capturamos a placa de vídeo.
 
-<!--
-``` plantuml
-@startuml
-:makeXfile;
-:/etc/X11/<driver name>;
-fork
-  :/etc/X11/XF86Config.previous;
-fork again
-  :driver name;
-fork again
-  :/etc/X11/XF86Config.next;
-end fork
-:/etc/X11/XF86Config;
-@enduml
-```
->**Figura 10** - _Criação do **XF86Config**_
--->
-
 >``` plantuml
 >@startuml
 >frame detect {

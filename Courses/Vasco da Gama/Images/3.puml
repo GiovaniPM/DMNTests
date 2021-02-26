@@ -1,0 +1,40 @@
+@startsalt
+{
+    {T
+        + /
+        ++ bin/
+        ++ cdrom/
+        ++ dev/
+        +++ ida/
+        +++ inet/
+        +++ rd/
+        ++ etc/
+        +++ init.d/
+        +++ j2re1.3/
+        ++++ security/
+        +++ menu-methods/
+        +++ X11/
+        ++++ app-defaults/
+        ++++ fs/
+        ++++ proxymngr/
+        ++++ rstart/
+        ++++ twm/
+        ++++ xinit/
+        ++++ xkb/
+        ++++ xserver/
+        ++++ xsm/
+        ++ floppy/
+        ++ initrd/
+        ++ java/
+        ++ lib/
+        +++ modules/
+        ++++ 2.2.18/
+        ++ mnt/
+        ++ proc/
+        ++ sbin/
+        ++ tmp/
+        ++ usr/
+        ++ var/
+    }
+}
+@endsalt
