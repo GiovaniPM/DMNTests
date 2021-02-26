@@ -20,22 +20,10 @@ Com isso em mente criou-se um impasse de como carregar o Linux, sabiamos que par
 
 Optou-se então pela primeira alternativa pois esta era mais factível para as necessidades paresentadas pelo CD. Para isso foi criada a seguinte estrutura:
 
->``` plantuml
->@startsalt
->{
->    {T
->        + Structure         | Descrition
->        + /                 | .
->        ++ boot/            | .
->        +++ bzImage         | (Kernel 2.2.18)
->        +++ floppy.raw      | (Imagem de disco de boot DOS)
->        +++ linux.bat       | (Arquivo de lote para chamada)
->        +++ loadlin.exe     | (Programa de carga do Linux)
->        +++ root.bin        | (Ambiente básico do Linux)
->    }
->}
->@endsalt
->```
+><br>
+>
+>![1](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/1.png)
+>
 >**Figura 1** - _Estrutura de diretórios para o boot do CD_
 
 >``` dos
@@ -61,48 +49,10 @@ Para isso usamos a compilação do kernel 2.2.18 aplicando o patch de suporte a 
 
 Para a inicialização do Linux é necessário haver uma estrutura mínima, que fornece as condições necessárias para a execução do Linux. Esta estrutura é definida como um ramdisk inicial e será responsável pela hospedagem de programas, drivers e dispositivos necessários para a imediata execução do Linux. O programa de maior importância é o **Init**, que proverá uma série de funcionalidades (analagas ao **command.com** do DOS). Consideramos o **Init** como uma caixa preta, já que usaremos o do próprio CD de instalação do Debian com as funcionalidades necessárias. Poderá havers futuras customizações do **Init**, mas como fora citada anteriormente. Em nosso caso isto é dispensável. Para um melhor entendimento é aconselhável observar o **root.bin**:
 
->``` plantuml
->@startsalt
->{
->    {T
->        + /
->        ++ bin/
->        ++ cdrom/
->        ++ dev/
->        +++ ida/
->        +++ inet/
->        +++ rd/
->        ++ etc/
->        +++ init.d/
->        +++ j2re1.3/
->        ++++ security/
->        +++ menu-methods/
->        +++ X11/
->        ++++ app-defaults/
->        ++++ fs/
->        ++++ proxymngr/
->        ++++ rstart/
->        ++++ twm/
->        ++++ xinit/
->        ++++ xkb/
->        ++++ xserver/
->        ++++ xsm/
->        ++ floppy/
->        ++ initrd/
->        ++ java/
->        ++ lib/
->        +++ modules/
->        ++++ 2.2.18/
->        ++ mnt/
->        ++ proc/
->        ++ sbin/
->        ++ tmp/
->        ++ usr/
->        ++ var/
->    }
->}
->@endsalt
->```
+><br>
+>
+>![3](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/3.png)
+>
 >**Figura 3** - _Estrutura de **root.bin**_
 
 Após a execução do **Init** será chamado um script de inicialização de serviços denominado **Inittab** dentro do diretório **/etc**.
@@ -247,25 +197,10 @@ A segunda tarefa do **startcd** é chamar o loader localizado no **/sbin**, resp
 
 A terceira tarefa a ser executado pelo **startcd** é a detecção e customização do ambiente gráfico através do script **detect.sh** localizado no diretório **/etc/X11**. Não existe mágica apenas recorremos ao arquivo **PCI** do diretório **/proc** e capturamos a placa de vídeo.
 
->``` plantuml
->@startuml
->frame detect {
->    agent "makeXfile" as a2
->    file "/etc/X11/<driver name>" as a1
->}
->frame mount {
->    file "/etc/X11/XF86Config.previous" as b1
->    agent "driver name" as b2
->    file "/etc/X11/XF86Config.next" as b3
->}
->file "/etc/X11/XF86Config" as c1
->a1 -[dashed]-> a2
->detect -----[bold]-> b2
->b1 -[dashed]-> b2
->b3 -[dashed]-> b2
->mount --[bold]-> c1
->@enduml
->```
+><br>
+>
+>![10](https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Vasco%20da%20Gama/Images/10.png)
+>
 >**Figura 10** - _Criação do **XF86Config**_
 
 Por exemplo o script pegará o string identificador da placa do arquivo PCI, consultará o arquivo **video_cards.txt** localizado no diretório **/etc/X11** devolvendo o driver adequado. Caso a placa possua particularidades de hardware, haverá também um arquivo denominado com o nome do driver contendo estas particularidades.
