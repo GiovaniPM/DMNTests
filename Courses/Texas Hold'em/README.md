@@ -302,10 +302,12 @@ Há quem acredite que o baralho foi inventado pelo pintor francês Jacquemin Gri
 
 A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originada do árabe نَائِب, nāʾib, "representante") significa "tipo", "família", ou "estilo". Em algumas regiões do Brasil também é usada como gíria, como no contexto a seguir: "olha o naipe daquele sujeito" significando: "olha o tipo daquele sujeito". 
 
-|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/D.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/S.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/H.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/C.png" width="150">|
+|Ouros|Espadas|Copas|Paus|
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/D.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/S.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/H.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/C.png" width="150">|
 |Burguesia|Nobreza|Clero|Camponeses|
 |Diamante ou Ouro<br>riqueza do comércio|Espada representa<br>a força militar|Taça representa<br>a igreja|Bastões ou paus<br>representa os trabalhadores|
+|carreaux (losangos).<br>Chamado também de<br>"losango" ou "diamante",<br>ou, informalmente,<br>"balãozinho",<br>"Doce de Leite", "Bebu",<br>"pica fumo" ou "Salmora"|piques (pontas de<br>lança, referindo<br>especificamente ao pique).<br>Variações em português:<br>"espadilha", "seta",<br>"lança", ou, informalmente,<br>"punhal" ou "coração negro"|em francês cœurs<br>(corações).<br>Admite as variações<br>no nome: "taça",<br>"coração" ou<br>"escopeta"<br>|em francês trèfles<br>(trevos).<br>Conhecido também<br>como "trevo",<br>"pé de pinto", "couve",<br>"arvorezinha", "zape"<br>ou "Gato" (truco)<br>(informal)|
 
 ## Cartas atribuídas a personagens famosos
 
