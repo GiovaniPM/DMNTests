@@ -453,7 +453,7 @@ Começar com um par de ases, reis, damas ou valetes: 1,8%.
 20. Não seja fisgado
 >Pocket Jacks (par de valetes) é conhecido como uma mão perigosa no Texas Holdem poker. Pode parecer bom, mas as chances de uma carta maior aparecer no flop são de 52%, dando aos seus "anzóis"' menos de metade da chance de sobrevivência.
 
-## Nome de mãos famosas
+## Nome de mãos famosas no poker
  
 ### 1. Dead Man Hand
  
@@ -592,7 +592,11 @@ Começar com um par de ases, reis, damas ou valetes: 1,8%.
 - An Introduction to a History of Woodcut, Arthur M. Hind, Houghton Mifflin Co. 1935 (in USA), reprinted Dover - Publications, 1963 ISBN 0-486-20952-0
 - Prints and Printmaking, Antony Griffiths, British Museum Press (in UK),2nd edn, 1996 ISBN 0-7141-2608-X
 - Wilkinson, W. H., Chinese Origin of Playing Cards, The American Anthropologist, volume=VIII, 1895, páginas=61–78 [1]
-- CBTH (Confederação Brasileira de Texas Hold'em) https://www.cbth.org.br/
-- Baralho https://www.me.uk/cards/makeadeck.cgi
-- Estratégia https://www.partypoker.com/pt-br/how-to-play/school/basics/key-facts
+- Regras obtidas da CBTH (Confederação Brasileira de Texas Hold'em) https://www.cbth.org.br/
+- layout baralho https://www.me.uk/cards/makeadeck.cgi
+- Estratégias https://www.partypoker.com/pt-br/how-to-play/school/basics/key-facts
 - Algumas images https://www.pokernews.com/poker-rules/texas-holdem.htm
+- https://pt.wikipedia.org/wiki/Naipe (27/02/2020)
+- https://pt.wikipedia.org/wiki/Baralho (27/02/2020)
+- http://www.madore.org/~david/misc/cards.html
+- http://copag.com.br/blog/historia
