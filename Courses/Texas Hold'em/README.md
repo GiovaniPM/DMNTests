@@ -308,7 +308,7 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 
 ---
 
-### Simbolos
+### Simbologia
 
 |Ouros|Espadas|Copas|Paus|
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
