@@ -285,7 +285,57 @@ Caso um jogador aposte e um ou mais oponentes paguem a aposta (call) é realizad
 3. **No Limit**: o jogador pode apostar o valor que quiser, inclusive todas elas("All In").
  
  ---
- 
+
+# Curiosidades 
+
+## Origens do baralho
+
+Embora haja indícios de que os jogos de cartas teriam surgido na China juntamente com o papel, há outros que apontam uma origem árabe. De qualquer modo, o baralho foi introduzido na Europa durante o século XIV. E a partir do século XV, o desenvolvimento dos processos de impressão e de fabricação de papel propiciou a popularização do baralho em vários países.
+
+Em meados do século XV surgiu em Portugal um tipo de baralho, cuja origem se desconhece e cujo desenho passou a ser conhecido por baralho português. Este baralho difundiu-se pelo Oriente, levado pelos navios portugueses, sendo mais tarde imitado e adaptado à sua própria cultura, por japoneses, indonésios e indianos. O padrão português acabou por se extinguir em finais do século XIX, em detrimento do padrão francês, universalmente aceito na atualidade.
+
+Apesar desta existência antiga, as cartas do baralho português só foram fabricadas em Portugal a partir de 1769, quando foi criada a Real Fábrica de Cartas de Jogar de Lisboa, anexa à Impressão Régia.
+
+Há quem acredite que o baralho foi inventado pelo pintor francês Jacquemin Gringonneur, sob encomenda do rei Carlos VI de França. Gringonneur desenvolveu as cartas do jogo de forma que representassem a divisão da sociedade francesa através de seus naipes.
+
+## Naipes
+
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/D.svg" width="150"|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/S.svg" width="150"|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/H.svg" width="150"|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/C.svg" width="150"|
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+
+### 1. Ouro
+
+Representa a burguesia que surgida no século XVIII.
+
+### 2. Copas
+
+Representa o clero.
+
+### 3. Espadas
+
+Representa a nobreza.
+
+### 4. Paus
+
+Representa os cammponeses
+
+## Cartas atribuídas a personagens famosos
+
+|Júlio César|Davi|Carlos Magno|Alexandre, o Grande|
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KC.svg" width="150">|
+|Geralmente com um<br>machado que simboliza<br>as legiões romanas|Rei israelita|Rei do Sacro<br>Império Romano<br>único sem bigode e<br>espada atravessando<br>a cabeça|Conquistador grego|
+
+|Raquel|Atena|Judite|Elizabeth I|
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QC.svg" width="150">|
+|Esposa de Jacó|Deusa grega|Esposa de Esaú|Rainha da Inglaterra|
+
+|Heitor|Napoleão Bonaparte|Dante Alighieri|Sir Lancelot|
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JC.svg" width="150">|
+|Príncipe de Troia|Imperador francês;<br>ou Holger Danske,<br>Rei Dinamarques<br>(conforme imagem Cartas)|escritor italiano;<br>ou  La Hire<br>(Étienne de Vignolles)<br>(conforme imagem cartas)|Fiel cavaleiro<br>de Camelot|
+
 ## Nome de mãos famosas
  
 ### 1. Dead Man Hand
