@@ -302,12 +302,24 @@ Há quem acredite que o baralho foi inventado pelo pintor francês Jacquemin Gri
 
 A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originada do árabe نَائِب, nāʾib, "representante") significa "tipo", "família", ou "estilo". Em algumas regiões do Brasil também é usada como gíria, como no contexto a seguir: "olha o naipe daquele sujeito" significando: "olha o tipo daquele sujeito". 
 
+---
+
 |Ouros|Espadas|Copas|Paus|
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/D.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/S.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/H.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/C.png" width="150">|
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OD.png" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OS.png" width="50">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OH.svg" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OC.png" width="50">||Burguesia|Nobreza|Clero|Camponeses|
 |Diamante ou Ouro<br>riqueza do comércio|Espada representa<br>a força militar|Taça representa<br>a igreja|Bastões ou paus<br>representa os trabalhadores|
 |carreaux (losangos).<br>Chamado também de<br>"losango" ou "diamante",<br>ou, informalmente,<br>"balãozinho",<br>"Doce de Leite", "Bebu",<br>"pica fumo" ou "Salmora"|piques (pontas de<br>lança, referindo<br>especificamente ao pique).<br>Variações em português:<br>"espadilha", "seta",<br>"lança", ou, informalmente,<br>"punhal" ou "coração negro"|em francês cœurs<br>(corações).<br>Admite as variações<br>no nome: "taça",<br>"coração" ou<br>"escopeta"<br>|em francês trèfles<br>(trevos).<br>Conhecido também<br>como "trevo",<br>"pé de pinto", "couve",<br>"arvorezinha", "zape"<br>ou "Gato" (truco)<br>(informal)|
+
+---
+
+||Copas|Ouros|Paus|Espadas|
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|Estados Unidos<br>e Inglaterra|Hearts (corações)|Diamonds (diamantes)|Clubs (bastões)|Spades (pás)|
+|Espanha|Copas (taças)<br>Corazones (corações)|Oros (ouros)<br>Diamantes|Bastos (bastões)<br>Tréboles (trevos)|Espadas<br>Picas (lanças)|
+|Itália|Cuori ou Coppe (corações)|Quadri ou Denari (quadrados)|Fiori ou Bastoni (flores)|Picche ou Spade (lanças)|
+|Suíça Alemã|Rosen (flores)|Schellen (sinos)|Eicheln (bolotas)|Schilten (escudos)|
+|Países Baixos|Harten (corações)|Ruiten (losangos)|Klaveren (trevos)|Schoppen (espadas)|
 
 ## Cartas atribuídas a personagens famosos
 
@@ -316,15 +328,19 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/KC.svg" width="150">|
 |Geralmente com um<br>machado que simboliza<br>as legiões romanas|Rei israelita|Rei do Sacro<br>Império Romano<br>único sem bigode e<br>espada atravessando<br>a cabeça|Conquistador grego|
 
+---
+
 |Raquel|Atena|Judite|Elizabeth I|
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QC.svg" width="150">|
 |Esposa de Jacó|Deusa grega|Esposa de Esaú|Rainha da Inglaterra|
 
+---
+
 |Heitor|Napoleão Bonaparte|Dante Alighieri|Sir Lancelot|
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JC.svg" width="150">|
-|Príncipe de Troia|Imperador francês;<br>ou Holger Danske,<br>Rei Dinamarques<br>(conforme imagem Cartas)|escritor italiano;<br>ou  La Hire<br>(Étienne de Vignolles)<br>(conforme imagem cartas)|Fiel cavaleiro<br>de Camelot|
+|Príncipe de Troia|Imperador francês;<br>ou Holger Danske,<br>Rei Dinamarques<br>(conforme imagem<br>Cartas)|escritor italiano;<br>ou  La Hire<br>(Étienne de Vignolles)<br>(conforme imagem<br>cartas)|Fiel cavaleiro<br>de Camelot|
 
 ## Nome de mãos famosas
  
