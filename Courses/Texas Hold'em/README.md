@@ -320,6 +320,7 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 |Burguesia|Nobreza|Clero|Camponeses|
 |Diamante ou Ouro<br>riqueza do comércio|Espada representa<br>a força militar|Taça representa<br>o clero|Bastões ou paus<br>representa os trabalhadores|
 |carreaux (losangos).<br>Chamado também de<br>"losango" ou "diamante",<br>ou, informalmente,<br>"balãozinho",<br>"Doce de Leite", "Bebu",<br>"pica fumo" ou "Salmora"|piques (pontas de<br>lança, referindo<br>especificamente ao pique).<br>Variações em português:<br>"espadilha", "seta",<br>"lança", ou, informalmente,<br>"punhal" ou "coração negro"|em francês cœurs<br>(corações).<br>Admite as variações<br>no nome: "taça",<br>"coração" ou<br>"escopeta"<br>|em francês trèfles<br>(trevos).<br>Conhecido também<br>como "trevo",<br>"pé de pinto", "couve",<br>"arvorezinha", "zape"<br>ou "Gato" (truco)<br>(informal)|
+|ALT + 4 (♦)|ALT + 6 (♠)|ALT + 3 (♥)|ALT + 5 (♣)|
 
 ---
 
@@ -333,10 +334,27 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 
 ### Tradução em outras línguas
 
-|Ouros|Espadas|Copas|Paus|
-|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-|ALT + 4 (♦)|ALT + 6 (♠)|ALT + 3 (♥)|ALT + 5 (♣)|
-|Karo (Alemão)<br>káry (Checo)<br>ruder (Dinamarquês)<br>diamantes (Espanhol)<br>karoo (Esperanto)<br>ruutu (Finlandês)<br>carreau (Francês)<br>καρό (Grego)<br>ruiten (Holandês)<br>káró (Húngaro)<br>diamonds (Inglês)<br>tígull (Islandês)<br>quadri (Italiano)<br>mattoni (Italiano)<br>ダイヤ (Japonês)<br>ruter (Norueguês)<br>karo (Polonês/Polaco)<br>ouros (Português)<br>бубны (Russo)<br>ruter (Sueco)|Pik (Alemão)<br>piky (Checo)<br>spar (Dinamarquês)<br>picos (Espanhol)<br>piko (Esperanto)<br>pata (Finlandês)<br>pique (Francês)<br>σπαθί (Grego)<br>schoppen (Holandês)<br>pikk (Húngaro)<br>spades (Inglês)<br>spaði (Islandês)<br>picche (Italiano)<br><br>スペード (Japonês)<br>spar (Norueguês)<br>pik (Polonês/Polaco)<br>espadas (Português)<br>пики (Russo)<br>spader (Sueco)|Herz (Alemão)<br>srdce (Checo)<br>hjerter (Dinamarquês)<br>corazones (Espanhol)<br>kero (Esperanto)<br>hertta (Finlandês)<br>cœur (Francês)<br>κούπα (Grego)<br>harten (Holandês)<br>kőr (Húngaro)<br>hearts (Inglês)<br>hjarta (Islandês)<br>cuori (Italiano)<br><br>ハート (Japonês)<br>hjerter (Norueguês)<br>kier (Polonês/Polaco)<br>copas (Português)<br>червы (Russo)<br>hjärter (Sueco)|Kreuz (Alemão)<br>kříže (Checo)<br>klør (Dinamarquês)<br>tréboles (Espanhol)<br>trefo (Esperanto)<br>risti (Finlandês)<br>trèfle (Francês)<br>μπαστούνι (Grego)<br>klaveren (Holandês)<br>treff (Húngaro)<br>clubs (Inglês)<br>lauf (Islandês)<br>fiori (Italiano)<br><br>クラブ (Japonês)<br>kløver (Norueguês)<br>trefl (Polonês/Polaco)<br>paus (Português)<br>трефы (Russo)<br>klöver (Sueco)|
+|Língua|Ouros|Espadas|Copas|Paus|
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|Alemão|Karo|Pik|Herz|Kreuz|
+|Checo|káry|piky|srdce|kříže|
+|Dinamarquês|ruder|spar|hjerter|klør|
+|Espanhol|diamantes|picos|corazones|tréboles|
+|Esperanto|karoo|piko|kero|trefo|
+|Finlandês|ruutu|pata|hertta|risti|
+|Francês|carreau|pique|cœur|trèfle|
+|Grego|καρό|σπαθί|κούπα|μπαστούνι|
+|Holandês|ruiten|schoppen|harten|klaveren|
+|Húngaro|káró|pikk|kőr|treff|
+|Inglês|diamonds|spades|hearts|clubs|
+|Islandês|tígull|spaði|hjarta|lauf|
+|Italiano|quadri<br>mattoni|picche|cuori|fiori|
+|Japonês|ダイヤ|スペード|ハート|クラブ|
+|Norueguês|ruter|spar|hjerter|kløver|
+|Polonês/Polaco|karo|pik|kier|trefl|
+|Português|ouros|espadas|copas|paus|
+|Russo|бубны|пики|червы|трефы|
+|Sueco|ruter|spader|hjärter|klöver|
 
 ## Cartas atribuídas a personagens famosos
 
