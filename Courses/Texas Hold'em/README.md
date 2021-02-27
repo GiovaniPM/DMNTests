@@ -300,24 +300,12 @@ Há quem acredite que o baralho foi inventado pelo pintor francês Jacquemin Gri
 
 ## Naipes
 
-|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/D.svg" width="150"|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/S.svg" width="150"|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/H.svg" width="150"|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/C.svg" width="150"|
+A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originada do árabe نَائِب, nāʾib, "representante") significa "tipo", "família", ou "estilo". Em algumas regiões do Brasil também é usada como gíria, como no contexto a seguir: "olha o naipe daquele sujeito" significando: "olha o tipo daquele sujeito". 
+
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/D.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/S.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/H.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/C.png" width="150">|
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-
-### 1. Ouro
-
-Representa a burguesia que surgida no século XVIII.
-
-### 2. Copas
-
-Representa o clero.
-
-### 3. Espadas
-
-Representa a nobreza.
-
-### 4. Paus
-
-Representa os cammponeses
+|Burguesia|Nobreza|Clero|Camponeses|
+|Diamante ou Ouro<br>riqueza do comércio|Espada representa<br>a força militar|Taça representa<br>a igreja|Bastões ou paus<br>representa os trabalhadores|
 
 ## Cartas atribuídas a personagens famosos
 
@@ -467,3 +455,12 @@ Representa os cammponeses
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/5H.svg" width="150">
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/7C.svg" width="150">
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/9D.svg" width="150">
+
+# Bibliografia
+
+- Needham, Joseph, 2004, Science & Civilisation in China, Cambridge University Press, volume =IV:1, ISBN 0-521-05802-3
+- Parlett, David. The Oxford Guide to Card Games. 1990. ISBN 0-19-214165-1.
+- An Introduction to a History of Woodcut, Arthur M. Hind, Houghton Mifflin Co. 1935 (in USA), reprinted Dover - Publications, 1963 ISBN 0-486-20952-0
+- Prints and Printmaking, Antony Griffiths, British Museum Press (in UK),2nd edn, 1996 ISBN 0-7141-2608-X
+- Wilkinson, W. H., Chinese Origin of Playing Cards, The American Anthropologist, volume=VIII, 1895, páginas=61–78 [1]
+- CBTH (Confederação Brasileira de Texas Hold'em) https://www.cbth.org.br/
