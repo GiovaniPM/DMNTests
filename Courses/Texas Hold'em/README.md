@@ -383,6 +383,69 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JC.svg" width="150">|
 |Príncipe de Troia|Imperador francês;<br>ou Holger Danske,<br>Rei Dinamarques<br>(conforme imagem<br>Cartas)|escritor italiano;<br>ou  La Hire<br>(Étienne de Vignolles)<br>(conforme imagem<br>cartas)|Fiel cavaleiro<br>de Camelot|
 
+## Probabilidades
+
+- **Royal flush**: 0,000154%;
+- **Straight flush**: 0,00139%;
+- **Quadra**: 0,0240%;
+- **Full house**: 0,144%;
+- **Flush**: 0, 197%;
+- **Straight**: 0,392%;
+- **Trio**: 2,11%;
+- **Começar com um par de ases, reis, damas ou valetes**: 1,8%.
+
+## O corpo fala
+
+- **Levantar as sobrancelhas**: medo ou surpresa;
+- **Mexer ou esfregar as mãos**: ansiedade;
+- **Piscar em excesso**: nervosismo;
+- **Levantar o lábio superior**: raiva, nojo (em apenas um dos lados significa desprezo);
+- **Perda de foco nos olhos**: abatimento, tristeza;
+- **“Pés de galinha” ao lado dos olhos e maçãs do rosto bem definidas**: alegria.
+
+## Estratégias
+
+1. Mãos Premium
+>As chances de conseguir uma mão inicial superior (de ases duplos, pares de figuras ou A-K do mesmo naipe) são bem pequenas 2,1%. Se esperar por uma dessas e você nunca vai começar.
+2. Sentindo o flush chegar?
+>Se você tiver um flush draw (uma carta faltando para um flush completo) depois do flop, você vai conseguir sua mão em 34,97% das vezes. Isso é pouco mais de um terço.
+3. "Mas eram do mesmo naipe!"
+>Não invista em duas cartas só porque são do mesmo naipe, isso apenas melhora sua mão em 2,5%.
+4. Formando um par
+>A chance de uma das suas cartas fazer um par no flop é 32,43%, ou cerca de um terço.
+5. Aparecendo no board
+>Até o river, suas chances de fazer um par são de aproximadamente metade.
+6. Buscando a sequência
+>Se você conseguir no flop uma sequência em aberto, isso dá a você oito "outs" (oito cartas possíveis que completem sua mão), então você vai conseguir sua mão até o river em 31,5% das vezes. Verifique se você está recebendo as probabilidades do pote (o valor do pote contra o valor da sua aposta) para ver a próxima carta.
+7. Trinca
+>Se você já tem um par, as probabilidades de conseguir uma trinca no flop são de apenas 7,5/1 - portanto, jogue baixo com pares pequenos e apenas se o pote valer a pena.
+8. Sequência com buraco no meio
+>Raramente vale a pena investir quando saírem as cartas turn e river, você conseguirá completar sua sequência do poker (quatro outs) em aproximadamente 9% das vezes.
+9. Par maior
+>Quando dois pares vão em disputa, o par maior ganhará aproximadamente 80% das vezes (ou quatro de cinco vezes). Então, se você tem rainhas, e vê uma aposta, raise e re-raise na sua frente, você pode enfrentar ases, reis ou possivelmente ambos. Hora de desistir
+10. Cartas perfeitas
+>Se você precisar de duas cartas exatas no turn e no river, a chance de conseguir as duas é de apenas 0,3%. Se você receber uma, há 4,55% de chance de conseguir a outra.
+11. Jogar a moeda
+>Um par contra duas overcards (cartas em suas mãos maiores do que no board) é muitas vezes chamado de "coin-flip" ou "race", porque cada um ganha cerca de metade das vezes. Se as overcards forem do mesmo naipe, o par vai ganhar de 46% a 54% das vezes, se não, de 48% a 57% das vezes.
+12. Problema no kicker
+>Se a sua maior carta corresponder à da outra pessoa, mas o seu kicker for menor (por exemplo, rainha contra um ás ou rei, você só tem chance de 24% de ganhar (ou cerca de uma em quatro).
+13. Conectores do mesmo naipe
+>Dizem que os conectados intermediários do mesmo naipe são melhores que os ases, por causa das possibilidades de straight e flush. Mas se você estiver segurando os ases, não entre em pânico - o par de cartas maiores vai bater os conectores de mesmo naipe em aproximadamente 80% das vezes.
+14. Par
+>Pode não parecer, mas você receberá cartas que formam par em média uma vez a cada 17 mãos, ou cerca de 6% das vezes.
+15. Flush é raro
+>Há uma razão para desistir das mãos baixas. Mesmo que sejam do mesmo naipe, a chance de sair um flush no flop é de apenas 0,8% - ou 124/1.
+16. Dois contra dois
+>A probabilidade de conseguir no flop dois pares (quando suas cartas não forem um par) é de cerca de 2%.
+17. Full house 1
+>Se você conseguir dois pares no flop, as chances de conseguir pelo menos um full house no river são 16,74%.
+18. Full house 2
+>Mas se você conseguir uma trinca no flop, as probabilidades de fazer no mínimo um full house até o river vão até 33,4%, ou uma em cada três.
+19. Cartas vivas
+>Você blefou com cartas aleatórias para roubar os blinds e pagaram a aposta com um A-K. Opa! Na verdade, suas cartas menores aleatórias ganharão em torno de 35% das vezes.
+20. Não seja fisgado
+>Pocket Jacks (par de valetes) é conhecido como uma mão perigosa no Texas Holdem poker. Pode parecer bom, mas as chances de uma carta maior aparecer no flop são de 52%, dando aos seus "anzóis"' menos de metade da chance de sobrevivência.
+
 ## Nome de mãos famosas
  
 ### 1. Dead Man Hand
