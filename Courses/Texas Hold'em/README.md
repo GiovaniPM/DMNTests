@@ -298,6 +298,10 @@ Apesar desta existência antiga, as cartas do baralho português só foram fabri
 
 Há quem acredite que o baralho foi inventado pelo pintor francês Jacquemin Gringonneur, sob encomenda do rei Carlos VI de França. Gringonneur desenvolveu as cartas do jogo de forma que representassem a divisão da sociedade francesa através de seus naipes.
 
+O baralho francês tornou-se padrão mundial a partir do século XIX. A estilização dos naipes facilitou a impressão das cartas e o seu manuseamento no jogo, melhorado com a introdução dos gráficos simétricos. Os povos anglo-saxónicos depressa o assumiram e distribuíram pelo seu império (com Iniciais inglesas), tornando-se a norma da actualidade.
+
+É atualmente o mais utilizado nos países de língua portuguesa, onde se adotaram os naipes franceses desde o fim do século XIX, mas com os nomes exclusivamente baseados no baralho de padrão português utilizado até essa época. Além disso, as cartas modernas realmente têm iniciais em inglês: K (de King, Rei), Q (de Queen, Rainha) e J (de Jack, Cavaleiro - Para evitar o K de Knight que confundiria com o Rei).
+
 ## Naipes
 
 A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originada do árabe نَائِب, nāʾib, "representante") significa "tipo", "família", ou "estilo". Em algumas regiões do Brasil também é usada como gíria, como no contexto a seguir: "olha o naipe daquele sujeito" significando: "olha o tipo daquele sujeito". 
@@ -307,9 +311,13 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 |Ouros|Espadas|Copas|Paus|
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/D.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/S.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/H.png" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/C.png" width="150">|
-|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OD.png" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OS.png" width="50">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OH.svg" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OC.png" width="50">||Burguesia|Nobreza|Clero|Camponeses|
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OD.png" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OS.png" width="50">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OH.svg" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/OC.png" width="50">|
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/GD.png" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/GS.png" width="50">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/GH.svg" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/GC.png" width="50">|
+|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/SD.png" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/SS.png" width="50">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/SH.svg" width="60">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/SC.png" width="50">|
+|Burguesia|Nobreza|Clero|Camponeses|
 |Diamante ou Ouro<br>riqueza do comércio|Espada representa<br>a força militar|Taça representa<br>o clero|Bastões ou paus<br>representa os trabalhadores|
 |carreaux (losangos).<br>Chamado também de<br>"losango" ou "diamante",<br>ou, informalmente,<br>"balãozinho",<br>"Doce de Leite", "Bebu",<br>"pica fumo" ou "Salmora"|piques (pontas de<br>lança, referindo<br>especificamente ao pique).<br>Variações em português:<br>"espadilha", "seta",<br>"lança", ou, informalmente,<br>"punhal" ou "coração negro"|em francês cœurs<br>(corações).<br>Admite as variações<br>no nome: "taça",<br>"coração" ou<br>"escopeta"<br>|em francês trèfles<br>(trevos).<br>Conhecido também<br>como "trevo",<br>"pé de pinto", "couve",<br>"arvorezinha", "zape"<br>ou "Gato" (truco)<br>(informal)|
+|ALT + 4 (♦)|ALT + 6 (♠)|ALT + 3 (♥)|ALT + 5 (♣)|
 
 ---
 
