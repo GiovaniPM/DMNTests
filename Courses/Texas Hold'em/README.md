@@ -517,7 +517,7 @@ Começar com um par de ases, reis, damas ou valetes: 1,8%.
 
 ### 7. Bachelor's Dream
  
->Os 4 áses.
+>Quatro damas.
 >
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/Card_back_05.svg" width="150">
 ><img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/QS.svg" width="150">
