@@ -300,7 +300,14 @@ Há quem acredite que o baralho foi inventado pelo pintor francês Jacquemin Gri
 
 O baralho francês tornou-se padrão mundial a partir do século XIX. A estilização dos naipes facilitou a impressão das cartas e o seu manuseamento no jogo, melhorado com a introdução dos gráficos simétricos. Os povos anglo-saxónicos depressa o assumiram e distribuíram pelo seu império (com Iniciais inglesas), tornando-se a norma da actualidade.
 
-É atualmente o mais utilizado nos países de língua portuguesa, onde se adotaram os naipes franceses desde o fim do século XIX, mas com os nomes exclusivamente baseados no baralho de padrão português utilizado até essa época. Além disso, as cartas modernas realmente têm iniciais em inglês: K (de King, Rei), Q (de Queen, Rainha) e J (de Jack, Cavaleiro - Para evitar o K de Knight que confundiria com o Rei).
+É atualmente o mais utilizado nos países de língua portuguesa, onde se adotaram os naipes franceses desde o fim do século XIX, mas com os nomes exclusivamente baseados no baralho de padrão português utilizado até essa época.
+
+||Rei|Rainha|Cavaleiro|
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|Inglês|**K**ing|**Q**ueen|**K**night|
+|Francês|**R**oi|**R**eine|**C**hevalier|
+
+Tanto o baralho ingês assim como o francês, enfrentavam colisões com a abreviatura de suas cartas altas. As cartas modernas realmente têm iniciais em inglês: K (de King, Rei), Q (de Queen, Rainha) e J (de Jack, Cavaleiro - Para evitar o K de Knight que confundiria com o Rei). Afinal o cavaleiro é o suporte do rei, que tanto em francês como em inglês é conhecido como Jack ou Valete (ou ajudante) em português.
 
 ## Naipes
 
