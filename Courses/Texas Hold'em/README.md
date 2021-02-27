@@ -352,7 +352,6 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 |Japonês|ダイヤ|スペード|ハート|クラブ|
 |Norueguês|ruter|spar|hjerter|kløver|
 |Polonês/Polaco|karo|pik|kier|trefl|
-|Português|ouros|espadas|copas|paus|
 |Russo|бубны|пики|червы|трефы|
 |Sueco|ruter|spader|hjärter|klöver|
 
