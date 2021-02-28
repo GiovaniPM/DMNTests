@@ -313,8 +313,6 @@ Tanto o baralho ingês assim como o francês, enfrentavam colisões com a abrevi
 
 A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originada do árabe نَائِب, nāʾib, "representante") significa "tipo", "família", ou "estilo". Em algumas regiões do Brasil também é usada como gíria, como no contexto a seguir: "olha o naipe daquele sujeito" significando: "olha o tipo daquele sujeito". 
 
----
-
 ### Simbologia
 
 |Ouros|Espadas|Copas|Paus|
