@@ -623,12 +623,12 @@ Começar com um par de ases, reis, damas ou valetes: 1,8%.
 
 # Bibliografia
 
-- Algumas images https://www.pokernews.com/poker-rules/texas-holdem.htm
 - An Introduction to a History of Woodcut, Arthur M. Hind, Houghton Mifflin Co. 1935 (in USA), reprinted Dover - Publications, 1963 ISBN 0-486-20952-0
 - Baralho https://pt.wikipedia.org/wiki/Baralho (27/02/2020)
 - Cards http://www.madore.org/~david/misc/cards.html
 - Estratégias https://www.partypoker.com/pt-br/how-to-play/school/basics/key-facts
 - História do baralho http://copag.com.br/blog/historia
+- Images https://www.pokernews.com/poker-rules/texas-holdem.htm
 - Layout baralho https://www.me.uk/cards/makeadeck.cgi
 - Náipes https://pt.wikipedia.org/wiki/Naipe (27/02/2020)
 - Needham, Joseph, 2004, Science & Civilisation in China, Cambridge University Press, volume =IV:1, ISBN 0-521-05802-3
