@@ -309,6 +309,8 @@ O baralho francês tornou-se padrão mundial a partir do século XIX. A estiliza
 
 Tanto o baralho ingês assim como o francês, enfrentavam colisões com a abreviatura de suas cartas altas. As cartas modernas realmente têm iniciais em inglês: K (de King, Rei), Q (de Queen, Rainha) e J (de Jack, Cavaleiro - Para evitar o K de Knight que confundiria com o Rei). Afinal o cavaleiro é o suporte do rei, que tanto em francês como em inglês é conhecido como Jack (ajudante) Valete em português.
 
+---
+
 ## Naipes
 
 A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originada do árabe نَائِب, nāʾib, "representante") significa "tipo", "família", ou "estilo". Em algumas regiões do Brasil também é usada como gíria, como no contexto a seguir: "olha o naipe daquele sujeito" significando: "olha o tipo daquele sujeito". 
@@ -360,6 +362,8 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 |Russo|бубны|пики|червы|трефы|
 |Sueco|ruter|spader|hjärter|klöver|
 
+---
+
 ## Cartas atribuídas a personagens famosos
 
 |Júlio César|Davi|Carlos Magno|Alexandre, o Grande|
@@ -381,6 +385,8 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 |<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JD.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JS.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JH.svg" width="150">|<img src="https://raw.githubusercontent.com/GiovaniPM/DMNTests/main/Courses/Texas%20Hold'em/Images/JC.svg" width="150">|
 |Príncipe de Troia|Imperador francês;<br>ou Holger Danske,<br>Rei Dinamarques<br>(conforme imagem<br>Cartas)|escritor italiano;<br>ou  La Hire<br>(Étienne de Vignolles)<br>(conforme imagem<br>cartas)|Fiel cavaleiro<br>de Camelot|
 
+---
+
 ## Probabilidades
 
 |                    	|   32   	| %          	|   36   	| %          	|   40   	| %          	|    44   	| %          	|    48   	| %          	|    52   	| %          	|
@@ -399,6 +405,8 @@ A palavra naipe, derivada do catalão naip, "carta" (que por sua vez é originad
 
 Começar com um par de ases, reis, damas ou valetes: 1,8%.
 
+---
+
 ## O corpo fala
 
 - **Levantar as sobrancelhas**: medo ou surpresa;
@@ -407,6 +415,8 @@ Começar com um par de ases, reis, damas ou valetes: 1,8%.
 - **Levantar o lábio superior**: raiva, nojo (em apenas um dos lados significa desprezo);
 - **Perda de foco nos olhos**: abatimento, tristeza;
 - **“Pés de galinha” ao lado dos olhos e maçãs do rosto bem definidas**: alegria.
+
+---
 
 ## Estratégias
 
@@ -488,6 +498,8 @@ Começar com um par de ases, reis, damas ou valetes: 1,8%.
 20. Não seja fisgado
 
 >Pocket Jacks (par de valetes) é conhecido como uma mão perigosa no Texas Holdem poker. Pode parecer bom, mas as chances de uma carta maior aparecer no flop são de 52%, dando aos seus "anzóis"' menos de metade da chance de sobrevivência.
+
+---
 
 ## Nome de mãos famosas no poker
  
