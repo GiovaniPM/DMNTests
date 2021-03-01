@@ -307,7 +307,7 @@ O baralho francês tornou-se padrão mundial a partir do século XIX. A estiliza
 |Inglês|**K**ing|**Q**ueen|**K**night|
 |Francês|**R**oi|**R**eine|**C**hevalier|
 
-Tanto o baralho ingês assim como o francês, enfrentavam colisões com a abreviatura de suas cartas altas. As cartas modernas realmente têm iniciais em inglês: K (de King, Rei), Q (de Queen, Rainha) e J (de Jack, Cavaleiro - Para evitar o K de Knight que confundiria com o Rei). Afinal o cavaleiro é o suporte do rei, que tanto em francês como em inglês é conhecido como Jack ou Valete (ou ajudante) em português.
+Tanto o baralho ingês assim como o francês, enfrentavam colisões com a abreviatura de suas cartas altas. As cartas modernas realmente têm iniciais em inglês: K (de King, Rei), Q (de Queen, Rainha) e J (de Jack, Cavaleiro - Para evitar o K de Knight que confundiria com o Rei). Afinal o cavaleiro é o suporte do rei, que tanto em francês como em inglês é conhecido como Jack (ajudante) Valete em português.
 
 ## Naipes
 
