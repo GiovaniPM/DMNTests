@@ -8,7 +8,7 @@ digraph G {
     n05 [label=" 5. REBOOT PROGRAM"];
     n06 [label=" 6. LINUX KERNEL\n2.2.18"];
     n07 [label=" 7. ROOT.BIN",color=lightblue,style="filled"];
-    n08 [label=" 8. POWEROFF"];
+    n08 [label=" 8. POWER OFF"];
 
     n01 -> n02;
     n02 -> n03 -> n06 -> n07;
