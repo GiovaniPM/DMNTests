@@ -3,21 +3,21 @@ ditaa
 
 Memory:
 
-      +--------+
-   0  | cGRE   |  <-- start
-      +--------+
-   1  | cYEL   |  <-- q  scans from start to end
-      +--------+
-      :  ..... |
-      +--------+
-      | cRED   |  <-- end
-      +--------+  
-      |        |  <-+
-      +--------+    | rest of the
-      :  ..... |    | allocated memory
-      +--------+    |
-   n  |        |  <-+
-      +--------+  
+      +---------+
+   0  | cGRE    |  <-- start
+      +---------+
+   1  | cYEL    |  <-- q  scans from start to end
+      +---------+
+      :   ...   |
+      +---------+
+      | cRED    |  <-- end
+      +---------+  
+      |         |  <-+
+      +---------+    | rest of the
+      :   ...   |    | allocated memory
+      +---------+    |
+   n  |         |  <-+
+      +---------+  
 
 Strings:
 
@@ -96,5 +96,6 @@ Sectioned:
 | o um                                              |
 | o dois                                            |
 +---------------------------------------------------+
+
 
 @enduml
