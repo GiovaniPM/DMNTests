@@ -1,0 +1,27 @@
+@startjson
+{
+    "br.com.brejaonline.modelo.pessoa.PessoaFisica" :
+    {
+        "nome" : "Alexandre",
+        "endereco" : [
+        {
+            "br.com.brejaonline.modelo.pessoa.Endereco" :
+            {
+                "cep" : "12345-678",
+                "logradouro" : "Rua Dois"
+            }
+        },
+        {
+            "br.com.brejaonline.modelo.pessoa.Endereco" :
+            {
+                "cep" : "12345-678",
+                "logradouro" : "Rua Um"
+            }
+        }
+        ] ,
+        "id" : 1,
+        "cpf" : "123.456.789-09" ,
+        "dadoTransiente" : "dadoTransiente"
+    }
+}
+@endjson
