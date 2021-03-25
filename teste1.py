@@ -1,4 +1,5 @@
-import pyautogui, sys
+import pyautogui
+import sys
 
 from pymsgbox import *
 
@@ -10,5 +11,5 @@ try:
         print(positionStr, end='')
         print('\b' * len(positionStr), end='', flush=True)
 except KeyboardInterrupt:
-    alert(text='', title='', button='OK')
+    alert(text='Vocë pressionou CTRL+C', title='Parada!', button='OK')
     print('\n')

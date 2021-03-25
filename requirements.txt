@@ -26,7 +26,7 @@ django-debug-toolbar==3.2
 django-filter==2.4.0
 django-polymorphic==3.0.0
 djangorestframework==3.12.2
-djangorestframework-jsonapi==4.0.0
+-e git+https://github.com/django-json-api/django-rest-framework-json-api.git@1444a67ba4c268cde477a7a04c72e553f475f309#egg=djangorestframework_jsonapi
 docopt==0.6.2
 docutils==0.16
 doit==0.33.1
@@ -64,7 +64,6 @@ packaging==20.4
 pandas==1.1.5
 parso==0.7.1
 Pillow==8.0.1
-pip==21.0.1
 pluggy==0.13.1
 ply==3.11
 prompt-toolkit==2.0.10
@@ -91,7 +90,6 @@ repoze.lru==0.7
 requests==2.25.0
 ruly==0.0.4
 ruly-dmn==0.0.6
-setuptools==51.1.1
 six==1.15.0
 sly==0.4
 snowballstemmer==2.0.0
@@ -121,7 +119,6 @@ virtualenv==20.4.0
 wcwidth==0.2.5
 WebOb==1.8.6
 Werkzeug==1.0.1
-wheel==0.36.2
 wrapt==1.12.1
 yapf==0.30.0
 zope.interface==5.2.0
