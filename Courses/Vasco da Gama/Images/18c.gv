@@ -1,5 +1,0 @@
-digraph G {
-    node [shape=box];
-    n01 [label=" 1. MOUNTJAVA"];
-    n02 [label=" 2. MOUNTXWIN"];
-}
